@@ -1,0 +1,62 @@
+{
+  "actions": {
+    "expand": {
+      "off": "Minimera",
+      "on": "Expandera"
+    },
+    "typobar": {
+      "off": "Dölj formateringsverktygsfält",
+      "on": "Visa formateringsverktygsfält"
+    }
+  },
+  "cancel": "Avbryt",
+  "confirm": "Bekräfta",
+  "file": {
+    "error": "Fel: {{message}}",
+    "uploading": "Laddar upp fil..."
+  },
+  "image": {
+    "broken": "Bilden är skadad"
+  },
+  "link": {
+    "edit": "Redigera länk",
+    "open": "Öppna länk",
+    "placeholder": "Ange länk-URL",
+    "unlink": "Ta bort länk"
+  },
+  "math": {
+    "placeholder": "Vänligen ange en TeX-formel"
+  },
+  "slash": {
+    "h1": "Rubrik 1",
+    "h2": "Rubrik 2",
+    "h3": "Rubrik 3",
+    "hr": "Avdelare",
+    "table": "Tabell",
+    "tex": "TeX-formel"
+  },
+  "table": {
+    "delete": "Radera tabell",
+    "deleteColumn": "Radera kolumn",
+    "deleteRow": "Radera rad",
+    "insertColumnLeft": "Infoga {{count}} kolumn(er) till vänster",
+    "insertColumnRight": "Infoga {{count}} kolumn(er) till höger",
+    "insertRowAbove": "Infoga {{count}} rad(er) ovanför",
+    "insertRowBelow": "Infoga {{count}} rad(er) nedanför"
+  },
+  "typobar": {
+    "blockquote": "Blockcitat",
+    "bold": "Fet",
+    "bulletList": "Punktlista",
+    "code": "Inbäddad kod",
+    "codeblock": "Kodblock",
+    "italic": "Kursiv",
+    "link": "Länk",
+    "numberList": "Numrerad lista",
+    "strikethrough": "Genomstruken",
+    "table": "Tabell",
+    "taskList": "Uppgiftslista",
+    "tex": "TeX-formel",
+    "underline": "Understruken"
+  }
+}

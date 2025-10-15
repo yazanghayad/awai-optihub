@@ -1,0 +1,24 @@
+{
+  "plans": {
+    "plan": {
+      "enterprise": {
+        "title": "Företag"
+      },
+      "free": {
+        "title": "Gratis"
+      },
+      "hobby": {
+        "title": "Hobby"
+      },
+      "premium": {
+        "title": "Premium"
+      },
+      "starter": {
+        "title": "Starter"
+      },
+      "ultimate": {
+        "title": "Ultimate"
+      }
+    }
+  }
+}

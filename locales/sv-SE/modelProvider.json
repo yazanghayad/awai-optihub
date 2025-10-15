@@ -1,0 +1,410 @@
+{
+  "azure": {
+    "azureApiVersion": {
+      "desc": "Azure API-version, följ formatet YYYY-MM-DD, kontrollera [senaste versionen](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)",
+      "fetch": "Hämta Lista",
+      "title": "Azure API-version"
+    },
+    "empty": "Vänligen ange ett modell-ID för att lägga till den första modellen",
+    "endpoint": {
+      "desc": "När du kontrollerar resurser från Azure-portalen kan du hitta detta värde i avsnittet 'Nycklar och Slutpunkter'",
+      "placeholder": "https://docs-test-001.openai.azure.com",
+      "title": "Azure API-adress"
+    },
+    "modelListPlaceholder": "Välj eller lägg till OpenAI-modellen du distribuerade",
+    "title": "Azure OpenAI",
+    "token": {
+      "desc": "När du kontrollerar resurser från Azure-portalen kan du hitta detta värde i avsnittet 'Nycklar och Slutpunkter'. Du kan använda KEY1 eller KEY2",
+      "placeholder": "Azure API-nyckel",
+      "title": "API-nyckel"
+    }
+  },
+  "azureai": {
+    "azureApiVersion": {
+      "desc": "API-versionen för Azure, följer formatet YYYY-MM-DD. Se [senaste versionen](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)",
+      "fetch": "Hämta Lista",
+      "title": "Azure API-version"
+    },
+    "endpoint": {
+      "desc": "Hitta Azure AI-modellens inferensslutpunkt från Azure AI-projektöversikten",
+      "placeholder": "https://ai-userxxxxxxxxxx.services.ai.azure.com/models",
+      "title": "Azure AI-slutpunkt"
+    },
+    "title": "Azure OpenAI",
+    "token": {
+      "desc": "Hitta API-nyckeln från Azure AI-projektöversikten",
+      "placeholder": "Azure-nyckel",
+      "title": "Nyckel"
+    }
+  },
+  "bedrock": {
+    "accessKeyId": {
+      "desc": "Ange AWS Access Key Id",
+      "placeholder": "AWS Access Key Id",
+      "title": "AWS Access Key Id"
+    },
+    "checker": {
+      "desc": "Testa om AccessKeyId / SecretAccessKey är korrekt ifyllt"
+    },
+    "region": {
+      "desc": "Ange AWS-region",
+      "placeholder": "AWS-region",
+      "title": "AWS-region"
+    },
+    "secretAccessKey": {
+      "desc": "Ange AWS Secret Access Key",
+      "placeholder": "AWS Secret Access Key",
+      "title": "AWS Secret Access Key"
+    },
+    "sessionToken": {
+      "desc": "Om du använder AWS SSO/STS, vänligen ange ditt AWS Session Token",
+      "placeholder": "AWS Session Token",
+      "title": "AWS Session Token (valfritt)"
+    },
+    "title": "Bedrock",
+    "unlock": {
+      "customRegion": "Anpassad Tjänsteregion",
+      "customSessionToken": "Anpassad Session Token",
+      "description": "Ange ditt AWS AccessKeyId / SecretAccessKey för att starta sessionen. Appen kommer inte att lagra din autentiseringskonfiguration",
+      "imageGenerationDescription": "Ange ditt AWS AccessKeyId / SecretAccessKey för att börja generera. Applikationen kommer inte att lagra dina autentiseringsuppgifter.",
+      "title": "Använd Anpassad Bedrock-autentiseringsinformation"
+    }
+  },
+  "cloudflare": {
+    "apiKey": {
+      "desc": "Vänligen ange Cloudflare API-nyckel",
+      "placeholder": "Cloudflare API-nyckel",
+      "title": "Cloudflare API-nyckel"
+    },
+    "baseURLOrAccountID": {
+      "desc": "Ange ditt Cloudflare-konto-ID eller anpassad API-adress",
+      "placeholder": "Cloudflare-konto-ID / anpassad API-URL",
+      "title": "Cloudflare-konto-ID / API-adress"
+    }
+  },
+  "createNewAiProvider": {
+    "apiKey": {
+      "placeholder": "Vänligen ange din API-nyckel",
+      "title": "API-nyckel"
+    },
+    "basicTitle": "Grundläggande Information",
+    "configTitle": "Konfigurationsinformation",
+    "confirm": "Skapa",
+    "createSuccess": "Skapandet lyckades",
+    "description": {
+      "placeholder": "Leverantörsbeskrivning (valfritt)",
+      "title": "Leverantörsbeskrivning"
+    },
+    "id": {
+      "desc": "Unik identifierare för tjänsteleverantören, som inte kan ändras efter skapande",
+      "format": "Kan endast innehålla siffror, små bokstäver, bindestreck (-) och understreck (_) ",
+      "placeholder": "Föreslår gemener, t.ex. openai, kan inte ändras efter skapande",
+      "required": "Vänligen ange leverantörs-ID",
+      "title": "Leverantörs-ID"
+    },
+    "logo": {
+      "required": "Vänligen ladda upp en giltig leverantörslogotyp",
+      "title": "Leverantörslogotyp"
+    },
+    "name": {
+      "placeholder": "Vänligen ange leverantörens visningsnamn",
+      "required": "Vänligen ange leverantörsnamn",
+      "title": "Leverantörsnamn"
+    },
+    "proxyUrl": {
+      "required": "Vänligen ange proxyadress",
+      "title": "Proxy-URL"
+    },
+    "sdkType": {
+      "placeholder": "openai/anthropic/azureai/ollama/...",
+      "required": "Vänligen välj SDK-typ",
+      "title": "Begäransformat"
+    },
+    "title": "Skapa Anpassad AI-leverantör"
+  },
+  "github": {
+    "personalAccessToken": {
+      "desc": "Ange din GitHub PAT. Klicka [här](https://github.com/settings/tokens) för att skapa en.",
+      "placeholder": "ghp_xxxxxx",
+      "title": "GitHub PAT"
+    }
+  },
+  "huggingface": {
+    "accessToken": {
+      "desc": "Ange din HuggingFace Token, klicka [här](https://huggingface.co/settings/tokens) för att skapa en",
+      "placeholder": "hf_xxxxxxxxx",
+      "title": "HuggingFace Token"
+    }
+  },
+  "list": {
+    "title": {
+      "disabled": "Inaktiverad",
+      "enabled": "Aktiverad"
+    }
+  },
+  "menu": {
+    "addCustomProvider": "Lägg till Anpassad Leverantör",
+    "all": "Alla",
+    "list": {
+      "disabled": "Inaktiverad",
+      "enabled": "Aktiverad"
+    },
+    "notFound": "Inga sökresultat hittades",
+    "searchProviders": "Sök Leverantörer...",
+    "sort": "Anpassad Sortering"
+  },
+  "newapi": {
+    "apiKey": {
+      "desc": "API-nyckel tillhandahållen av New API-plattformen",
+      "placeholder": "New API API-nyckel",
+      "required": "API-nyckel krävs",
+      "title": "API-nyckel"
+    },
+    "apiUrl": {
+      "desc": "API-slutpunkt för New API-tjänsten, inkluderar vanligtvis /v1",
+      "title": "API-URL"
+    },
+    "enabled": {
+      "title": "Aktivera New API"
+    },
+    "models": {
+      "batchSelect": "Välj modeller i bulk ({{count}} artiklar)",
+      "fetch": "Hämta modelllista",
+      "selected": "Valda modeller",
+      "title": "Tillgängliga Modeller"
+    },
+    "title": "New API"
+  },
+  "ollama": {
+    "checker": {
+      "desc": "Testa om proxyadressen är korrekt ifylld",
+      "title": "Anslutningskontroll"
+    },
+    "customModelName": {
+      "desc": "Lägg till anpassade modeller, separera flera modeller med kommatecken",
+      "placeholder": "vicuna, llava, codellama, llama2:13b-text",
+      "title": "Anpassat modellnamn"
+    },
+    "download": {
+      "desc": "Ollama laddar ner modellen. Försök att inte stänga denna sida. Nedladdningen kommer att återupptas från där den slutade om den avbryts.",
+      "failed": "Modellnedladdning misslyckades. Vänligen kontrollera ditt nätverk eller Ollama-inställningar och försök igen.",
+      "remainingTime": "Återstående Tid",
+      "speed": "Hastighet",
+      "title": "Laddar ner modell {{model}}"
+    },
+    "endpoint": {
+      "desc": "Måste inkludera http(s)://; kan lämnas tom om inte specificerat lokalt.",
+      "title": "Gränssnittsproxyadress"
+    },
+    "title": "Ollama",
+    "unlock": {
+      "cancel": "Avbryt Nedladdning",
+      "confirm": "Ladda ner",
+      "description": "Ange din Ollama-modelletikett för att fortsätta sessionen",
+      "downloaded": "{{completed}} / {{total}}",
+      "starting": "Startar nedladdning...",
+      "title": "Ladda ner specificerad Ollama-modell"
+    }
+  },
+  "providerModels": {
+    "batchSelect": {
+      "selected": "{{count}} modeller valda",
+      "title": "Massval"
+    },
+    "config": {
+      "aesGcm": "Din nyckel och proxy-URL kommer att krypteras med <1>AES-GCM</1> krypteringsalgoritm",
+      "apiKey": {
+        "desc": "Vänligen ange din {{name}} API-nyckel",
+        "descWithUrl": "Vänligen ange din {{name}} API-nyckel. <3>Klicka här för att få den</3>",
+        "placeholder": "{{name}} API-nyckel",
+        "title": "API-nyckel"
+      },
+      "baseURL": {
+        "desc": "Måste inkludera http(s)://",
+        "invalid": "Vänligen ange en giltig URL",
+        "placeholder": "https://your-proxy-url.com/v1",
+        "title": "API-proxy-URL"
+      },
+      "checker": {
+        "button": "Kontrollera",
+        "desc": "Testa om API-nyckeln och proxy-URL:en är korrekt ifylld",
+        "pass": "Kontroll godkänd",
+        "title": "Anslutningskontroll"
+      },
+      "fetchOnClient": {
+        "desc": "Klientbegäransläge kommer att initiera sessionsbegäranden direkt från webbläsaren, vilket kan förbättra svarshastigheten",
+        "title": "Använd Klientbegäransläge"
+      },
+      "helpDoc": "Konfigurationsguide",
+      "responsesApi": {
+        "desc": "Använder OpenAI:s nästa generations begäransformatspecifikation för att låsa upp avancerade funktioner som tankekedjor",
+        "title": "Använd Responses API-specifikation"
+      },
+      "waitingForMore": "Fler modeller är för närvarande <1>planerade för integration</1>, håll utkik"
+    },
+    "createNew": {
+      "title": "Skapa Anpassad AI-modell"
+    },
+    "item": {
+      "config": "Konfigurera Modell",
+      "customModelCards": {
+        "addNew": "Skapa och lägg till {{id}}-modell",
+        "confirmDelete": "Du är på väg att radera denna anpassade modell. När den har raderats kan den inte återställas. Vänligen fortsätt med försiktighet."
+      },
+      "delete": {
+        "confirm": "Är du säker på att du vill radera modell {{displayName}}?",
+        "success": "Radering lyckades",
+        "title": "Radera Modell"
+      },
+      "modelConfig": {
+        "azureDeployName": {
+          "extra": "Fält som används för faktiska begäranden i Azure OpenAI",
+          "placeholder": "Vänligen ange modellens distributionsnamn i Azure",
+          "title": "Modelldistributionsnamn"
+        },
+        "deployName": {
+          "extra": "Detta fält kommer att användas som modell-ID när begäranden skickas",
+          "placeholder": "Vänligen ange det faktiska distributionsnamnet eller ID:t för modellen",
+          "title": "Modelldistributionsnamn"
+        },
+        "displayName": {
+          "placeholder": "Vänligen ange modellens visningsnamn, t.ex. ChatGPT, GPT-4, etc.",
+          "title": "Modellens Visningsnamn"
+        },
+        "files": {
+          "extra": "Den nuvarande filuppladdningsimplementationen är bara en provisorisk lösning, begränsad till självexperiment. Vänligen vänta på fullständiga filuppladdningsfunktioner i framtida implementationer.",
+          "title": "Filuppladdningsstöd"
+        },
+        "functionCall": {
+          "extra": "Denna konfiguration kommer endast att aktivera modellens förmåga att använda verktyg, vilket möjliggör tillägg av verktygstyps-plugins. Men huruvida modellen verkligen kan använda verktygen beror helt på modellen själv; vänligen testa användbarheten på egen hand.",
+          "title": "Stöd för Verktygsanvändning"
+        },
+        "id": {
+          "extra": "Detta kan inte ändras efter skapande och kommer att användas som modell-ID när AI anropas",
+          "placeholder": "Vänligen ange modell-ID, t.ex. gpt-4o eller claude-3.5-sonnet",
+          "title": "Modell-ID"
+        },
+        "imageOutput": {
+          "extra": "Denna inställning aktiverar endast modellens bildgenereringsförmåga. Den faktiska prestandan beror helt på modellen själv. Vänligen testa modellen för att avgöra om den stöder bildgenerering.",
+          "title": "Stöder Bildgenerering"
+        },
+        "modalTitle": "Anpassad Modellkonfiguration",
+        "reasoning": {
+          "extra": "Denna konfiguration kommer att aktivera modellens djuptänkande förmågor, och de specifika effekterna beror helt på modellen själv. Vänligen testa om denna modell har användbara djuptänkande förmågor.",
+          "title": "Stöd för Djuptänkande"
+        },
+        "search": {
+          "extra": "Denna inställning aktiverar modellens inbyggda webbsökningsförmåga. Huruvida den inbyggda sökmotorn stöds beror på modellen själv. Vänligen testa modellen för att verifiera tillgängligheten av denna funktion.",
+          "title": "Stöder Webbsökning"
+        },
+        "tokens": {
+          "extra": "Ställ in det maximala antalet tokens som stöds av modellen",
+          "title": "Maximalt Kontextfönster",
+          "unlimited": "Obegränsat"
+        },
+        "type": {
+          "extra": "Olika modelltyper har distinkta användningsområden och förmågor",
+          "options": {
+            "chat": "Chatt",
+            "embedding": "Inbäddning",
+            "image": "Bildgenerering",
+            "realtime": "Realtidschatt",
+            "stt": "Tal-till-Text",
+            "text2music": "Text-till-Musik",
+            "text2video": "Text-till-Video",
+            "tts": "Text-till-Tal"
+          },
+          "placeholder": "Vänligen välj en modelltyp",
+          "title": "Modelltyp"
+        },
+        "video": {
+          "extra": "Denna inställning aktiverar videokännedomskonfiguration i applikationen. Huruvida videokännedom stöds beror helt på modellen själv. Vänligen testa modellen för att verifiera tillgängligheten av denna funktion.",
+          "title": "Stöder Videokännedom"
+        },
+        "vision": {
+          "extra": "Denna konfiguration kommer endast att aktivera bilduppladdningsfunktioner i applikationen. Huruvida kännedom stöds beror helt på modellen själv. Vänligen testa modellens visuella kännedonsförmågor själv.",
+          "title": "Stöd för Vision"
+        }
+      },
+      "pricing": {
+        "image": "${{amount}}/Bild",
+        "inputCharts": "${{amount}}/M Tecken",
+        "inputMinutes": "${{amount}}/Minuter",
+        "inputTokens": "Inmatning ${{amount}}/M",
+        "outputTokens": "Utmatning ${{amount}}/M"
+      },
+      "releasedAt": "Släppt {{releasedAt}}"
+    },
+    "list": {
+      "addNew": "Lägg till Modell",
+      "disabled": "Inaktiverad",
+      "disabledActions": {
+        "showMore": "Visa Alla"
+      },
+      "empty": {
+        "desc": "Vänligen skapa en anpassad modell eller dra en modell för att komma igång.",
+        "title": "Inga tillgängliga modeller"
+      },
+      "enabled": "Aktiverad",
+      "enabledActions": {
+        "disableAll": "Inaktivera Alla",
+        "enableAll": "Aktivera Alla",
+        "sort": "Anpassad Modellsortering"
+      },
+      "enabledEmpty": "Inga aktiverade modeller tillgängliga. Vänligen aktivera dina föredragna modeller från listan nedan~",
+      "fetcher": {
+        "clear": "Rensa hämtade modeller",
+        "fetch": "Hämta modeller",
+        "fetching": "Hämtar modelllista...",
+        "latestTime": "Senast uppdaterad: {{time}}",
+        "noLatestTime": "Modelllista inte ännu hämtad"
+      },
+      "noModelsInCategory": "Inga aktiverade modeller i denna kategori",
+      "resetAll": {
+        "conform": "Är du säker på att du vill återställa alla ändringar av den aktuella modellen? Efter återställning kommer den aktuella modelllistan att återgå till standardläget.",
+        "success": "Återställning lyckades",
+        "title": "Återställ Alla Ändringar"
+      },
+      "search": "Sök Modeller...",
+      "searchResult": "{{count}} modeller hittades",
+      "title": "Modelllista",
+      "total": "{{count}} modeller tillgängliga"
+    },
+    "searchNotFound": "Inga sökresultat hittades",
+    "tabs": {
+      "all": "Alla",
+      "chat": "Chatt",
+      "embedding": "Inbäddning",
+      "image": "Bild",
+      "stt": "ASR",
+      "tts": "TTS"
+    }
+  },
+  "sortModal": {
+    "success": "Sorteringsuppdatering lyckades",
+    "title": "Anpassad Ordning",
+    "update": "Uppdatera"
+  },
+  "updateAiProvider": {
+    "confirmDelete": "Du är på väg att radera denna AI-leverantör. När den har raderats kan den inte återställas. Är du säker på att du vill radera?",
+    "deleteSuccess": "Radering lyckades",
+    "tooltip": "Uppdatera leverantörens grundkonfiguration",
+    "updateSuccess": "Uppdatering lyckades"
+  },
+  "updateCustomAiProvider": {
+    "title": "Uppdatera Anpassad AI-leverantörskonfiguration"
+  },
+  "vertexai": {
+    "apiKey": {
+      "desc": "Ange dina Vertex AI-nycklar",
+      "placeholder": "{ \"type\": \"service_account\", \"project_id\": \"xxx\", \"private_key_id\": ... }",
+      "title": "Vertex AI-nycklar"
+    }
+  },
+  "zeroone": {
+    "title": "01.AI Zero One Everything"
+  },
+  "zhipu": {
+    "title": "Zhipu"
+  }
+}

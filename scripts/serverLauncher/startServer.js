@@ -104,8 +104,35 @@ const runScript = (scriptPath, useProxy = false) => {
     ? ['/bin/proxychains', '-q', '/bin/node', scriptPath]
     : ['/bin/node', scriptPath];
   return new Promise((resolve, reject) => {
-    const process = spawn(command.shift(), command, { stdio: 'inherit' });
-    process.on('close', (code) =>
+    const childProcess = spawn(command.shift(), command, { 
+      stdio: ['inherit', 'pipe', 'pipe']
+    });
+    
+    // Filter out unwanted build messages
+    const ilterOutput = (data) => {
+      const output = data.toString();
+      const linesToFilter = [
+        'Creating an optimized production build',
+        '(serwist)',
+        'serwist'
+      ];
+      
+      const lines = output.split('\n');
+      const filteredLines = lines.filter(line => {
+        const trimmedLine = line.trim();
+        return !linesToFilter.some(filterText => trimmedLine.includes(filterText));
+      });
+      
+      const result = filteredLines.join('\n');
+      if (result.trim()) {
+        process.stdout.write(result + '\n');
+      }
+    };
+    
+    childProcess.stdout.on('data', filterOutput);
+    childProcess.stderr.on('data', filterOutput);
+    
+    childProcess.on('close', (code) =>
       code === 0 ? resolve() : reject(new Error(`🔴 Process exited with code ${code}`)),
     );
   });

@@ -1,6 +1,6 @@
 <div align="center"><a name="readme-top"></a>
 
-# Singtue
+# AWAI
 
 An open-source, modern design ChatGPT/LLMs UI/framework.<br/>
 Supports speech synthesis, multi-modal, and extensible ([function call][docs-function-call]) plugin system.<br/>
@@ -25,7 +25,7 @@ One-click **FREE** deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/
 [![][github-license-shield]][github-license-link]<br>
 [![][sponsor-shield]][sponsor-link]
 
-**Share LobeChat Repository**
+**Share AWAI Repository**
 
 [![][share-x-shield]][share-x-link]
 [![][share-telegram-shield]][share-telegram-link]
@@ -48,40 +48,46 @@ One-click **FREE** deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/
 
 #### TOC
 
-- [👋🏻 Getting Started & Join Our Community](#-getting-started--join-our-community)
-- [✨ Features](#-features)
-  - [✨ MCP Plugin One-Click Installation](#-mcp-plugin-one-click-installation)
-  - [🏪 MCP Marketplace](#-mcp-marketplace)
-  - [🖥️ Desktop App](#️-desktop-app)
-  - [🌐 Smart Internet Search](#-smart-internet-search)
-  - [Chain of Thought](#chain-of-thought)
-  - [Branching Conversations](#branching-conversations)
-  - [Artifacts Support](#artifacts-support)
-  - [File Upload /Knowledge Base](#file-upload-knowledge-base)
-  - [Multi-Model Service Provider Support](#multi-model-service-provider-support)
-  - [Local Large Language Model (LLM) Support](#local-large-language-model-llm-support)
-  - [Model Visual Recognition](#model-visual-recognition)
-  - [TTS & STT Voice Conversation](#tts--stt-voice-conversation)
-  - [Text to Image Generation](#text-to-image-generation)
-  - [Plugin System (Function Calling)](#plugin-system-function-calling)
-  - [Agent Market (GPTs)](#agent-market-gpts)
-  - [Support Local / Remote Database](#support-local--remote-database)
-  - [Support Multi-User Management](#support-multi-user-management)
-  - [Progressive Web App (PWA)](#progressive-web-app-pwa)
-  - [Mobile Device Adaptation](#mobile-device-adaptation)
-  - [Custom Themes](#custom-themes)
-  - [`*` What's more](#-whats-more)
-- [⚡️ Performance](#️-performance)
-- [🛳 Self Hosting](#-self-hosting)
-  - [`A` Deploying with Vercel, Zeabur , Sealos or Alibaba Cloud](#a-deploying-with-vercel-zeabur--sealos-or-alibaba-cloud)
-  - [`B` Deploying with Docker](#b-deploying-with-docker)
-  - [Environment Variable](#environment-variable)
-- [📦 Ecosystem](#-ecosystem)
-- [🧩 Plugins](#-plugins)
-- [⌨️ Local Development](#️-local-development)
-- [🤝 Contributing](#-contributing)
-- [❤️ Sponsor](#️-sponsor)
-- [🔗 More Products](#-more-products)
+- [AWAI](#awai)
+      - [TOC](#toc)
+      - [](#)
+  - [👋🏻 Getting Started \& Join Our Community](#-getting-started--join-our-community)
+  - [✨ Features](#-features)
+    - [✨ MCP Plugin One-Click Installation](#-mcp-plugin-one-click-installation)
+    - [🏪 MCP Marketplace](#-mcp-marketplace)
+    - [🖥️ Desktop App](#️-desktop-app)
+    - [🌐 Smart Internet Search](#-smart-internet-search)
+    - [Chain of Thought](#chain-of-thought)
+    - [Branching Conversations](#branching-conversations)
+    - [Artifacts Support](#artifacts-support)
+    - [File Upload /Knowledge Base](#file-upload-knowledge-base)
+    - [Multi-Model Service Provider Support](#multi-model-service-provider-support)
+      - [Supported Model Service Providers](#supported-model-service-providers)
+    - [Local Large Language Model (LLM) Support](#local-large-language-model-llm-support)
+    - [Model Visual Recognition](#model-visual-recognition)
+    - [TTS \& STT Voice Conversation](#tts--stt-voice-conversation)
+    - [Text to Image Generation](#text-to-image-generation)
+    - [Plugin System (Function Calling)](#plugin-system-function-calling)
+    - [Agent Market (GPTs)](#agent-market-gpts)
+    - [Support Local / Remote Database](#support-local--remote-database)
+    - [Support Multi-User Management](#support-multi-user-management)
+    - [Progressive Web App (PWA)](#progressive-web-app-pwa)
+    - [Mobile Device Adaptation](#mobile-device-adaptation)
+    - [Custom Themes](#custom-themes)
+    - [`*` What's more](#-whats-more)
+  - [⚡️ Performance](#️-performance)
+  - [🛳 Self Hosting](#-self-hosting)
+    - [`A` Deploying with Vercel, Zeabur , Sealos or Alibaba Cloud](#a-deploying-with-vercel-zeabur--sealos-or-alibaba-cloud)
+      - [After Fork](#after-fork)
+      - [Keep Updated](#keep-updated)
+    - [`B` Deploying with Docker](#b-deploying-with-docker)
+    - [Environment Variable](#environment-variable)
+  - [📦 Ecosystem](#-ecosystem)
+  - [🧩 Plugins](#-plugins)
+  - [⌨️ Local Development](#️-local-development)
+  - [🤝 Contributing](#-contributing)
+  - [❤️ Sponsor](#️-sponsor)
+  - [🔗 More Products](#-more-products)
 
 ####
 
@@ -94,11 +100,11 @@ One-click **FREE** deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/
 We are a group of e/acc design-engineers, hoping to provide modern design components and tools for AIGC.
 By adopting the Bootstrapping approach, we aim to provide developers and users with a more open, transparent, and user-friendly product ecosystem.
 
-Whether for users or professional developers, LobeHub will be your AI Agent playground. Please be aware that LobeChat is currently under active development, and feedback is welcome for any [issues][issues-link] encountered.
+Whether for users or professional developers, OptiHub will be your AI Agent playground. Please be aware that Awai Chat is currently under active development, and feedback is welcome for any [issues][issues-link] encountered.
 
 | [![][vercel-shield-badge]][vercel-link]   | No installation or registration necessary! Visit our website to experience it firsthand.                           |
 | :---------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| [![][discord-shield-badge]][discord-link] | Join our Discord community! This is where you can connect with developers and other enthusiastic users of LobeHub. |
+| [![][discord-shield-badge]][discord-link] | Join our Discord community! This is where you can connect with developers and other enthusiastic users of OptiHub. |
 
 > \[!IMPORTANT]
 >
@@ -109,14 +115,14 @@ Whether for users or professional developers, LobeHub will be your AI Agent play
 <details>
   <summary><kbd>Star History</kbd></summary>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=lobehub%2Flobe-chat&theme=dark&type=Date">
-    <img width="100%" src="https://api.star-history.com/svg?repos=lobehub%2Flobe-chat&type=Date">
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=optitechdev%2Fawai-chat&theme=dark&type=Date">
+    <img width="100%" src="https://api.star-history.com/svg?repos=optitechdev%2Fawai-chat&type=Date">
   </picture>
 </details>
 
 ## ✨ Features
 
-Transform your AI experience with LobeChat's powerful features designed for seamless connectivity, enhanced productivity, and unlimited creativity.
+Transform your AI experience with AWAI's powerful features designed for seamless connectivity, enhanced productivity, and unlimited creativity.
 
 ![][image-feat-mcp]
 
@@ -124,7 +130,7 @@ Transform your AI experience with LobeChat's powerful features designed for seam
 
 **Seamlessly Connect Your AI to the World**
 
-Unlock the full potential of your AI by enabling smooth, secure, and dynamic interactions with external tools, data sources, and services. LobeChat's MCP (Model Context Protocol) plugin system breaks down the barriers between your AI and the digital ecosystem, allowing for unprecedented connectivity and functionality.
+Unlock the full potential of your AI by enabling smooth, secure, and dynamic interactions with external tools, data sources, and services. AWAI's MCP (Model Context Protocol) plugin system breaks down the barriers between your AI and the digital ecosystem, allowing for unprecedented connectivity and functionality.
 
 Transform your conversations into powerful workflows by connecting to databases, APIs, file systems, and more. Experience the freedom of AI that truly understands and interacts with your world.
 
@@ -136,7 +142,7 @@ Transform your conversations into powerful workflows by connecting to databases,
 
 **Discover, Connect, Extend**
 
-Browse a growing library of MCP plugins to expand your AI's capabilities and streamline your workflows effortlessly. Visit [lobehub.com/mcp](https://lobehub.com/mcp) to explore the MCP Marketplace, which offers a curated collection of integrations that enhance your AI's ability to work with various tools and services.
+Browse a growing library of MCP plugins to expand your AI's capabilities and streamline your workflows effortlessly. Visit [optihub.com/mcp](https://optihub.com/mcp) to explore the MCP Marketplace, which offers a curated collection of integrations that enhance your AI's ability to work with various tools and services.
 
 From productivity tools to development environments, discover new ways to extend your AI's reach and effectiveness. Connect with the community and find the perfect plugins for your specific needs.
 
@@ -148,7 +154,7 @@ From productivity tools to development environments, discover new ways to extend
 
 **Peak Performance, Zero Distractions**
 
-Get the full LobeChat experience without browser limitations—comprehensive, focused, and always ready to go. Our desktop application provides a dedicated environment for your AI interactions, ensuring optimal performance and minimal distractions.
+Get the full AWAI experience without browser limitations—comprehensive, focused, and always ready to go. Our desktop application provides a dedicated environment for your AI interactions, ensuring optimal performance and minimal distractions.
 
 Experience faster response times, better resource management, and a more stable connection to your AI assistant. The desktop app is designed for users who demand the best performance from their AI tools.
 
@@ -195,7 +201,7 @@ This groundbreaking feature transforms linear conversations into dynamic, tree-l
 
 ### [Artifacts Support][docs-feat-artifacts]
 
-Experience the power of Claude Artifacts, now integrated into LobeChat. This revolutionary feature expands the boundaries of AI-human interaction, enabling real-time creation and visualization of diverse content formats.
+Experience the power of Claude Artifacts, now integrated into Awai Chat. This revolutionary feature expands the boundaries of AI-human interaction, enabling real-time creation and visualization of diverse content formats.
 
 Create and visualize with unprecedented flexibility:
 
@@ -209,13 +215,13 @@ Create and visualize with unprecedented flexibility:
 
 ### [File Upload /Knowledge Base][docs-feat-knowledgebase]
 
-LobeChat supports file upload and knowledge base functionality. You can upload various types of files including documents, images, audio, and video, as well as create knowledge bases, making it convenient for users to manage and search for files. Additionally, you can utilize files and knowledge base features during conversations, enabling a richer dialogue experience.
+AWAI supports file upload and knowledge base functionality. You can upload various types of files including documents, images, audio, and video, as well as create knowledge bases, making it convenient for users to manage and search for files. Additionally, you can utilize files and knowledge base features during conversations, enabling a richer dialogue experience.
 
 <https://github.com/user-attachments/assets/faa8cf67-e743-4590-8bf6-ebf6ccc34175>
 
 > \[!TIP]
 >
-> Learn more on [📘 LobeChat Knowledge Base Launch — From Now On, Every Step Counts](https://lobehub.com/blog/knowledge-base)
+> Learn more on [📘 AWAI Knowledge Base Launch — From Now On, Every Step Counts](https://optihub.com/blog/knowledge-base)
 
 <div align="right">
 
@@ -227,9 +233,9 @@ LobeChat supports file upload and knowledge base functionality. You can upload v
 
 ### [Multi-Model Service Provider Support][docs-feat-provider]
 
-In the continuous development of LobeChat, we deeply understand the importance of diversity in model service providers for meeting the needs of the community when providing AI conversation services. Therefore, we have expanded our support to multiple model service providers, rather than being limited to a single one, in order to offer users a more diverse and rich selection of conversations.
+In the continuous development of AWAI, we deeply understand the importance of diversity in model service providers for meeting the needs of the community when providing AI conversation services. Therefore, we have expanded our support to multiple model service providers, rather than being limited to a single one, in order to offer users a more diverse and rich selection of conversations.
 
-In this way, LobeChat can more flexibly adapt to the needs of different users, while also providing developers with a wider range of choices.
+In this way, AWAI can more flexibly adapt to the needs of different users, while also providing developers with a wider range of choices.
 
 #### Supported Model Service Providers
 
@@ -237,16 +243,16 @@ We have implemented support for the following model service providers:
 
 <!-- PROVIDER LIST -->
 
-- **[OpenAI](https://lobechat.com/discover/provider/openai)**: OpenAI is a global leader in artificial intelligence research, with models like the GPT series pushing the frontiers of natural language processing. OpenAI is committed to transforming multiple industries through innovative and efficient AI solutions. Their products demonstrate significant performance and cost-effectiveness, widely used in research, business, and innovative applications.
-- **[Ollama](https://lobechat.com/discover/provider/ollama)**: Ollama provides models that cover a wide range of fields, including code generation, mathematical operations, multilingual processing, and conversational interaction, catering to diverse enterprise-level and localized deployment needs.
-- **[Anthropic](https://lobechat.com/discover/provider/anthropic)**: Anthropic is a company focused on AI research and development, offering a range of advanced language models such as Claude 3.5 Sonnet, Claude 3 Sonnet, Claude 3 Opus, and Claude 3 Haiku. These models achieve an ideal balance between intelligence, speed, and cost, suitable for various applications from enterprise workloads to rapid-response scenarios. Claude 3.5 Sonnet, as their latest model, has excelled in multiple evaluations while maintaining a high cost-performance ratio.
-- **[Bedrock](https://lobechat.com/discover/provider/bedrock)**: Bedrock is a service provided by Amazon AWS, focusing on delivering advanced AI language and visual models for enterprises. Its model family includes Anthropic's Claude series, Meta's Llama 3.1 series, and more, offering a range of options from lightweight to high-performance, supporting tasks such as text generation, conversation, and image processing for businesses of varying scales and needs.
-- **[Google](https://lobechat.com/discover/provider/google)**: Google's Gemini series represents its most advanced, versatile AI models, developed by Google DeepMind, designed for multimodal capabilities, supporting seamless understanding and processing of text, code, images, audio, and video. Suitable for various environments from data centers to mobile devices, it significantly enhances the efficiency and applicability of AI models.
-- **[DeepSeek](https://lobechat.com/discover/provider/deepseek)**: DeepSeek is a company focused on AI technology research and application, with its latest model DeepSeek-V2.5 integrating general dialogue and code processing capabilities, achieving significant improvements in human preference alignment, writing tasks, and instruction following.
-- **[Moonshot](https://lobechat.com/discover/provider/moonshot)**: Moonshot is an open-source platform launched by Beijing Dark Side Technology Co., Ltd., providing various natural language processing models with a wide range of applications, including but not limited to content creation, academic research, intelligent recommendations, and medical diagnosis, supporting long text processing and complex generation tasks.
-- **[OpenRouter](https://lobechat.com/discover/provider/openrouter)**: OpenRouter is a service platform providing access to various cutting-edge large model interfaces, supporting OpenAI, Anthropic, LLaMA, and more, suitable for diverse development and application needs. Users can flexibly choose the optimal model and pricing based on their requirements, enhancing the AI experience.
-- **[HuggingFace](https://lobechat.com/discover/provider/huggingface)**: The HuggingFace Inference API provides a fast and free way for you to explore thousands of models for various tasks. Whether you are prototyping for a new application or experimenting with the capabilities of machine learning, this API gives you instant access to high-performance models across multiple domains.
-- **[Cloudflare Workers AI](https://lobechat.com/discover/provider/cloudflare)**: Run serverless GPU-powered machine learning models on Cloudflare's global network.
+- **[OpenAI](https://awai.com/discover/provider/openai)**: OpenAI is a global leader in artificial intelligence research, with models like the GPT series pushing the frontiers of natural language processing. OpenAI is committed to transforming multiple industries through innovative and efficient AI solutions. Their products demonstrate significant performance and cost-effectiveness, widely used in research, business, and innovative applications.
+- **[Ollama](https://awai.com/discover/provider/ollama)**: Ollama provides models that cover a wide range of fields, including code generation, mathematical operations, multilingual processing, and conversational interaction, catering to diverse enterprise-level and localized deployment needs.
+- **[Anthropic](https://awai.com/discover/provider/anthropic)**: Anthropic is a company focused on AI research and development, offering a range of advanced language models such as Claude 3.5 Sonnet, Claude 3 Sonnet, Claude 3 Opus, and Claude 3 Haiku. These models achieve an ideal balance between intelligence, speed, and cost, suitable for various applications from enterprise workloads to rapid-response scenarios. Claude 3.5 Sonnet, as their latest model, has excelled in multiple evaluations while maintaining a high cost-performance ratio.
+- **[Bedrock](https://awai.com/discover/provider/bedrock)**: Bedrock is a service provided by Amazon AWS, focusing on delivering advanced AI language and visual models for enterprises. Its model family includes Anthropic's Claude series, Meta's Llama 3.1 series, and more, offering a range of options from lightweight to high-performance, supporting tasks such as text generation, conversation, and image processing for businesses of varying scales and needs.
+- **[Google](https://awai.com/discover/provider/google)**: Google's Gemini series represents its most advanced, versatile AI models, developed by Google DeepMind, designed for multimodal capabilities, supporting seamless understanding and processing of text, code, images, audio, and video. Suitable for various environments from data centers to mobile devices, it significantly enhances the efficiency and applicability of AI models.
+- **[DeepSeek](https://awai.com/discover/provider/deepseek)**: DeepSeek is a company focused on AI technology research and application, with its latest model DeepSeek-V2.5 integrating general dialogue and code processing capabilities, achieving significant improvements in human preference alignment, writing tasks, and instruction following.
+- **[Moonshot](https://awai.com/discover/provider/moonshot)**: Moonshot is an open-source platform launched by Beijing Dark Side Technology Co., Ltd., providing various natural language processing models with a wide range of applications, including but not limited to content creation, academic research, intelligent recommendations, and medical diagnosis, supporting long text processing and complex generation tasks.
+- **[OpenRouter](https://awai.com/discover/provider/openrouter)**: OpenRouter is a service platform providing access to various cutting-edge large model interfaces, supporting OpenAI, Anthropic, LLaMA, and more, suitable for diverse development and application needs. Users can flexibly choose the optimal model and pricing based on their requirements, enhancing the AI experience.
+- **[HuggingFace](https://awai.com/discover/provider/huggingface)**: The HuggingFace Inference API provides a fast and free way for you to explore thousands of models for various tasks. Whether you are prototyping for a new application or experimenting with the capabilities of machine learning, this API gives you instant access to high-performance models across multiple domains.
+- **[Cloudflare Workers AI](https://awai.com/discover/provider/cloudflare)**: Run serverless GPU-powered machine learning models on Cloudflare's global network.
 
 <details><summary><kbd>See more providers (+32)</kbd></summary>
 
@@ -289,7 +295,7 @@ We have implemented support for the following model service providers:
 
  <!-- PROVIDER LIST -->
 
-At the same time, we are also planning to support more model service providers. If you would like LobeChat to support your favorite service provider, feel free to join our [💬 community discussion](https://github.com/lobehub/lobe-chat/discussions/1284).
+At the same time, we are also planning to support more model service providers. If you would like AWAI to support your favorite service provider, feel free to join our [💬 community discussion](https://github.com/optitechdev/awai-optihub/discussions).
 
 <div align="right">
 
@@ -301,11 +307,11 @@ At the same time, we are also planning to support more model service providers. 
 
 ### [Local Large Language Model (LLM) Support][docs-feat-local]
 
-To meet the specific needs of users, LobeChat also supports the use of local models based on [Ollama](https://ollama.ai), allowing users to flexibly use their own or third-party models.
+To meet the specific needs of users, AWAI also supports the use of local models based on [Ollama](https://ollama.ai), allowing users to flexibly use their own or third-party models.
 
 > \[!TIP]
 >
-> Learn more about [📘 Using Ollama in LobeChat][docs-usage-ollama] by checking it out.
+> Learn more about [📘 Using Ollama in AWAI][docs-usage-ollama] by checking it out.
 
 <div align="right">
 
@@ -317,7 +323,7 @@ To meet the specific needs of users, LobeChat also supports the use of local mod
 
 ### [Model Visual Recognition][docs-feat-vision]
 
-LobeChat now supports OpenAI's latest [`gpt-4-vision`](https://platform.openai.com/docs/guides/vision) model with visual recognition capabilities,
+AWAI now supports OpenAI's latest [`gpt-4-vision`](https://platform.openai.com/docs/guides/vision) model with visual recognition capabilities,
 a multimodal intelligence that can perceive visuals. Users can easily upload or drag and drop images into the dialogue box,
 and the agent will be able to recognize the content of the images and engage in intelligent conversation based on this,
 creating smarter and more diversified chat scenarios.
@@ -335,11 +341,11 @@ Whether it's sharing images in daily use or interpreting images within specific 
 
 ### [TTS & STT Voice Conversation][docs-feat-tts]
 
-LobeChat supports Text-to-Speech (TTS) and Speech-to-Text (STT) technologies, enabling our application to convert text messages into clear voice outputs,
+AWAI supports Text-to-Speech (TTS) and Speech-to-Text (STT) technologies, enabling our application to convert text messages into clear voice outputs,
 allowing users to interact with our conversational agent as if they were talking to a real person. Users can choose from a variety of voices to pair with the agent.
 
 Moreover, TTS offers an excellent solution for those who prefer auditory learning or desire to receive information while busy.
-In LobeChat, we have meticulously selected a range of high-quality voice options (OpenAI Audio, Microsoft Edge Speech) to meet the needs of users from different regions and cultural backgrounds.
+In AWAI, we have meticulously selected a range of high-quality voice options (OpenAI Audio, Microsoft Edge Speech) to meet the needs of users from different regions and cultural backgrounds.
 Users can choose the voice that suits their personal preferences or specific scenarios, resulting in a personalized communication experience.
 
 <div align="right">
@@ -352,7 +358,7 @@ Users can choose the voice that suits their personal preferences or specific sce
 
 ### [Text to Image Generation][docs-feat-t2i]
 
-With support for the latest text-to-image generation technology, LobeChat now allows users to invoke image creation tools directly within conversations with the agent. By leveraging the capabilities of AI tools such as [`DALL-E 3`](https://openai.com/dall-e-3), [`MidJourney`](https://www.midjourney.com/), and [`Pollinations`](https://pollinations.ai/), the agents are now equipped to transform your ideas into images.
+With support for the latest text-to-image generation technology, AWAI now allows users to invoke image creation tools directly within conversations with the agent. By leveraging the capabilities of AI tools such as [`DALL-E 3`](https://openai.com/dall-e-3), [`MidJourney`](https://www.midjourney.com/), and [`Pollinations`](https://pollinations.ai/), the agents are now equipped to transform your ideas into images.
 
 This enables a more private and immersive creative process, allowing for the seamless integration of visual storytelling into your personal dialogue with the agent.
 
@@ -366,11 +372,11 @@ This enables a more private and immersive creative process, allowing for the sea
 
 ### [Plugin System (Function Calling)][docs-feat-plugin]
 
-The plugin ecosystem of LobeChat is an important extension of its core functionality, greatly enhancing the practicality and flexibility of the LobeChat assistant.
+The plugin ecosystem of AWAI is an important extension of its core functionality, greatly enhancing the practicality and flexibility of the AWAI assistant.
 
-<video controls src="https://github.com/lobehub/lobe-chat/assets/28616219/f29475a3-f346-4196-a435-41a6373ab9e2" muted="false"></video>
+<video controls src="https://github.com/optitechdev/awai-optihub/assets/28616219/f29475a3-f346-4196-a435-41a6373ab9e2" muted="false"></video>
 
-By utilizing plugins, LobeChat assistants can obtain and process real-time information, such as searching for web information and providing users with instant and relevant news.
+By utilizing plugins, AWAI assistants can obtain and process real-time information, such as searching for web information and providing users with instant and relevant news.
 
 In addition, these plugins are not limited to news aggregation, but can also extend to other practical functions, such as quickly searching documents, generating images, obtaining data from various platforms like Bilibili, Steam, and interacting with various third-party services.
 
@@ -401,14 +407,14 @@ In addition, these plugins are not limited to news aggregation, but can also ext
 
 ### [Agent Market (GPTs)][docs-feat-agent]
 
-In LobeChat Agent Marketplace, creators can discover a vibrant and innovative community that brings together a multitude of well-designed agents,
+In AWAI Agent Marketplace, creators can discover a vibrant and innovative community that brings together a multitude of well-designed agents,
 which not only play an important role in work scenarios but also offer great convenience in learning processes.
 Our marketplace is not just a showcase platform but also a collaborative space. Here, everyone can contribute their wisdom and share the agents they have developed.
 
 > \[!TIP]
 >
 > By [🤖/🏪 Submit Agents][submit-agents-link], you can easily submit your agent creations to our platform.
-> Importantly, LobeChat has established a sophisticated automated internationalization (i18n) workflow,
+> Importantly, AWAI has established a sophisticated automated internationalization (i18n) workflow,
 > capable of seamlessly translating your agent into multiple language versions.
 > This means that no matter what language your users speak, they can experience your agent without barriers.
 
@@ -440,12 +446,12 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 ### [Support Local / Remote Database][docs-feat-database]
 
-LobeChat supports the use of both server-side and local databases. Depending on your needs, you can choose the appropriate deployment solution:
+AWAI supports the use of both server-side and local databases. Depending on your needs, you can choose the appropriate deployment solution:
 
-- **Local database**: suitable for users who want more control over their data and privacy protection. LobeChat uses CRDT (Conflict-Free Replicated Data Type) technology to achieve multi-device synchronization. This is an experimental feature aimed at providing a seamless data synchronization experience.
-- **Server-side database**: suitable for users who want a more convenient user experience. LobeChat supports PostgreSQL as a server-side database. For detailed documentation on how to configure the server-side database, please visit [Configure Server-side Database](https://lobehub.com/docs/self-hosting/advanced/server-database).
+- **Local database**: suitable for users who want more control over their data and privacy protection. AWAI uses CRDT (Conflict-Free Replicated Data Type) technology to achieve multi-device synchronization. This is an experimental feature aimed at providing a seamless data synchronization experience.
+- **Server-side database**: suitable for users who want a more convenient user experience. AWAI supports PostgreSQL as a server-side database. For detailed documentation on how to configure the server-side database, please visit [Configure Server-side Database](https://optihub.com/docs/self-hosting/advanced/server-database).
 
-Regardless of which database you choose, LobeChat can provide you with an excellent user experience.
+Regardless of which database you choose, AWAI can provide you with an excellent user experience.
 
 <div align="right">
 
@@ -457,13 +463,13 @@ Regardless of which database you choose, LobeChat can provide you with an excell
 
 ### [Support Multi-User Management][docs-feat-auth]
 
-LobeChat supports multi-user management and provides two main user authentication and management solutions to meet different needs:
+AWAI supports multi-user management and provides two main user authentication and management solutions to meet different needs:
 
-- **next-auth**: LobeChat integrates `next-auth`, a flexible and powerful identity verification library that supports multiple authentication methods, including OAuth, email login, credential login, etc. With `next-auth`, you can easily implement user registration, login, session management, social login, and other functions to ensure the security and privacy of user data.
+- **next-auth**: AWAI integrates `next-auth`, a flexible and powerful identity verification library that supports multiple authentication methods, including OAuth, email login, credential login, etc. With `next-auth`, you can easily implement user registration, login, session management, social login, and other functions to ensure the security and privacy of user data.
 
-- [**Clerk**](https://go.clerk.com/exgqLG0): For users who need more advanced user management features, LobeChat also supports `Clerk`, a modern user management platform. `Clerk` provides richer functions, such as multi-factor authentication (MFA), user profile management, login activity monitoring, etc. With `Clerk`, you can get higher security and flexibility, and easily cope with complex user management needs.
+- [**Clerk**](https://go.clerk.com/exgqLG0): For users who need more advanced user management features, AWAI also supports `Clerk`, a modern user management platform. `Clerk` provides richer functions, such as multi-factor authentication (MFA), user profile management, login activity monitoring, etc. With `Clerk`, you can get higher security and flexibility, and easily cope with complex user management needs.
 
-Regardless of which user management solution you choose, LobeChat can provide you with an excellent user experience and powerful functional support.
+Regardless of which user management solution you choose, AWAI can provide you with an excellent user experience and powerful functional support.
 
 <div align="right">
 
@@ -479,16 +485,16 @@ We deeply understand the importance of providing a seamless experience for users
 Therefore, we have adopted Progressive Web Application ([PWA](https://support.google.com/chrome/answer/9658361)) technology,
 a modern web technology that elevates web applications to an experience close to that of native apps.
 
-Through PWA, LobeChat can offer a highly optimized user experience on both desktop and mobile devices while maintaining high-performance characteristics.
+Through PWA, AWAI can offer a highly optimized user experience on both desktop and mobile devices while maintaining high-performance characteristics.
 Visually and in terms of feel, we have also meticulously designed the interface to ensure it is indistinguishable from native apps,
 providing smooth animations, responsive layouts, and adapting to different device screen resolutions.
 
 > \[!NOTE]
 >
-> If you are unfamiliar with the installation process of PWA, you can add LobeChat as your desktop application (also applicable to mobile devices) by following these steps:
+> If you are unfamiliar with the installation process of PWA, you can add AWAI as your desktop application (also applicable to mobile devices) by following these steps:
 >
 > - Launch the Chrome or Edge browser on your computer.
-> - Visit the LobeChat webpage.
+> - Visit the AWAI webpage.
 > - In the upper right corner of the address bar, click on the <kbd>Install</kbd> icon.
 > - Follow the instructions on the screen to complete the PWA Installation.
 
@@ -514,15 +520,15 @@ We have carried out a series of optimization designs for mobile devices to enhan
 
 ### [Custom Themes][docs-feat-theme]
 
-As a design-engineering-oriented application, LobeChat places great emphasis on users' personalized experiences,
+As a design-engineering-oriented application, AWAI places great emphasis on users' personalized experiences,
 hence introducing flexible and diverse theme modes, including a light mode for daytime and a dark mode for nighttime.
 Beyond switching theme modes, a range of color customization options allow users to adjust the application's theme colors according to their preferences.
-Whether it's a desire for a sober dark blue, a lively peach pink, or a professional gray-white, users can find their style of color choices in LobeChat.
+Whether it's a desire for a sober dark blue, a lively peach pink, or a professional gray-white, users can find their style of color choices in AWAI.
 
 > \[!TIP]
 >
 > The default configuration can intelligently recognize the user's system color mode and automatically switch themes to ensure a consistent visual experience with the operating system.
-> For users who like to manually control details, LobeChat also offers intuitive setting options and a choice between chat bubble mode and document mode for conversation scenarios.
+> For users who like to manually control details, AWAI also offers intuitive setting options and a choice between chat bubble mode and document mode for conversation scenarios.
 
 <div align="right">
 
@@ -532,7 +538,7 @@ Whether it's a desire for a sober dark blue, a lively peach pink, or a professio
 
 ### `*` What's more
 
-Beside these features, LobeChat also have much better basic technique underground:
+Beside these features, AWAI also have much better basic technique underground:
 
 - [x] 💨 **Quick Deployment**: Using the Vercel platform or docker image, you can deploy with just one click and complete the process within 1 minute without any complex configuration.
 - [x] 🌐 **Custom Domain**: If users have their own domain, they can bind it to the platform for quick access to the dialogue agent from anywhere.
@@ -540,7 +546,7 @@ Beside these features, LobeChat also have much better basic technique undergroun
 - [x] 💎 **Exquisite UI Design**: With a carefully designed interface, it offers an elegant appearance and smooth interaction. It supports light and dark themes and is mobile-friendly. PWA support provides a more native-like experience.
 - [x] 🗣️ **Smooth Conversation Experience**: Fluid responses ensure a smooth conversation experience. It fully supports Markdown rendering, including code highlighting, LaTex formulas, Mermaid flowcharts, and more.
 
-> ✨ more features will be added when LobeChat evolve.
+> ✨ more features will be added when AWAI evolve.
 
 ---
 
@@ -573,11 +579,11 @@ Beside these features, LobeChat also have much better basic technique undergroun
 
 ## 🛳 Self Hosting
 
-LobeChat provides Self-Hosted Version with Vercel, Alibaba Cloud, and [Docker Image][docker-release-link]. This allows you to deploy your own chatbot within a few minutes without any prior knowledge.
+AWAI provides Self-Hosted Version with Vercel, Alibaba Cloud, and [Docker Image][docker-release-link]. This allows you to deploy your own chatbot within a few minutes without any prior knowledge.
 
 > \[!TIP]
 >
-> Learn more about [📘 Build your own LobeChat][docs-self-hosting] by checking it out.
+> Learn more about [📘 Build your own AWAI][docs-self-hosting] by checking it out.
 
 ### `A` Deploying with Vercel, Zeabur , Sealos or Alibaba Cloud
 
@@ -616,21 +622,21 @@ If you have deployed your own project following the one-click deployment steps i
 [![][docker-size-shield]][docker-size-link]
 [![][docker-pulls-shield]][docker-pulls-link]
 
-We provide a Docker image for deploying the LobeChat service on your own private device. Use the following command to start the LobeChat service:
+We provide a Docker image for deploying the AWAI service on your own private device. Use the following command to start the AWAI service:
 
 1. create a folder to for storage files
 
 ```fish
-$ mkdir lobe-chat-db && cd lobe-chat-db
+$ mkdir awai-db && cd awai-db
 ```
 
-2. init the LobeChat infrastructure
+2. init the AWAI infrastructure
 
 ```fish
 bash <(curl -fsSL https://lobe.li/setup.sh)
 ```
 
-3. Start the LobeChat service
+3. Start the AWAI service
 
 ```fish
 docker compose up -d
@@ -667,10 +673,10 @@ This project provides some additional configuration items set with environment v
 
 | NPM                               | Repository                              | Description                                                                                           | Version                                   |
 | --------------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| [@lobehub/ui][lobe-ui-link]       | [lobehub/lobe-ui][lobe-ui-github]       | Open-source UI component library dedicated to building AIGC web applications.                         | [![][lobe-ui-shield]][lobe-ui-link]       |
-| [@lobehub/icons][lobe-icons-link] | [lobehub/lobe-icons][lobe-icons-github] | Popular AI / LLM Model Brand SVG Logo and Icon Collection.                                            | [![][lobe-icons-shield]][lobe-icons-link] |
-| [@lobehub/tts][lobe-tts-link]     | [lobehub/lobe-tts][lobe-tts-github]     | High-quality & reliable TTS/STT React Hooks library                                                   | [![][lobe-tts-shield]][lobe-tts-link]     |
-| [@lobehub/lint][lobe-lint-link]   | [lobehub/lobe-lint][lobe-lint-github]   | Configurations for ESlint, Stylelint, Commitlint, Prettier, Remark, and Semantic Release for LobeHub. | [![][lobe-lint-shield]][lobe-lint-link]   |
+| [@optihub/ui][opti-ui-link]       | [optitechdev/opti-ui][opti-ui-github]       | Open-source UI component library dedicated to building AIGC web applications.                         | [![][opti-ui-shield]][opti-ui-link]       |
+| [@optihub/icons][opti-icons-link] | [optitechdev/opti-icons][opti-icons-github] | Popular AI / LLM Model Brand SVG Logo and Icon Collection.                                            | [![][opti-icons-shield]][opti-icons-link] |
+| [@optihub/tts][opti-tts-link]     | [optitechdev/opti-tts][opti-tts-github]     | High-quality & reliable TTS/STT React Hooks library                                                   | [![][opti-tts-shield]][opti-tts-link]     |
+| [@optihub/lint][opti-lint-link]   | [optitechdev/opti-lint][opti-lint-github]   | Configurations for ESlint, Stylelint, Commitlint, Prettier, Remark, and Semantic Release for OptiHub. | [![][opti-lint-shield]][opti-lint-link]   |
 
 <div align="right">
 
@@ -680,20 +686,20 @@ This project provides some additional configuration items set with environment v
 
 ## 🧩 Plugins
 
-Plugins provide a means to extend the [Function Calling][docs-function-call] capabilities of LobeChat. They can be used to introduce new function calls and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide][docs-plugin-dev] in the Wiki.
+Plugins provide a means to extend the [Function Calling][docs-function-call] capabilities of AWAI. They can be used to introduce new function calls and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide][docs-plugin-dev] in the Wiki.
 
-- [lobe-chat-plugins][lobe-chat-plugins]: This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.
-- [chat-plugin-template][chat-plugin-template]: This is the plugin template for LobeChat plugin development.
-- [@lobehub/chat-plugin-sdk][chat-plugin-sdk]: The LobeChat Plugin SDK assists you in creating exceptional chat plugins for Lobe Chat.
-- [@lobehub/chat-plugins-gateway][chat-plugins-gateway]: The LobeChat Plugins Gateway is a backend service that provides a gateway for LobeChat plugins. We deploy this service using Vercel. The primary API POST /api/v1/runner is deployed as an Edge Function.
+- [lobe-chat-plugins][lobe-chat-plugins]: This is the plugin index for AWAI. It accesses index.json from this repository to display a list of available plugins for AWAI to the user.
+- [chat-plugin-template][chat-plugin-template]: This is the plugin template for AWAI plugin development.
+- [@optihub/chat-plugin-sdk][chat-plugin-sdk]: The AWAI Plugin SDK assists you in creating exceptional chat plugins for AWAI.
+- [@optihub/chat-plugins-gateway][chat-plugins-gateway]: The AWAI Plugins Gateway is a backend service that provides a gateway for AWAI plugins. We deploy this service using Vercel. The primary API POST /api/v1/runner is deployed as an Edge Function.
 
 > \[!NOTE]
 >
 > The plugin system is currently undergoing major development. You can learn more in the following issues:
 >
-> - [x] [**Plugin Phase 1**](https://github.com/lobehub/lobe-chat/issues/73): Implement separation of the plugin from the main body, split the plugin into an independent repository for maintenance, and realize dynamic loading of the plugin.
-> - [x] [**Plugin Phase 2**](https://github.com/lobehub/lobe-chat/issues/97): The security and stability of the plugin's use, more accurately presenting abnormal states, the maintainability of the plugin architecture, and developer-friendly.
-> - [x] [**Plugin Phase 3**](https://github.com/lobehub/lobe-chat/issues/149): Higher-level and more comprehensive customization capabilities, support for plugin authentication, and examples.
+> - [x] [**Plugin Phase 1**](https://github.com/optitechdev/awai-optihub/issues/73): Implement separation of the plugin from the main body, split the plugin into an independent repository for maintenance, and realize dynamic loading of the plugin.
+> - [x] [**Plugin Phase 2**](https://github.com/optitechdev/awai-optihub/issues/97): The security and stability of the plugin's use, more accurately presenting abnormal states, the maintainability of the plugin architecture, and developer-friendly.
+> - [x] [**Plugin Phase 3**](https://github.com/optitechdev/awai-optihub/issues/149): Higher-level and more comprehensive customization capabilities, support for plugin authentication, and examples.
 
 <div align="right">
 
@@ -710,8 +716,8 @@ You can use GitHub Codespaces for online development:
 Or clone it for local development:
 
 ```fish
-$ git clone https://github.com/lobehub/lobe-chat.git
-$ cd lobe-chat
+$ git clone https://github.com/optitechdev/awai.git
+$ cd awai
 $ pnpm install
 $ pnpm dev
 ```
@@ -732,7 +738,7 @@ Contributions of all types are more than welcome; if you are interested in contr
 >
 > We are creating a technology-driven forum, fostering knowledge interaction and the exchange of ideas that may culminate in mutual inspiration and collaborative innovation.
 >
-> Help us make LobeChat better. Welcome to provide product design feedback, user experience discussions directly to us.
+> Help us make AWAI better. Welcome to provide product design feedback, user experience discussions directly to us.
 >
 > **Principal Maintainers:** [@arvinxx](https://github.com/arvinxx) [@canisminor1990](https://github.com/canisminor1990)
 
@@ -740,11 +746,11 @@ Contributions of all types are more than welcome; if you are interested in contr
 [![][submit-agents-shield]][submit-agents-link]
 [![][submit-plugin-shield]][submit-plugin-link]
 
-<a href="https://github.com/lobehub/lobe-chat/graphs/contributors" target="_blank">
+<a href="https://github.com/optitechdev/awai-optihub/graphs/contributors" target="_blank">
   <table>
     <tr>
       <th colspan="2">
-        <br><img src="https://contrib.rocks/image?repo=lobehub/lobe-chat"><br><br>
+        <br><img src="https://contrib.rocks/image?repo=optitechdev/awai-optihub"><br><br>
       </th>
     </tr>
     <tr>
@@ -797,10 +803,10 @@ Every bit counts and your one-time donation sparkles in our galaxy of support! Y
 
 ## 🔗 More Products
 
-- **[🅰️ Lobe SD Theme][lobe-theme]:** Modern theme for Stable Diffusion WebUI, exquisite interface design, highly customizable UI, and efficiency-boosting features.
-- **[⛵️ Lobe Midjourney WebUI][lobe-midjourney-webui]:** WebUI for Midjourney, leverages AI to quickly generate a wide array of rich and diverse images from text prompts, sparking creativity and enhancing conversations.
-- **[🌏 Lobe i18n][lobe-i18n] :** Lobe i18n is an automation tool for the i18n (internationalization) translation process, powered by ChatGPT. It supports features such as automatic splitting of large files, incremental updates, and customization options for the OpenAI model, API proxy, and temperature.
-- **[💌 Lobe Commit][lobe-commit]:** Lobe Commit is a CLI tool that leverages Langchain/ChatGPT to generate Gitmoji-based commit messages.
+- **[🅰️ AWAI SD Theme][awai-theme]:** Modern theme for Stable Diffusion WebUI, exquisite interface design, highly customizable UI, and efficiency-boosting features.
+- **[⛵️ AWAI Midjourney WebUI][awai-midjourney-webui]:** WebUI for Midjourney, leverages AI to quickly generate a wide array of rich and diverse images from text prompts, sparking creativity and enhancing conversations.
+- **[🌏 AWAI i18n][awai-i18n] :** AWAI i18n is an automation tool for the i18n (internationalization) translation process, powered by ChatGPT. It supports features such as automatic splitting of large files, incremental updates, and customization options for the OpenAI model, API proxy, and temperature.
+- **[💌 AWAI Commit][awai-commit]:** AWAI Commit is a CLI tool that leverages Langchain/ChatGPT to generate Gitmoji-based commit messages.
 
 <div align="right">
 
@@ -816,8 +822,8 @@ Every bit counts and your one-time donation sparkles in our galaxy of support! Y
 
 </details>
 
-Copyright © 2025 [LobeHub][profile-link]. <br />
-This project is [LobeHub Community License](./LICENSE) licensed.
+Copyright © 2025 [OptiHub][profile-link]. <br />
+This project is [OptiHub Community License](./LICENSE) licensed.
 
 <!-- LINK GROUP -->
 
@@ -830,9 +836,9 @@ This project is [LobeHub Community License](./LICENSE) licensed.
 [chat-plugin-sdk]: https://github.com/lobehub/chat-plugin-sdk
 [chat-plugin-template]: https://github.com/lobehub/chat-plugin-template
 [chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
-[codecov-link]: https://codecov.io/gh/lobehub/lobe-chat
-[codecov-shield]: https://img.shields.io/codecov/c/github/lobehub/lobe-chat?labelColor=black&style=flat-square&logo=codecov&logoColor=white
-[codespaces-link]: https://codespaces.new/lobehub/lobe-chat
+[codecov-link]: https://codecov.io/gh/optitechdev/awai-optihub
+[codecov-shield]: https://img.shields.io/codecov/c/github/optitechdev/awai-optihub?labelColor=black&style=flat-square&logo=codecov&logoColor=white
+[codespaces-link]: https://codespaces.new/optitechdev/awai-optihub
 [codespaces-shield]: https://github.com/codespaces/badge.svg
 [deploy-button-image]: https://vercel.com/button
 [deploy-link]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat&env=OPENAI_API_KEY,ACCESS_CODE&envDescription=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.%20%7C%20Access%20Code%20can%20protect%20your%20website&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&project-name=lobe-chat&repository-name=lobe-chat
@@ -854,7 +860,7 @@ This project is [LobeHub Community License](./LICENSE) licensed.
 [docker-size-link]: https://hub.docker.com/r/lobehub/lobe-chat-database
 [docker-size-shield]: https://img.shields.io/docker/image-size/lobehub/lobe-chat-database?color=369eff&labelColor=black&style=flat-square&sort=semver
 [docs]: https://lobehub.com/docs/usage/start
-[docs-dev-guide]: https://github.com/lobehub/lobe-chat/wiki/index
+[docs-dev-guide]: https://github.com/optitechdev/awai-optihub/wiki/index
 [docs-docker]: https://lobehub.com/docs/self-hosting/server-database/docker-compose
 [docs-env-var]: https://lobehub.com/docs/self-hosting/environment-variables
 [docs-feat-agent]: https://lobehub.com/docs/usage/features/agent-market
@@ -874,33 +880,33 @@ This project is [LobeHub Community License](./LICENSE) licensed.
 [docs-feat-tts]: https://lobehub.com/docs/usage/features/tts
 [docs-feat-vision]: https://lobehub.com/docs/usage/features/vision
 [docs-function-call]: https://lobehub.com/blog/openai-function-call
-[docs-lighthouse]: https://github.com/lobehub/lobe-chat/wiki/Lighthouse
+[docs-lighthouse]: https://github.com/optitechdev/awai-optihub/wiki/Lighthouse
 [docs-plugin-dev]: https://lobehub.com/docs/usage/plugins/development
 [docs-self-hosting]: https://lobehub.com/docs/self-hosting/start
 [docs-upstream-sync]: https://lobehub.com/docs/self-hosting/advanced/upstream-sync
 [docs-usage-ollama]: https://lobehub.com/docs/usage/providers/ollama
 [docs-usage-plugin]: https://lobehub.com/docs/usage/plugins/basic
-[fossa-license-link]: https://app.fossa.com/projects/git%2Bgithub.com%2Flobehub%2Flobe-chat
-[fossa-license-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2Flobehub%2Flobe-chat.svg?type=large
-[github-action-release-link]: https://github.com/actions/workflows/lobehub/lobe-chat/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-chat/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/actions/workflows/lobehub/lobe-chat/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-chat/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-contributors-link]: https://github.com/lobehub/lobe-chat/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-chat?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/lobehub/lobe-chat/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-chat?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/lobehub/lobe-chat/issues
-[github-issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-chat?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/lobehub/lobe-chat/blob/main/LICENSE
+[fossa-license-link]: https://app.fossa.com/projects/git%2Bgithub.com%2Foptitechdev%2Fawai-optihub
+[fossa-license-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2Foptitechdev%2Fawai-optihub.svg?type=large
+[github-action-release-link]: https://github.com/actions/workflows/optitechdev/awai-optihub/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/optitechdev/awai-optihub/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/actions/workflows/optitechdev/awai-optihub/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/optitechdev/awai-optihub/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-contributors-link]: https://github.com/optitechdev/awai-optihub/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/optitechdev/awai-optihub?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/optitechdev/awai-optihub/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/optitechdev/awai-optihub?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/optitechdev/awai-optihub/issues
+[github-issues-shield]: https://img.shields.io/github/issues/optitechdev/awai-optihub?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/optitechdev/awai-optihub/blob/main/LICENSE
 [github-license-shield]: https://img.shields.io/badge/license-apache%202.0-white?labelColor=black&style=flat-square
-[github-project-link]: https://github.com/lobehub/lobe-chat/projects
-[github-release-link]: https://github.com/lobehub/lobe-chat/releases
-[github-release-shield]: https://img.shields.io/github/v/release/lobehub/lobe-chat?color=369eff&labelColor=black&logo=github&style=flat-square
-[github-releasedate-link]: https://github.com/lobehub/lobe-chat/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/lobe-chat?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/lobehub/lobe-chat/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat?color=ffcb47&labelColor=black&style=flat-square
+[github-project-link]: https://github.com/optitechdev/awai-optihub/projects
+[github-release-link]: https://github.com/optitechdev/awai-optihub/releases
+[github-release-shield]: https://img.shields.io/github/v/release/optitechdev/awai-optihub?color=369eff&labelColor=black&logo=github&style=flat-square
+[github-releasedate-link]: https://github.com/optitechdev/awai-optihub/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/optitechdev/awai-optihub?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/optitechdev/awai-optihub/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/optitechdev/awai-optihub?color=ffcb47&labelColor=black&style=flat-square
 [github-trending-shield]: https://trendshift.io/api/badge/repositories/2256
 [github-trending-url]: https://trendshift.io/repositories/2256
 [image-feat-agent]: https://github.com/user-attachments/assets/b3ab6e35-4fbc-468d-af10-e3e0c687350f
@@ -925,7 +931,7 @@ This project is [LobeHub Community License](./LICENSE) licensed.
 [image-feat-web-search]: https://github.com/user-attachments/assets/cfdc48ac-b5f8-4a00-acee-db8f2eba09ad
 [image-overview]: https://github.com/user-attachments/assets/dbfaa84a-2c82-4dd9-815c-5be616f264a4
 [image-star]: https://github.com/user-attachments/assets/c3b482e7-cef5-4e94-bef9-226900ecfaab
-[issues-link]: https://img.shields.io/github/issues/lobehub/lobe-chat.svg?style=flat
+[issues-link]: https://img.shields.io/github/issues/optitechdev/awai-optihub.svg?style=flat
 [lobe-chat-plugins]: https://github.com/lobehub/lobe-chat-plugins
 [lobe-commit]: https://github.com/lobehub/lobe-commit/tree/master/packages/lobe-commit
 [lobe-i18n]: https://github.com/lobehub/lobe-commit/tree/master/packages/lobe-i18n
@@ -944,22 +950,22 @@ This project is [LobeHub Community License](./LICENSE) licensed.
 [lobe-ui-link]: https://www.npmjs.com/package/@lobehub/ui
 [lobe-ui-shield]: https://img.shields.io/npm/v/@lobehub/ui?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
 [official-site]: https://lobehub.com
-[pr-welcome-link]: https://github.com/lobehub/lobe-chat/pulls
+[pr-welcome-link]: https://github.com/optitechdev/awai-optihub/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-link]: https://github.com/lobehub
 [share-linkedin-link]: https://linkedin.com/feed
 [share-linkedin-shield]: https://img.shields.io/badge/-share%20on%20linkedin-black?labelColor=black&logo=linkedin&logoColor=white&style=flat-square
-[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source,%20extensible%20%28Function%20Calling%29,%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https://github.com/lobehub/lobe-chat%20#chatbot%20#chatGPT%20#openAI
+[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20AWAI%20OptiHub%20-%20An%20open-source,%20extensible%20%28Function%20Calling%29,%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https://github.com/optitechdev/awai-optihub%20#chatbot%20#chatGPT%20#openAI
 [share-mastodon-shield]: https://img.shields.io/badge/-share%20on%20mastodon-black?labelColor=black&logo=mastodon&logoColor=white&style=flat-square
-[share-reddit-link]: https://www.reddit.com/submit?title=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20%23chatbot%20%23chatGPT%20%23openAI&url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat
+[share-reddit-link]: https://www.reddit.com/submit?title=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20AWAI%20OptiHub%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20%23chatbot%20%23chatGPT%20%23openAI&url=https%3A%2F%2Fgithub.com%2Foptitechdev%2Fawai-optihub
 [share-reddit-shield]: https://img.shields.io/badge/-share%20on%20reddit-black?labelColor=black&logo=reddit&logoColor=white&style=flat-square
-[share-telegram-link]: https://t.me/share/url"?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20%23chatbot%20%23chatGPT%20%23openAI&url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat
+[share-telegram-link]: https://t.me/share/url"?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20AWAI%20OptiHub%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20%23chatbot%20%23chatGPT%20%23openAI&url=https%3A%2F%2Fgithub.com%2Foptitechdev%2Fawai-optihub
 [share-telegram-shield]: https://img.shields.io/badge/-share%20on%20telegram-black?labelColor=black&logo=telegram&logoColor=white&style=flat-square
-[share-weibo-link]: http://service.weibo.com/share/share.php?sharesource=weibo&title=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20%23chatbot%20%23chatGPT%20%23openAI&url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat
+[share-weibo-link]: http://service.weibo.com/share/share.php?sharesource=weibo&title=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20AWAI%20OptiHub%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20%23chatbot%20%23chatGPT%20%23openAI&url=https%3A%2F%2Fgithub.com%2Foptitechdev%2Fawai-optihub
 [share-weibo-shield]: https://img.shields.io/badge/-share%20on%20weibo-black?labelColor=black&logo=sinaweibo&logoColor=white&style=flat-square
-[share-whatsapp-link]: https://api.whatsapp.com/send?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat%20%23chatbot%20%23chatGPT%20%23openAI
+[share-whatsapp-link]: https://api.whatsapp.com/send?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20AWAI%20OptiHub%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https%3A%2F%2Fgithub.com%2Foptitechdev%2Fawai-optihub%20%23chatbot%20%23chatGPT%20%23openAI
 [share-whatsapp-shield]: https://img.shields.io/badge/-share%20on%20whatsapp-black?labelColor=black&logo=whatsapp&logoColor=white&style=flat-square
-[share-x-link]: https://x.com/intent/tweet?hashtags=chatbot%2CchatGPT%2CopenAI&text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.&url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat
+[share-x-link]: https://x.com/intent/tweet?hashtags=chatbot%2CchatGPT%2CopenAI&text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20AWAI%20OptiHub%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.&url=https%3A%2F%2Fgithub.com%2Foptitechdev%2Fawai-optihub
 [share-x-shield]: https://img.shields.io/badge/-share%20on%20x-black?labelColor=black&logo=x&logoColor=white&style=flat-square
 [sponsor-link]: https://opencollective.com/lobehub 'Become ❤️ LobeHub Sponsor'
 [sponsor-shield]: https://img.shields.io/badge/-Sponsor%20LobeHub-f04f88?logo=opencollective&logoColor=white&style=flat-square

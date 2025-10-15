@@ -1,0 +1,32 @@
+{
+  "addAgent": "Lägg till Assistent",
+  "addAgentAndConverse": "Lägg till Assistent och Konversera",
+  "addAgentSuccess": "Framgångsrikt Tillagd",
+  "guide": {
+    "func1": {
+      "desc1": "Gå in på inställningssidan du vill skicka till assistenten genom att klicka på inställningsikonen i övre högra hörnet av chattfönstret.",
+      "desc2": "Klicka på knappen 'Skicka till Assistentmarknad' i övre högra hörnet.",
+      "tag": "Metod 1",
+      "title": "Skicka via LobeChat"
+    },
+    "func2": {
+      "button": "Gå till Github Assistentförråd",
+      "desc": "Om du vill lägga till assistenten i indexet, skapa en post i plugins-katalogen med hjälp av agent-template.json eller agent-template-full.json, skriv en kort beskrivning och lämpliga taggar, och skapa sedan en pull request.",
+      "tag": "Metod 2",
+      "title": "Skicka via Github"
+    }
+  },
+  "search": {
+    "placeholder": "Sök assistentnamn, beskrivning eller nyckelord..."
+  },
+  "sidebar": {
+    "comment": "Kommentarer",
+    "prompt": "Prompter",
+    "title": "Assistentdetaljer"
+  },
+  "submitAgent": "Skicka Assistent",
+  "title": {
+    "allAgents": "Alla Assistenter",
+    "recentSubmits": "Senaste Inskickningar"
+  }
+}

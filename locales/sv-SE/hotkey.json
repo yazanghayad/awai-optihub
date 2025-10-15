@@ -1,0 +1,76 @@
+{
+  "addUserMessage": {
+    "desc": "Lägg till den aktuella inmatningen som ett användarmeddelande utan att utlösa generering",
+    "title": "Lägg till ett Användarmeddelande"
+  },
+  "clearCurrentMessages": {
+    "desc": "Rensa meddelandena och uppladdade filer från den aktuella konversationen",
+    "title": "Rensa Konversationsmeddelanden"
+  },
+  "deleteAndRegenerateMessage": {
+    "desc": "Radera det senaste meddelandet och regenerera",
+    "title": "Radera och Regenerera"
+  },
+  "deleteLastMessage": {
+    "desc": "Radera det senaste meddelandet",
+    "title": "Radera Senaste Meddelandet"
+  },
+  "desktop": {
+    "openSettings": {
+      "desc": "Öppna applikationsinställningssidan",
+      "title": "Applikationsinställningar"
+    },
+    "showApp": {
+      "desc": "Växla huvudfönstrets synlighet med en global genväg",
+      "title": "Visa/Dölj Huvudfönster"
+    }
+  },
+  "editMessage": {
+    "desc": "Gå in i redigeringsläge genom att hålla Alt och dubbelklicka på meddelandet",
+    "title": "Redigera Meddelande"
+  },
+  "navigateToChat": {
+    "desc": "Växla till chattfliken och starta en avslappnad konversation",
+    "title": "Växla till Standardchatt"
+  },
+  "openChatSettings": {
+    "desc": "Visa och modifiera inställningarna för den aktuella konversationen",
+    "title": "Öppna Chattinställningar"
+  },
+  "openHotkeyHelper": {
+    "desc": "Visa instruktioner för alla tangentbordsgenvägar",
+    "title": "Öppna Genvägshjälp"
+  },
+  "regenerateMessage": {
+    "desc": "Regenerera det senaste meddelandet",
+    "title": "Regenerera Meddelande"
+  },
+  "saveTopic": {
+    "desc": "Spara det aktuella ämnet och öppna ett nytt",
+    "title": "Starta ett Nytt Ämne"
+  },
+  "search": {
+    "desc": "Aktivera huvudsökrutan på den aktuella sidan",
+    "title": "Sök"
+  },
+  "showApp": {
+    "desc": "Öppna snabbt huvudapplikationsfönstret",
+    "title": "Visa Huvudfönster"
+  },
+  "switchAgent": {
+    "desc": "Växla mellan fästa assistenter i sidofältet genom att hålla Ctrl och trycka på siffrorna 0-9",
+    "title": "Snabbväxla Assistent"
+  },
+  "toggleLeftPanel": {
+    "desc": "Visa eller dölj vänstra assistentpanelen",
+    "title": "Visa/Dölj Assistentpanel"
+  },
+  "toggleRightPanel": {
+    "desc": "Visa eller dölj högra ämnespanelen",
+    "title": "Visa/Dölj Ämnespanel"
+  },
+  "toggleZenMode": {
+    "desc": "I fokusläge visas endast den aktuella konversationen och andra UI-element döljs",
+    "title": "Växla Fokusläge"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "guide": {
+    "agents": {
+      "replaceBtn": "Ersätt Batch",
+      "title": "Nya Assistentrekommendationer:"
+    },
+    "defaultMessage": "Jag är din personliga intelligenta assistent {{appName}}. Hur kan jag hjälpa dig idag?<br />Om du behöver en mer professionell eller anpassad assistent kan du klicka <plus /> för att skapa en anpassad assistent.",
+    "defaultMessageWithoutCreate": "Jag är din personliga intelligenta assistent {{appName}}. Hur kan jag hjälpa dig idag?",
+    "qa": {
+      "q01": "Vad är LobeHub?",
+      "q02": "Vad är {{appName}}?",
+      "q03": "Har {{appName}} community-stöd?",
+      "q04": "Vilka funktioner stöder {{appName}}?",
+      "q05": "Hur distribuerar och använder jag {{appName}}?",
+      "q06": "Vad är prissättningen för {{appName}}?",
+      "q07": "Är {{appName}} gratis?",
+      "q08": "Finns det en molntjänstversion tillgänglig?",
+      "q09": "Stöder den lokala språkmodeller?",
+      "q10": "Stöder den bildigenkänning och generering?",
+      "q11": "Stöder den talsyntes och taligenkänning?",
+      "q12": "Stöder den ett plugin-system?",
+      "q13": "Finns det en marknadsplats för att förvärva GPT:er?",
+      "q14": "Stöder den flera AI-tjänsteleverantörer?",
+      "q15": "Vad ska jag göra om jag stöter på problem under användning?"
+    },
+    "questions": {
+      "moreBtn": "Läs Mer",
+      "title": "Vanliga Frågor:"
+    },
+    "welcome": {
+      "afternoon": "God Eftermiddag",
+      "morning": "God Morgon",
+      "night": "God Kväll",
+      "noon": "God Dag"
+    }
+  },
+  "header": "Välkommen",
+  "pickAgent": "Eller välj från följande assistentmallar",
+  "skip": "Hoppa över Skapande",
+  "slogan": {
+    "desc1": "Banbrytande för den nya tidsåldern av tänkande och skapande. Byggd för dig, Superindividen.",
+    "desc2": "Skapa din första assistent och låt oss komma igång~",
+    "title": "Lås upp din hjärnas superkraft"
+  }
+}

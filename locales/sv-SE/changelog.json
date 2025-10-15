@@ -1,0 +1,18 @@
+{
+  "actions": {
+    "followOnX": "Följ oss på X",
+    "subscribeToUpdates": "Prenumerera på uppdateringar",
+    "versions": "Versionsdetaljer"
+  },
+  "addedWhileAway": "Vi har introducerat nya funktioner medan du var borta.",
+  "allChangelog": "Visa alla ändringsloggar",
+  "description": "Håll dig uppdaterad om nya funktioner och förbättringar i {{appName}}",
+  "pagination": {
+    "next": "Nästa Sida",
+    "older": "Visa Historiska Ändringar"
+  },
+  "readDetails": "Läs detaljer",
+  "title": "Ändringslogg",
+  "versionDetails": "Versionsdetaljer",
+  "welcomeBack": "Välkommen tillbaka!"
+}

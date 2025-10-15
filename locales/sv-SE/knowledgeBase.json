@@ -1,0 +1,32 @@
+{
+  "addToKnowledgeBase": {
+    "addSuccess": "Fil tillagd framgångsrikt, <1>visa nu</1>",
+    "confirm": "Lägg till",
+    "id": {
+      "placeholder": "Vänligen välj en kunskapsbas att lägga till",
+      "required": "Vänligen välj en kunskapsbas",
+      "title": "Mål Kunskapsbas"
+    },
+    "title": "Lägg till i Kunskapsbas",
+    "totalFiles": "{{count}} filer valda"
+  },
+  "createNew": {
+    "confirm": "Skapa Ny",
+    "description": {
+      "placeholder": "Kunskapsbasbeskrivning (valfritt)"
+    },
+    "formTitle": "Grundläggande Information",
+    "name": {
+      "placeholder": "Kunskapsbas namn",
+      "required": "Vänligen ange kunskapsbasnamnet"
+    },
+    "title": "Skapa Kunskapsbas"
+  },
+  "tab": {
+    "evals": "Utvärderingar",
+    "files": "Dokument",
+    "settings": "Inställningar",
+    "testing": "Återkallningstestning"
+  },
+  "title": "Kunskapsbas"
+}

@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="80" fill="#525942"/>
+  
+  <!-- Neural network inspired design -->
+  <g opacity="0.15">
+    <!-- Connection lines -->
+    <line x1="120" y1="140" x2="180" y2="180" stroke="#FBFFED" stroke-width="3"/>
+    <line x1="180" y1="140" x2="240" y2="180" stroke="#FBFFED" stroke-width="3"/>
+    <line x1="240" y1="140" x2="300" y2="180" stroke="#FBFFED" stroke-width="3"/>
+    <line x1="300" y1="140" x2="360" y2="180" stroke="#FBFFED" stroke-width="3"/>
+    <line x1="180" y1="180" x2="240" y2="220" stroke="#FBFFED" stroke-width="3"/>
+    <line x1="240" y1="180" x2="300" y2="220" stroke="#FBFFED" stroke-width="3"/>
+    
+    <!-- Nodes -->
+    <circle cx="120" cy="140" r="10" fill="#FBFFED"/>
+    <circle cx="180" cy="140" r="10" fill="#FBFFED"/>
+    <circle cx="240" cy="140" r="10" fill="#FBFFED"/>
+    <circle cx="300" cy="140" r="10" fill="#FBFFED"/>
+    <circle cx="360" cy="140" r="10" fill="#FBFFED"/>
+    <circle cx="180" cy="180" r="10" fill="#FBFFED"/>
+    <circle cx="240" cy="180" r="10" fill="#FBFFED"/>
+    <circle cx="300" cy="180" r="10" fill="#FBFFED"/>
+    <circle cx="240" cy="220" r="12" fill="#FBFFED"/>
+    <circle cx="300" cy="220" r="12" fill="#FBFFED"/>
+  </g>
+  
+  <!-- AWAI text with custom design -->
+  <g>
+    <!-- A -->
+    <path d="M 110 380 L 145 290 L 180 380 M 127 345 L 163 345" stroke="#FBFFED" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- W -->
+    <path d="M 195 290 L 218 380 L 241 315 L 264 380 L 287 290" stroke="#FBFFED" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- A -->
+    <path d="M 302 380 L 337 290 L 372 380 M 319 345 L 355 345" stroke="#FBFFED" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- I -->
+    <path d="M 392 290 L 392 380" stroke="#FBFFED" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="392" cy="270" r="7" fill="#FBFFED"/>
+  </g>
+  
+  <!-- Signature line -->
+  <line x1="110" y1="410" x2="400" y2="410" stroke="#FBFFED" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+</svg>

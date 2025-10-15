@@ -1,0 +1,174 @@
+{
+  "clerkAuth": {
+    "loginSuccess": {
+      "action": "Fortsätt Session",
+      "desc": "{{greeting}}, det är fantastiskt att fortsätta serva dig. Låt oss fortsätta där vi slutade.",
+      "title": "Välkommen tillbaka, {{nickName}}"
+    }
+  },
+  "error": {
+    "backHome": "Tillbaka till Hem",
+    "desc": "Försök igen senare, eller gå tillbaka till den kända världen.",
+    "retry": "Ladda om",
+    "title": "Hoppsan, något gick fel.."
+  },
+  "fetchError": {
+    "detail": "Feldetaljer",
+    "title": "Begäran misslyckades"
+  },
+  "import": {
+    "importConfigFile": {
+      "description": "Felorsak: {{reason}}",
+      "title": "Import Misslyckades"
+    },
+    "incompatible": {
+      "description": "Denna fil exporterades från en högre version. Vänligen försök uppgradera till den senaste versionen och importera igen.",
+      "title": "Aktuell applikation stöder inte import av denna fil"
+    }
+  },
+  "loginRequired": {
+    "desc": "Du kommer omdirigeras till inloggningssidan snart",
+    "title": "Vänligen logga in för att använda denna funktion"
+  },
+  "notFound": {
+    "backHome": "Tillbaka till Hem",
+    "check": "Vänligen kontrollera om din URL är korrekt.",
+    "desc": "Vi kunde inte hitta sidan du letade efter.",
+    "title": "Angett Okänt Territorium?"
+  },
+  "pluginSettings": {
+    "desc": "Slutför följande konfiguration för att börja använda denna plugin",
+    "title": "{{name}} Plugin-inställningar"
+  },
+  "response": {
+    "400": "Tyvärr förstår inte servern din begäran. Vänligen säkerställ att dina begäransparametrar är korrekta.",
+    "401": "Tyvärr har servern avvisat din begäran, möjligen på grund av otillräckliga behörigheter eller ogiltig autentisering.",
+    "403": "Tyvärr har servern avvisat din begäran. Du har inte behörighet att komma åt detta innehåll.",
+    "404": "Tyvärr kan servern inte hitta sidan eller resursen du begärde. Vänligen säkerställ att din URL är korrekt.",
+    "405": "Tyvärr stöder servern inte begäransmetoden du använder. Vänligen säkerställ att din begäransmetod är korrekt.",
+    "406": "Tyvärr kan servern inte slutföra begäran baserat på egenskaperna hos innehållet du begärde",
+    "407": "Tyvärr måste du autentisera proxyn innan du fortsätter med denna begäran",
+    "408": "Tyvärr tog servern för lång tid att vänta på begäran, vänligen kontrollera din nätverksanslutning och försök igen",
+    "409": "Tyvärr kan begäran inte behandlas på grund av en konflikt, möjligen eftersom resursstatusen är inkompatibel med begäran",
+    "410": "Tyvärr har resursen du begärde tagits bort permanent och kan inte hittas",
+    "411": "Tyvärr kan servern inte behandla begäran utan en giltig innehållslängd",
+    "412": "Tyvärr uppfyller din begäran inte serverns villkor och kan inte slutföras",
+    "413": "Tyvärr är din begärans data för stora för servern att behandla",
+    "414": "Tyvärr är URI:n för din begäran för lång för servern att behandla",
+    "415": "Tyvärr kan servern inte behandla mediaformatet som bifogas begäran",
+    "416": "Tyvärr kan servern inte tillgodose intervallet för din begäran",
+    "417": "Tyvärr kan servern inte möta dina förväntningar",
+    "422": "Tyvärr är din begäran i rätt format, men på grund av semantiska fel kan den inte besvaras",
+    "423": "Tyvärr är resursen du begärde låst",
+    "424": "Tyvärr kan den aktuella begäran inte slutföras på grund av ett tidigare begäransfel",
+    "426": "Tyvärr kräver servern att din klient uppgraderar till en högre protokollversion",
+    "428": "Tyvärr kräver servern en förutsättning, och begär att din begäran innehåller rätt villkorshuvud",
+    "429": "Tyvärr är din begäran för frekvent och servern är lite trött. Vänligen försök igen senare.",
+    "431": "Tyvärr är huvudfälten i din begäran för stora för servern att behandla",
+    "451": "Tyvärr vägrar servern att tillhandahålla denna resurs av juridiska skäl",
+    "499": "Vi ber om ursäkt, din begäran avbröts oväntat medan den behandlades av servern, möjligen på grund av din annullering av operationen eller en instabil nätverksanslutning. Vänligen kontrollera din nätverksstatus och försök igen.",
+    "500": "Tyvärr verkar servern uppleva vissa svårigheter och kan tillfälligt inte slutföra din begäran. Vänligen försök igen senare.",
+    "501": "Tyvärr vet servern inte hur den ska hantera denna begäran ännu. Vänligen bekräfta att din operation är korrekt.",
+    "502": "Tyvärr verkar servern vara vilse och kan tillfälligt inte tillhandahålla tjänst. Vänligen försök igen senare.",
+    "503": "Tyvärr kan servern för närvarande inte behandla din begäran, möjligen på grund av överbelastning eller underhåll. Vänligen försök igen senare.",
+    "504": "Tyvärr fick servern inget svar från uppströmsservern. Vänligen försök igen senare.",
+    "505": "Tyvärr stöder servern inte den HTTP-version du använder. Vänligen uppdatera och försök igen.",
+    "506": "Tyvärr finns det ett konfigurationsproblem med servern. Vänligen kontakta administratören för lösning.",
+    "507": "Tyvärr har servern otillräckligt lagringsutrymme för att behandla din begäran. Vänligen försök igen senare.",
+    "509": "Tyvärr har serverns bandbredd uttömts. Vänligen försök igen senare.",
+    "510": "Tyvärr stöder servern inte den begärda förlängningen. Vänligen kontakta administratören.",
+    "520": "Vi ber om ursäkt, servern stötte på ett oväntat problem som förhindrade den från att slutföra din begäran. Vänligen försök igen senare; vi arbetar på att lösa detta problem.",
+    "522": "Vi ber om ursäkt, serveranslutningen tog för lång tid och kunde inte svara på din begäran i tid. Detta kan bero på ett instabilt nätverk eller att servern är tillfälligt otillgänglig. Vänligen försök igen senare; vi arbetar på att återställa tjänsten.",
+    "524": "Vi ber om ursäkt, servern tog för lång tid att vänta på ett svar, möjligen på grund av ett långsamt svar. Vänligen försök igen senare.",
+    "AgentRuntimeError": "Lobe språkmodell runtime-utförandefel. Vänligen felsök eller försök igen baserat på följande information.",
+    "ConnectionCheckFailed": "Begäran returnerade tomt. Vänligen kontrollera om API-proxyadressen inte slutar med `/v1`.",
+    "CreateMessageError": "Tyvärr kunde meddelandet inte skickas framgångsrikt. Vänligen kopiera innehållet och försök skicka det igen. Detta meddelande kommer inte att behållas efter siduppdatering.",
+    "ExceededContextWindow": "Det aktuella begäransinnehållet överstiger längden som modellen kan hantera. Vänligen minska mängden innehåll och försök igen.",
+    "FreePlanLimit": "Du är för närvarande en gratisanvändare och kan inte använda denna funktion. Vänligen uppgradera till en betald plan för att fortsätta använda den.",
+    "GoogleAIBlockReason": {
+      "BLOCKLIST": "Ditt innehåll innehåller förbjudna termer. Vänligen granska och modifiera din inmatning, försök sedan igen.",
+      "IMAGE_SAFETY": "Den genererade bilden blockerades av säkerhetsskäl. Vänligen försök att modifiera din bildbegäran.",
+      "LANGUAGE": "Språket du använder stöds inte. Vänligen försök igen på engelska eller ett annat stödt språk.",
+      "OTHER": "Innehållet blockerades av en okänd anledning. Vänligen försök omformulera din begäran.",
+      "PROHIBITED_CONTENT": "Din begäran kan innehålla förbjudet innehåll. Vänligen justera din begäran för att följa användningsriktlinjerna.",
+      "RECITATION": "Ditt innehåll blockerades på grund av potentiella upphovsrättsproblem. Vänligen försök använda originellt innehåll eller omformulera din begäran.",
+      "SAFETY": "Ditt innehåll blockerades av säkerhetspolicyskäl. Vänligen justera din begäran för att undvika potentiellt skadligt eller olämpligt innehåll.",
+      "SPII": "Ditt innehåll kan innehålla känslig personligt identifierbar information (PII). För att skydda integriteten, vänligen ta bort alla känsliga detaljer och försök igen.",
+      "default": "Innehåll blockerat: {{blockReason}}. Vänligen justera din begäran och försök igen."
+    },
+    "InsufficientQuota": "Tyvärr har kvoten för denna nyckel nåtts. Vänligen kontrollera ditt kontosaldo eller öka nyckelkvoten och försök igen.",
+    "InvalidAccessCode": "Ogiltig åtkomstkod eller tom. Vänligen ange rätt åtkomstkod eller lägg till en anpassad API-nyckel.",
+    "InvalidBedrockCredentials": "Bedrock-autentisering misslyckades. Vänligen kontrollera AccessKeyId/SecretAccessKey och försök igen.",
+    "InvalidClerkUser": "Tyvärr är du för närvarande inte inloggad. Vänligen logga in eller registrera ett konto för att fortsätta.",
+    "InvalidGithubToken": "GitHub Personal Access Token är felaktig eller tom. Vänligen kontrollera din GitHub Personal Access Token och försök igen.",
+    "InvalidOllamaArgs": "Ogiltig Ollama-konfiguration, vänligen kontrollera Ollama-konfigurationen och försök igen",
+    "InvalidProviderAPIKey": "{{provider}} API-nyckel är felaktig eller tom, vänligen kontrollera din {{provider}} API-nyckel och försök igen",
+    "InvalidVertexCredentials": "Vertex-autentisering misslyckades. Vänligen kontrollera dina autentiseringsuppgifter och försök igen.",
+    "LocationNotSupportError": "Vi ber om ursäkt, din aktuella plats stöder inte denna modelltjänst. Detta kan bero på regionala begränsningar eller att tjänsten inte är tillgänglig. Vänligen bekräfta om den aktuella platsen stöder användning av denna tjänst, eller försök använda en annan plats.",
+    "ModelNotFound": "Tyvärr kunde den begärda modellen inte hittas. Den kanske inte finns eller så har du inte nödvändiga åtkomstbehörigheter. Vänligen försök igen efter att ha ändrat API-nyckeln eller justerat dina åtkomstbehörigheter.",
+    "NoOpenAIAPIKey": "OpenAI API-nyckel är tom, vänligen lägg till en anpassad OpenAI API-nyckel",
+    "OllamaBizError": "Fel vid begäran av Ollama-tjänst, vänligen felsök eller försök igen baserat på följande information",
+    "OllamaServiceUnavailable": "Ollama-tjänsten är otillgänglig. Vänligen kontrollera om Ollama körs korrekt eller om korsursprungskonfigurationen för Ollama är korrekt inställd.",
+    "PermissionDenied": "Tyvärr har du inte behörighet att komma åt denna tjänst. Vänligen kontrollera om din nyckel har nödvändiga åtkomsträttigheter.",
+    "PluginApiNotFound": "Tyvärr finns inte API:et i pluginens manifest. Vänligen kontrollera om din begäransmetod matchar plugin-manifest API:et",
+    "PluginApiParamsError": "Tyvärr misslyckades valideringen av inmatningsparametern för pluginbegäran. Vänligen kontrollera om inmatningsparametrarna matchar API-beskrivningen",
+    "PluginFailToTransformArguments": "Tyvärr misslyckades plugin att analysera argumenten. Vänligen försök regenerera assistentmeddelandet eller växla till en mer kraftfull AI-modell med Tools Calling-förmåga och försök igen",
+    "PluginGatewayError": "Tyvärr uppstod ett fel med plugin-gatewayen. Vänligen kontrollera om plugin-gatewaykonfigurationen är korrekt.",
+    "PluginManifestInvalid": "Tyvärr misslyckades valideringen av pluginens manifest. Vänligen kontrollera om manifestformatet är korrekt",
+    "PluginManifestNotFound": "Tyvärr kunde servern inte hitta pluginens manifestfil (manifest.json). Vänligen kontrollera om plugin-manifestfilens adress är korrekt",
+    "PluginMarketIndexInvalid": "Tyvärr misslyckades valideringen av pluginindexet. Vänligen kontrollera om indexfilformatet är korrekt",
+    "PluginMarketIndexNotFound": "Tyvärr kunde servern inte hitta pluginindexet. Vänligen kontrollera om indexadressen är korrekt",
+    "PluginMetaInvalid": "Tyvärr misslyckades valideringen av pluginens metadata. Vänligen kontrollera om plugin-metadataformatet är korrekt",
+    "PluginMetaNotFound": "Tyvärr hittades inte pluginen i indexet. Vänligen kontrollera pluginens konfigurationsinformation i indexet",
+    "PluginOpenApiInitError": "Tyvärr misslyckades OpenAPI-klienten att initialiseras. Vänligen kontrollera om OpenAPI-konfigurationsinformationen är korrekt.",
+    "PluginServerError": "Pluginserverbegäran returnerade ett fel. Vänligen kontrollera din plugin-manifestfil, pluginkonfiguration eller serverimplementering baserat på felinformationen nedan",
+    "PluginSettingsInvalid": "Denna plugin måste konfigureras korrekt innan den kan användas. Vänligen kontrollera om din konfiguration är korrekt",
+    "ProviderBizError": "Fel vid begäran av {{provider}}-tjänst, vänligen felsök eller försök igen baserat på följande information",
+    "QuotaLimitReached": "Vi ber om ursäkt, men den aktuella tokenanvändningen eller antalet begäranden har nått kvotgränsen för denna nyckel. Vänligen öka kvoten för denna nyckel eller försök igen senare.",
+    "StreamChunkError": "Fel vid analys av meddelandebiten för strömningsbegäran. Vänligen kontrollera om det aktuella API-gränssnittet överensstämmer med standardspecifikationerna, eller kontakta din API-leverantör för hjälp.",
+    "SubscriptionKeyMismatch": "Vi ber om ursäkt för besväret. På grund av ett tillfälligt systemfel är din aktuella prenumerationsanvändning inaktiv. Vänligen klicka på knappen nedan för att återställa din prenumeration, eller kontakta oss via e-post för support.",
+    "SubscriptionPlanLimit": "Dina prenumerationspoäng har uttömts och du kan inte använda denna funktion. Vänligen uppgradera till en högre plan eller konfigurera en anpassad modell-API för att fortsätta använda den.",
+    "SystemTimeNotMatchError": "Tyvärr matchar inte din systemtid servern. Vänligen kontrollera din systemtid och försök igen.",
+    "UnknownChatFetchError": "Tyvärr uppstod ett okänt begäransfel. Vänligen kontrollera informationen nedan eller försök igen."
+  },
+  "stt": {
+    "responseError": "Tjänstebegäran misslyckades, vänligen kontrollera konfigurationen eller försök igen"
+  },
+  "testConnectionFailed": "Testanslutning misslyckades: {{error}}",
+  "tts": {
+    "responseError": "Tjänstebegäran misslyckades, vänligen kontrollera konfigurationen eller försök igen"
+  },
+  "unlock": {
+    "addProxyUrl": "Lägg till OpenAI proxy-URL (valfritt)",
+    "apiKey": {
+      "description": "Ange din {{name}} API-nyckel för att starta sessionen",
+      "imageGenerationDescription": "Ange din {{name}} API-nyckel för att börja generera",
+      "title": "Använd anpassad {{name}} API-nyckel"
+    },
+    "closeMessage": "Stäng meddelande",
+    "confirm": "Bekräfta och Försök Igen",
+    "oauth": {
+      "description": "Administratören har aktiverat enhetlig inloggningsautentisering. Klicka på knappen nedan för att logga in och låsa upp applikationen.",
+      "success": "Inloggning lyckades",
+      "title": "Logga in på ditt konto",
+      "welcome": "Välkommen!"
+    },
+    "password": {
+      "description": "Applikationskryptering har aktiverats av administratören. Ange applikationslösenordet för att låsa upp applikationen. Lösenordet behöver endast fyllas i en gång.",
+      "placeholder": "Vänligen ange lösenord",
+      "title": "Ange Lösenord för att Låsa upp Applikation"
+    },
+    "tabs": {
+      "apiKey": "Anpassad API-nyckel",
+      "password": "Lösenord"
+    }
+  },
+  "upload": {
+    "desc": "Detaljer: {{detail}}",
+    "fileOnlySupportInServerMode": "Det aktuella distributionsläget stöder inte uppladdning av icke-bildfiler. För att ladda upp filer i {{ext}}-format, vänligen växla till serverdatabasdistribution eller använd {{cloud}}-tjänsten.",
+    "networkError": "Vänligen kontrollera din nätverksanslutning och säkerställ att fillagringstjänstens korsursprungskonfiguration är korrekt.",
+    "title": "Filuppladdning misslyckades. Vänligen kontrollera din nätverksanslutning eller försök igen senare",
+    "unknownError": "Felorsak: {{reason}}",
+    "uploadFailed": "Filuppladdning misslyckades."
+  }
+}

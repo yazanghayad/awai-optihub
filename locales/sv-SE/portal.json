@@ -1,0 +1,30 @@
+{
+  "Artifacts": "Artefakter",
+  "FilePreview": {
+    "tabs": {
+      "chunk": "Chunk",
+      "file": "Fil"
+    }
+  },
+  "Plugins": "Plugins",
+  "artifacts": {
+    "display": {
+      "code": "Kod",
+      "preview": "Förhandsvisa"
+    },
+    "svg": {
+      "copyAsImage": "Kopiera som Bild",
+      "copyFail": "Kopiering misslyckades, orsak: {{error}}",
+      "copySuccess": "Bild kopierad framgångsrikt",
+      "download": {
+        "png": "Ladda ner som PNG",
+        "svg": "Ladda ner som SVG"
+      }
+    }
+  },
+  "emptyArtifactList": "Den aktuella Artefakt-listan är tom. Vänligen använd plugins i sessionen vid behov innan visning.",
+  "emptyKnowledgeList": "Den aktuella kunskapslistan är tom. Vänligen aktivera kunskapsbasen vid behov under konversationen innan visning.",
+  "files": "Filer",
+  "messageDetail": "Meddelandedetaljer",
+  "title": "Portalvy"
+}

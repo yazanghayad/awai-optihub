@@ -1,0 +1,110 @@
+{
+  "config": {
+    "aspectRatio": {
+      "label": "Bildförhållande",
+      "lock": "Lås Bildförhållande",
+      "unlock": "Lås upp Bildförhållande"
+    },
+    "cfg": {
+      "label": "Vägledningsintensitet"
+    },
+    "header": {
+      "desc": "Kort beskrivning, skapa omedelbart",
+      "title": "Målning"
+    },
+    "height": {
+      "label": "Höjd"
+    },
+    "imageNum": {
+      "label": "Antal Bilder"
+    },
+    "imageUrl": {
+      "label": "Referensbild"
+    },
+    "imageUrls": {
+      "label": "Referensbilder"
+    },
+    "model": {
+      "label": "Modell"
+    },
+    "prompt": {
+      "placeholder": "Beskriv vad du vill generera"
+    },
+    "quality": {
+      "label": "Bildkvalitet",
+      "options": {
+        "hd": "Högupplöst",
+        "standard": "Standard"
+      }
+    },
+    "seed": {
+      "label": "Seed",
+      "random": "Slumpmässig Seed"
+    },
+    "size": {
+      "label": "Storlek"
+    },
+    "steps": {
+      "label": "Steg"
+    },
+    "title": "AI-bild",
+    "width": {
+      "label": "Bredd"
+    }
+  },
+  "generation": {
+    "actions": {
+      "applySeed": "Använd Seed",
+      "copyError": "Kopiera Felmeddelande",
+      "copyPrompt": "Kopiera Prompt",
+      "copySeed": "Kopiera Seed",
+      "delete": "Radera",
+      "deleteBatch": "Radera Batch",
+      "download": "Ladda ner",
+      "downloadFailed": "Misslyckades att ladda ner bild. Vänligen kontrollera din nätverksanslutning eller S3-lagrings CORS-konfiguration.",
+      "errorCopied": "Felmeddelande Kopierat till Urklipp",
+      "errorCopyFailed": "Misslyckades att Kopiera Felmeddelande",
+      "generate": "Generera",
+      "promptCopied": "Prompt Kopierad till Urklipp",
+      "promptCopyFailed": "Misslyckades att Kopiera Prompt",
+      "reuseSettings": "Återanvänd Inställningar",
+      "seedApplied": "Seed Tillämpat på Konfiguration",
+      "seedApplyFailed": "Misslyckades att Tillämpa Seed",
+      "seedCopied": "Seed Kopierat till Urklipp",
+      "seedCopyFailed": "Misslyckades att Kopiera Seed"
+    },
+    "metadata": {
+      "count": "{{count}} Bilder"
+    },
+    "status": {
+      "failed": "Generering Misslyckades",
+      "generating": "Genererar..."
+    }
+  },
+  "notSupportGuide": {
+    "desc": "Den aktuella distributionsinstansen använder klientdatabasläge och stöder inte AI-bildgenerering. Vänligen växla till <1>serverdatabasedistributionsläge</1>, eller använd <3>LobeChat Cloud</3> direkt.",
+    "features": {
+      "fileIntegration": {
+        "desc": "Djup integration med filhanteringssystemet; genererade bilder sparas automatiskt till filsystemet för enhetlig hantering och organisation.",
+        "title": "Filsystemintegration"
+      },
+      "llmAssisted": {
+        "desc": "Kombinerar stora språkmodellers förmågor för att intelligent optimera och expandera prompter, förbättra bildgenereringskvalitet (Kommer Snart).",
+        "title": "LLM-assisterad Bildgenerering"
+      },
+      "multiProviders": {
+        "desc": "Stöder flera AI-bildgenereringsleverantörer, inklusive OpenAI gpt-image-1, Google Imagen, FAL.ai, och mer, erbjuder ett brett urval av modeller.",
+        "title": "Multi-leverantörstöd"
+      }
+    },
+    "title": "Aktuellt Distributionsläge Stöder Inte AI-bildgenerering"
+  },
+  "topic": {
+    "createNew": "Nytt Ämne",
+    "deleteConfirm": "Radera Genereringsämne",
+    "deleteConfirmDesc": "Du är på väg att radera detta genereringsämne. Denna åtgärd kan inte ångras, vänligen fortsätt med försiktighet.",
+    "empty": "Inga genereringsämnen",
+    "title": "Målningstema",
+    "untitled": "Standardämne"
+  }
+}

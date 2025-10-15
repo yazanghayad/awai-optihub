@@ -1,0 +1,89 @@
+{
+  "codeInterpreter": {
+    "error": "Utförandefel",
+    "executing": "Utför...",
+    "files": "Filer:",
+    "output": "Utmatning:",
+    "returnValue": "Returvärde:"
+  },
+  "dalle": {
+    "autoGenerate": "Autogenerera",
+    "downloading": "Bildlänkarna som genereras av DALL·E3 är endast giltiga i 1 timme, cachar bilderna lokalt...",
+    "generate": "Generera",
+    "generating": "Genererar...",
+    "images": "Bilder:",
+    "prompt": "Prompt"
+  },
+  "localFiles": {
+    "file": "Fil",
+    "folder": "Mapp",
+    "open": "Öppna",
+    "openFile": "Öppna Fil",
+    "openFolder": "Öppna Mapp",
+    "read": {
+      "more": "Visa Mer"
+    },
+    "readFile": "Läs Fil",
+    "readFileError": "Misslyckades med att läsa fil, vänligen kontrollera om filsökvägen är korrekt",
+    "readFiles": "Läs Filer",
+    "readFilesError": "Misslyckades med att läsa filer, vänligen kontrollera om filsökvägen är korrekt"
+  },
+  "search": {
+    "createNewSearch": "Skapa en ny sökpost",
+    "emptyResult": "Inga resultat hittades, vänligen modifiera dina nyckelord och försök igen",
+    "genAiMessage": "Skapa Assistentmeddelande",
+    "includedTooltip": "De aktuella sökresultaten kommer att inkluderas i konversationens kontext",
+    "keywords": "Nyckelord:",
+    "scoreTooltip": "Relevanspoäng; en högre poäng indikerar en närmare matchning med sökfrågeorden",
+    "searchBar": {
+      "button": "Sök",
+      "placeholder": "Nyckelord",
+      "tooltip": "Detta kommer att uppdatera sökresultaten och skapa ett nytt sammanfattningsmeddelande"
+    },
+    "searchCategory": {
+      "placeholder": "Sökkategori",
+      "title": "Sökkategori:",
+      "value": {
+        "files": "Filer",
+        "general": "Allmänt",
+        "images": "Bilder",
+        "it": "Informationsteknik",
+        "map": "Kartor",
+        "music": "Musik",
+        "news": "Nyheter",
+        "science": "Vetenskap",
+        "social_media": "Sociala Medier",
+        "videos": "Videor"
+      }
+    },
+    "searchEngine": {
+      "placeholder": "Sökmotor",
+      "title": "Sökmotor:"
+    },
+    "searchResult": "Antal sökningar:",
+    "searchTimeRange": {
+      "title": "Tidsintervall:",
+      "value": {
+        "anytime": "När som helst",
+        "day": "Inom en dag",
+        "month": "Inom en månad",
+        "week": "Inom en vecka",
+        "year": "Inom ett år"
+      }
+    },
+    "summary": "Sammanfattning",
+    "summaryTooltip": "Sammanfatta det aktuella innehållet",
+    "viewMoreResults": "Visa {{results}} fler resultat"
+  },
+  "updateArgs": {
+    "duplicateKeyError": "Fältnyckel måste vara unik",
+    "form": {
+      "add": "Lägg till en Post",
+      "key": "Fältnyckel",
+      "value": "Fältvärde"
+    },
+    "formValidationFailed": "Formulärvalidering misslyckades, vänligen kontrollera parameterformatet",
+    "keyRequired": "Fältnyckel kan inte vara tom",
+    "stringifyError": "Kunde inte serialisera parametrar, vänligen kontrollera parameterformatet"
+  }
+}

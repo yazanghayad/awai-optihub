@@ -87,8 +87,14 @@ const CollapsibleFloatPanel = memo<CollapsibleFloatPanelProps>(({ items }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ height: minHeight, width: minWidth });
+  const [isMounted, setIsMounted] = useState(false);
 
   const pathname = usePathname();
+  
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   useEffect(() => {
     try {
       const localStoragePosition = localStorage.getItem('debug-panel-position');
@@ -113,7 +119,7 @@ const CollapsibleFloatPanel = memo<CollapsibleFloatPanelProps>(({ items }) => {
     <>
       {
         // desktop devtools 下隐藏
-        pathname !== '/desktop/devtools' && (
+        isMounted && pathname !== '/desktop/devtools' && (
           <FloatButton
             className={styles.floatButton}
             icon={<Icon icon={isExpanded ? BugOff : BugIcon} />}

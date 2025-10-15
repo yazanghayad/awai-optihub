@@ -1,0 +1,187 @@
+{
+  "ArgsInput": {
+    "addArgument": "Lägg till Argument",
+    "argumentPlaceholder": "Argument {{index}}",
+    "enterFirstArgument": "Ange första argumentet..."
+  },
+  "DragUpload": {
+    "dragDesc": "Dra och släpp filer här för att ladda upp flera bilder.",
+    "dragFileDesc": "Dra och släpp bilder och filer här för att ladda upp flera bilder och filer.",
+    "dragFileTitle": "Ladda upp Filer",
+    "dragTitle": "Ladda upp Bilder"
+  },
+  "FileManager": {
+    "actions": {
+      "addToKnowledgeBase": "Lägg till i Kunskapsbas",
+      "addToOtherKnowledgeBase": "Lägg till i Annan Kunskapsbas",
+      "batchChunking": "Batch Chunking",
+      "chunking": "Chunking",
+      "chunkingTooltip": "Dela upp filen i flera textchunks och bädda in dem för semantisk sökning och fildialog.",
+      "chunkingUnsupported": "Denna fil stöder inte chunking.",
+      "confirmDelete": "Du är på väg att radera denna fil. När den raderats kan den inte återställas. Vänligen bekräfta din åtgärd.",
+      "confirmDeleteMultiFiles": "Du är på väg att radera de valda {{count}} filerna. När de raderats kan de inte återställas. Vänligen bekräfta din åtgärd.",
+      "confirmRemoveFromKnowledgeBase": "Du är på väg att ta bort de valda {{count}} filerna från kunskapsbasen. De kommer fortfarande att vara synliga i alla filer. Vänligen bekräfta din åtgärd.",
+      "copyUrl": "Kopiera Länk",
+      "copyUrlSuccess": "Fil-url kopierad framgångsrikt.",
+      "createChunkingTask": "Förbereder...",
+      "deleteSuccess": "Fil raderad framgångsrikt.",
+      "downloading": "Laddar ner fil...",
+      "removeFromKnowledgeBase": "Ta bort från Kunskapsbas",
+      "removeFromKnowledgeBaseSuccess": "Fil borttagen framgångsrikt."
+    },
+    "bottom": "Du har nått slutet.",
+    "config": {
+      "showFilesInKnowledgeBase": "Visa innehåll i Kunskapsbas"
+    },
+    "emptyStatus": {
+      "actions": {
+        "file": "Ladda upp Fil",
+        "folder": "Ladda upp Mapp",
+        "knowledgeBase": "Skapa Ny Kunskapsbas"
+      },
+      "or": "eller",
+      "title": "Dra filer eller mappar hit"
+    },
+    "title": {
+      "createdAt": "Skapad",
+      "size": "Storlek",
+      "title": "Fil"
+    },
+    "total": {
+      "fileCount": "Totalt {{count}} poster",
+      "selectedCount": "Valt {{count}} poster"
+    }
+  },
+  "FileParsingStatus": {
+    "chunks": {
+      "embeddingStatus": {
+        "empty": "Textchunks har inte bäddats in helt, vilket kommer att göra den semantiska sökfunktionen otillgänglig. För att förbättra sökkvaliteten, vänligen bädda in textchunks.",
+        "error": "Embedding misslyckades",
+        "errorResult": "Vektorisering misslyckades, vänligen kontrollera och försök igen. Feldetalj:",
+        "processing": "Textchunks bäddas in, vänligen ha tålamod.",
+        "success": "Alla aktuella textchunks har bäddats in"
+      },
+      "embeddings": "Embedding",
+      "status": {
+        "error": "Chunking misslyckades",
+        "errorResult": "Chunking misslyckades, vänligen kontrollera och försök igen. Feldetalj:",
+        "processing": "Chunking",
+        "processingTip": "Servern delar upp textchunks; att stänga sidan påverkar inte chunking-framstegen."
+      }
+    }
+  },
+  "GoBack": {
+    "back": "Tillbaka"
+  },
+  "HtmlPreview": {
+    "actions": {
+      "download": "Ladda ner",
+      "preview": "Förhandsvisa"
+    },
+    "iframeTitle": "HTML Förhandsvisning",
+    "mode": {
+      "code": "Kod",
+      "preview": "Förhandsvisa"
+    },
+    "title": "HTML Förhandsvisning"
+  },
+  "ImageUpload": {
+    "actions": {
+      "changeImage": "Klicka för att byta bild",
+      "dropMultipleFiles": "Uppladdning av flera filer samtidigt stöds inte; endast den första filen kommer att användas"
+    },
+    "placeholder": {
+      "primary": "Lägg till Bild",
+      "secondary": "Klicka eller dra för att ladda upp"
+    }
+  },
+  "KeyValueEditor": {
+    "addButton": "Lägg till en rad",
+    "deleteTooltip": "Radera",
+    "duplicateKeyError": "Nyckel måste vara unik",
+    "keyPlaceholder": "Nyckel",
+    "valuePlaceholder": "Värde"
+  },
+  "MaxTokenSlider": {
+    "unlimited": "Obegränsat"
+  },
+  "ModelSelect": {
+    "featureTag": {
+      "custom": "Anpassad modell, stöder som standard både funktionsanrop och visuell igenkänning. Vänligen verifiera tillgängligheten för ovanstående förmågor baserat på faktiska situationer.",
+      "file": "Denna modell stöder filuppladdning för läsning och igenkänning.",
+      "functionCall": "Denna modell stöder funktionsanrop.",
+      "imageOutput": "Denna modell stöder bildgenerering.",
+      "reasoning": "Denna modell stöder djuptänkande.",
+      "search": "Denna modell stöder onlinesökning.",
+      "tokens": "Denna modell stöder upp till {{tokens}} tokens i en enskild session.",
+      "video": "Denna modell stöder videoigenkänning",
+      "vision": "Denna modell stöder visuell igenkänning."
+    },
+    "removed": "Modellen finns inte i listan. Den kommer automatiskt att tas bort om den avmarkeras."
+  },
+  "ModelSwitchPanel": {
+    "emptyModel": "Ingen aktiverad modell. Vänligen gå till inställningar för att aktivera.",
+    "emptyProvider": "Inga aktiverade leverantörer. Vänligen gå till inställningar för att aktivera en.",
+    "goToSettings": "Gå till inställningar",
+    "provider": "Leverantör",
+    "title": "Modell"
+  },
+  "MultiImagesUpload": {
+    "actions": {
+      "uploadMore": "Klicka eller dra för att ladda upp fler"
+    },
+    "modal": {
+      "complete": "Klar",
+      "newFileIndicator": "Ny",
+      "selectImageToPreview": "Vänligen välj en bild att förhandsvisa",
+      "title": "Hantera Bilder ({{count}})",
+      "upload": "Ladda upp Bilder"
+    },
+    "placeholder": {
+      "primary": "Klicka eller dra för att ladda upp bilder",
+      "secondary": "Stöder val av flera bilder"
+    },
+    "progress": {
+      "uploadingWithCount": "{{completed}}/{{total}} uppladdade"
+    },
+    "validation": {
+      "fileSizeExceeded": "Filstorlek överstiger maximalt tillåtet",
+      "fileSizeExceededDetail": "{{fileName}} ({{actualSize}}) överstiger den maximalt tillåtna storleken på {{maxSize}}",
+      "fileSizeExceededMultiple": "{{count}} filer överstiger den maximalt tillåtna storleken på {{maxSize}}: {{fileList}}",
+      "imageCountExceeded": "Maximalt antal bilder överskridet"
+    }
+  },
+  "OllamaSetupGuide": {
+    "action": {
+      "close": "Stäng Prompt",
+      "start": "Installerad och körs, starta konversationen"
+    },
+    "cors": {
+      "description": "På grund av webbläsarens säkerhetsbegränsningar måste du konfigurera korsursprungsinställningar för Ollama för att fungera korrekt.",
+      "linux": {
+        "env": "Lägg till `Environment` under [Service]-sektionen och ställ in OLLAMA_ORIGINS miljövariabeln:",
+        "reboot": "Ladda om systemd och starta om Ollama",
+        "systemd": "Redigera ollama-tjänsten med systemd:"
+      },
+      "macos": "Vänligen öppna 'Terminal'-applikationen, klistra in följande kommando och tryck Enter för att köra det.",
+      "reboot": "Vänligen starta om Ollama-tjänsten efter att körningen är klar.",
+      "title": "Konfigurera Ollama för Korsursprungsåtkomst",
+      "windows": "På Windows, klicka på 'Kontrollpanelen' och gå till redigera systemmiljövariabler. Skapa en ny miljövariabel med namnet 'OLLAMA_ORIGINS' för ditt användarkonto, med värdet satt till *, och klicka 'OK/Tillämpa' för att spara."
+    },
+    "install": {
+      "description": "Vänligen säkerställ att du har startat Ollama. Om du inte har laddat ner Ollama, vänligen besök den officiella webbplatsen för att <1>ladda ner</1> den.",
+      "docker": "Om du föredrar att använda Docker, tillhandahåller Ollama också en officiell Docker-image, som du kan hämta med följande kommando:",
+      "linux": {
+        "command": "Installera med följande kommando:",
+        "manual": "Alternativt kan du hänvisa till <1>Linux Manuell Installationsguide</1> för en manuell installation."
+      },
+      "title": "Installera och Starta Ollama-applikationen Lokalt",
+      "windowsTab": "Windows (Förhandsvisning)"
+    }
+  },
+  "Thinking": {
+    "thinking": "Djuptänkande...",
+    "thought": "Djupt Tänkt (på {{duration}} sekunder)",
+    "thoughtWithDuration": "Djupt Tänkt"
+  }
+}

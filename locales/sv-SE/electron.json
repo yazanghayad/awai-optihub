@@ -1,0 +1,113 @@
+{
+  "notification": {
+    "finishChatGeneration": "AI-meddelandegenerering slutförd"
+  },
+  "proxy": {
+    "auth": "Autentisering Krävs",
+    "authDesc": "Om proxyservern kräver ett användarnamn och lösenord",
+    "authSettings": "Autentiseringsinställningar",
+    "basicSettings": "Proxyinställningar",
+    "basicSettingsDesc": "Konfigurera anslutningsparametrarna för proxyservern",
+    "bypass": "Adresser som inte använder proxy",
+    "connectionTest": "Anslutningstest",
+    "enable": "Aktivera Proxy",
+    "enableDesc": "När aktiverat kommer nätverksåtkomst att dirigeras genom proxyservern",
+    "password": "Lösenord",
+    "password_placeholder": "Vänligen ange ditt lösenord",
+    "port": "Port",
+    "resetButton": "Återställ",
+    "saveButton": "Spara",
+    "saveFailed": "Sparande misslyckades: {{error}}",
+    "saveSuccess": "Proxyinställningar sparade framgångsrikt",
+    "server": "Serveradress",
+    "testButton": "Testa Anslutning",
+    "testDescription": "Testa anslutningen med hjälp av den aktuella proxykonfigurationen för att verifiera om den fungerar korrekt",
+    "testFailed": "Anslutning misslyckades",
+    "testSuccessWithTime": "Anslutningstest lyckades, tog {{time}} ms",
+    "testUrl": "Test-URL",
+    "testUrlPlaceholder": "Vänligen ange URL:en att testa",
+    "testing": "Testar Anslutning...",
+    "type": "Proxytyp",
+    "unsavedChanges": "Du har osparade ändringar",
+    "username": "Användarnamn",
+    "username_placeholder": "Vänligen ange ditt användarnamn",
+    "validation": {
+      "passwordRequired": "Lösenord krävs när autentisering är aktiverad",
+      "portInvalid": "Port måste vara ett tal mellan 1 och 65535",
+      "portRequired": "Port krävs när proxy är aktiverad",
+      "serverInvalid": "Vänligen ange en giltig serveradress (IP eller domännamn)",
+      "serverRequired": "Serveradress krävs när proxy är aktiverad",
+      "typeRequired": "Proxytyp krävs när proxy är aktiverad",
+      "usernameRequired": "Användarnamn krävs när autentisering är aktiverad"
+    }
+  },
+  "remoteServer": {
+    "authError": "Auktorisering misslyckades: {{error}}",
+    "authPending": "Vänligen slutför auktoriseringen i din webbläsare",
+    "configDesc": "Anslut till den fjärranslutna LobeChat-servern för att aktivera datasynkronisering",
+    "configError": "Konfigurationsfel",
+    "configTitle": "Konfigurera Molnsynkronisering",
+    "connect": "Anslut och auktorisera",
+    "connected": "Ansluten",
+    "disconnect": "Koppla från",
+    "disconnectError": "Misslyckades att koppla från",
+    "disconnected": "Inte ansluten",
+    "fetchError": "Misslyckades att hämta konfiguration",
+    "invalidUrl": "Vänligen ange en giltig URL",
+    "serverUrl": "Serveradress",
+    "statusConnected": "Ansluten",
+    "statusDisconnected": "Inte ansluten",
+    "urlRequired": "Vänligen ange serveradressen"
+  },
+  "sync": {
+    "continue": "Fortsätt",
+    "inCloud": "Använder för närvarande molnsynkronisering",
+    "inLocalStorage": "Använder för närvarande lokal lagring",
+    "isIniting": "Initierar...",
+    "lobehubCloud": {
+      "description": "Officiellt tillhandahållen molnversion",
+      "title": "LobeHub Cloud"
+    },
+    "local": {
+      "description": "Använder en lokal databas, helt tillgänglig offline",
+      "title": "Lokal Databas"
+    },
+    "mode": {
+      "cloudSync": "Molnsynkronisering",
+      "localStorage": "Lokal Lagring",
+      "title": "Välj ditt anslutningsläge",
+      "useSelfHosted": "Använd en självhosterad instans?"
+    },
+    "selfHosted": {
+      "description": "Community-version som du kan distribuera själv",
+      "title": "Självhosterad Instans"
+    }
+  },
+  "updater": {
+    "checkingUpdate": "Söker efter uppdateringar",
+    "checkingUpdateDesc": "Hämtar versionsinformation...",
+    "downloadNewVersion": "Ladda ner ny version",
+    "downloadingUpdate": "Laddar ner uppdatering",
+    "downloadingUpdateDesc": "Uppdateringen laddas ner, vänligen vänta...",
+    "installLater": "Uppdatera vid nästa start",
+    "isLatestVersion": "Du använder den senaste versionen",
+    "isLatestVersionDesc": "Bra! Versionen {{version}} du använder är den senaste tillgängliga.",
+    "later": "Uppdatera senare",
+    "newVersionAvailable": "Ny version tillgänglig",
+    "newVersionAvailableDesc": "En ny version {{version}} har hittats, vill du ladda ner den nu?",
+    "restartAndInstall": "Installera uppdateringar och starta om",
+    "updateError": "Uppdateringsfel",
+    "updateReady": "Uppdatering klar",
+    "updateReadyDesc": "Den nya versionen {{version}} har laddats ner. Starta om applikationen för att slutföra installationen.",
+    "upgradeNow": "Uppdatera nu"
+  },
+  "waitingOAuth": {
+    "cancel": "Avbryt",
+    "description": "Webbläsaren har öppnat auktoriseringssidan, vänligen slutför auktoriseringen i webbläsaren",
+    "error": "Auktorisering misslyckades: {{error}}",
+    "errorTitle": "Auktoriseringsanslutning Misslyckades",
+    "helpText": "Om webbläsaren inte öppnades automatiskt, vänligen klicka på avbryt och försök igen",
+    "retry": "Försök igen",
+    "title": "Väntar på Auktoriseringsanslutning"
+  }
+}

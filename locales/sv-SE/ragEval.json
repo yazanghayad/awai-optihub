@@ -1,0 +1,91 @@
+{
+  "addDataset": {
+    "confirm": "Skapa",
+    "description": {
+      "placeholder": "Dataset-beskrivning (valfritt)"
+    },
+    "name": {
+      "placeholder": "Dataset-namn",
+      "required": "Vänligen ange dataset-namnet"
+    },
+    "title": "Lägg till Dataset"
+  },
+  "dataset": {
+    "addNewButton": "Skapa Dataset",
+    "emptyGuide": "Det finns för närvarande inga dataset. Vänligen skapa ett dataset.",
+    "list": {
+      "table": {
+        "actions": {
+          "importData": "Importera Data"
+        },
+        "columns": {
+          "actions": "Åtgärder",
+          "ideal": {
+            "title": "Förväntat Svar"
+          },
+          "question": {
+            "title": "Fråga"
+          },
+          "referenceFiles": {
+            "title": "Referensfiler"
+          }
+        },
+        "notSelected": "Vänligen välj ett dataset till vänster",
+        "title": "Dataset-detaljer"
+      },
+      "title": "Dataset"
+    }
+  },
+  "evaluation": {
+    "addEvaluation": {
+      "confirm": "Skapa",
+      "datasetId": {
+        "placeholder": "Vänligen välj ditt utvärderingsdataset",
+        "required": "Vänligen välj ett utvärderingsdataset"
+      },
+      "description": {
+        "placeholder": "Utvärderingsuppgiftsbeskrivning (valfritt)"
+      },
+      "name": {
+        "placeholder": "Utvärderingsuppgiftsnamn",
+        "required": "Vänligen ange utvärderingsuppgiftens namn"
+      },
+      "title": "Lägg till Utvärderingsuppgift"
+    },
+    "addNewButton": "Skapa Utvärdering",
+    "emptyGuide": "Det finns för närvarande inga utvärderingsuppgifter. Börja skapa en utvärdering.",
+    "table": {
+      "columns": {
+        "actions": {
+          "checkStatus": "Kontrollera Status",
+          "confirmDelete": "Är du säker på att du vill radera denna utvärdering?",
+          "confirmRun": "Är du säker på att du vill börja köra? Utvärderingsuppgiften kommer att utföras asynkront i bakgrunden, och att stänga sidan påverkar inte utförandet av den asynkrona uppgiften.",
+          "downloadRecords": "Ladda ner Utvärdering",
+          "retry": "Försök igen",
+          "run": "Kör",
+          "title": "Åtgärder"
+        },
+        "datasetId": {
+          "title": "Dataset"
+        },
+        "name": {
+          "title": "Utvärderingsuppgiftsnamn"
+        },
+        "records": {
+          "title": "Antal Utvärderingsposter"
+        },
+        "referenceFiles": {
+          "title": "Referensfiler"
+        },
+        "status": {
+          "error": "Utförandefel",
+          "pending": "Väntande",
+          "processing": "Pågår",
+          "success": "Utförande Lyckat",
+          "title": "Status"
+        }
+      },
+      "title": "Utvärderingsuppgiftslista"
+    }
+  }
+}

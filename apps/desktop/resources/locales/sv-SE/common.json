@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "add": "Lägg till",
+    "back": "Tillbaka",
+    "cancel": "Avbryt",
+    "close": "Stäng",
+    "confirm": "Bekräfta",
+    "delete": "Radera",
+    "edit": "Redigera",
+    "more": "Mer",
+    "next": "Nästa",
+    "ok": "OK",
+    "previous": "Föregående",
+    "refresh": "Uppdatera",
+    "remove": "Ta bort",
+    "retry": "Försök igen",
+    "save": "Spara",
+    "search": "Sök",
+    "submit": "Skicka"
+  },
+  "app": {
+    "description": "Din AI-assistentsamarbetsplattform",
+    "name": "LobeHub"
+  },
+  "status": {
+    "error": "Fel",
+    "info": "Information",
+    "loading": "Laddar",
+    "success": "Lyckades",
+    "warning": "Varning"
+  }
+}

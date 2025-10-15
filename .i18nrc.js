@@ -22,6 +22,7 @@ module.exports = defineConfig({
     'pl-PL',
     'vi-VN',
     'fa-IR',
+    'sv-SE',
   ],
   temperature: 0,
   saveImmediately: true,

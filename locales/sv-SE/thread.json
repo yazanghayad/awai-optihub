@@ -1,0 +1,10 @@
+{
+  "actions": {
+    "confirmRemoveThread": "Du är på väg att radera detta underämne. När det raderats kan det inte återställas. Vänligen fortsätt med försiktighet."
+  },
+  "newPortalThread": {
+    "includeContext": "Inkludera ämneskontext",
+    "title": "Starta ett nytt underämne"
+  },
+  "notSupportMultiModals": "Underämnen stöder för närvarande inte fil/bilduppladdningar. Om du har några önskemål, lämna gärna ett meddelande: <1>💬 Diskussionsområde</1>"
+}

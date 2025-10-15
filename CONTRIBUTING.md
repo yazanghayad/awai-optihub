@@ -1,8 +1,8 @@
-# Singtue - Contributing Guide 🌟
+# AWAI - Contributing Guide 🌟
 
-We're thrilled that you want to contribute to Singtue, the future of communication! 😄
+We're thrilled that you want to contribute to AWAI, the future of communication! 😄
 
-Singtue is an open-source project, and we welcome your collaboration. Before you jump in, let's make sure you're all set to contribute effectively and have loads of fun along the way!
+AWAI is an open-source project, and we welcome your collaboration. Before you jump in, let's make sure you're all set to contribute effectively and have loads of fun along the way!
 
 ## Table of Contents
 
@@ -20,12 +20,12 @@ Singtue is an open-source project, and we welcome your collaboration. Before you
 
 🍴 Fork this repository to your GitHub account by clicking the "Fork" button at the top right. This creates a personal copy of the project you can work on.
 
-## Clone Your Fork
+## 🎯 How to Contribute
 
-📦 Clone your forked repository to your local machine using the `git clone` command:
+### Clone the repo
 
 ```bash
-git clone https://github.com/YourUsername/lobe-chat.git
+git clone https://github.com/YourUsername/awai-optihub.git
 ```
 
 ## Create a New Branch
@@ -64,7 +64,7 @@ Please keep your commits focused and clear. And remember to be kind to your fell
 ⚙️ Periodically, sync your forked repository with the original (upstream) repository to stay up-to-date with the latest changes.
 
 ```bash
-git remote add upstream https://github.com/lobehub/lobe-chat.git
+git remote add upstream https://github.com/optitechdev/awai-optihub.git
 git fetch upstream
 git merge upstream/main
 ```

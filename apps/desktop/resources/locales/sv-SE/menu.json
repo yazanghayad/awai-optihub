@@ -1,0 +1,71 @@
+{
+  "common": {
+    "checkUpdates": "Söker efter uppdateringar..."
+  },
+  "dev": {
+    "devPanel": "Utvecklarpanel",
+    "devTools": "Utvecklarverktyg",
+    "forceReload": "Tvinga Omladdning",
+    "openStore": "Öppna Lagringsfil",
+    "refreshMenu": "Uppdatera meny",
+    "reload": "Ladda om",
+    "title": "Utveckling"
+  },
+  "edit": {
+    "copy": "Kopiera",
+    "cut": "Klipp ut",
+    "delete": "Radera",
+    "paste": "Klistra in",
+    "redo": "Gör om",
+    "selectAll": "Markera Allt",
+    "speech": "Tal",
+    "startSpeaking": "Börja Tala",
+    "stopSpeaking": "Sluta Tala",
+    "title": "Redigera",
+    "undo": "Ångra"
+  },
+  "file": {
+    "preferences": "Inställningar",
+    "quit": "Avsluta",
+    "title": "Arkiv"
+  },
+  "help": {
+    "about": "Om",
+    "githubRepo": "GitHub-repository",
+    "reportIssue": "Rapportera Problem",
+    "title": "Hjälp",
+    "visitWebsite": "Besök Webbplats"
+  },
+  "macOS": {
+    "about": "Om {{appName}}",
+    "devTools": "LobeHub Utvecklarverktyg",
+    "hide": "Dölj {{appName}}",
+    "hideOthers": "Dölj Andra",
+    "preferences": "Inställningar...",
+    "services": "Tjänster",
+    "unhide": "Visa Alla"
+  },
+  "tray": {
+    "open": "Öppna {{appName}}",
+    "quit": "Avsluta",
+    "show": "Visa {{appName}}"
+  },
+  "view": {
+    "forceReload": "Tvinga Omladdning",
+    "reload": "Ladda om",
+    "resetZoom": "Återställ Zoom",
+    "title": "Visa",
+    "toggleFullscreen": "Växla Helskärm",
+    "zoomIn": "Zooma In",
+    "zoomOut": "Zooma Ut"
+  },
+  "window": {
+    "bringAllToFront": "Flytta Alla Fönster Framåt",
+    "close": "Stäng",
+    "front": "Flytta Alla Fönster Framåt",
+    "minimize": "Minimera",
+    "title": "Fönster",
+    "toggleFullscreen": "Växla Helskärm",
+    "zoom": "Zooma"
+  }
+}

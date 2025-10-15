@@ -1,0 +1,31 @@
+{
+  "about": {
+    "button": "OK",
+    "detail": "En chattapplikation baserad på en stor språkmodell",
+    "message": "{{appName}} {{appVersion}}",
+    "title": "Om"
+  },
+  "confirm": {
+    "cancel": "Avbryt",
+    "no": "Nej",
+    "title": "Bekräfta",
+    "yes": "Ja"
+  },
+  "error": {
+    "button": "OK",
+    "detail": "Ett fel uppstod under operationen, vänligen försök igen senare",
+    "message": "Ett fel uppstod",
+    "title": "Fel"
+  },
+  "update": {
+    "downloadAndInstall": "Ladda ner och Installera",
+    "downloadComplete": "Nedladdning Slutförd",
+    "downloadCompleteMessage": "Uppdateringspaketet har laddats ner, vill du installera det nu?",
+    "installLater": "Installera Senare",
+    "installNow": "Installera Nu",
+    "later": "Påminn Mig Senare",
+    "newVersion": "Ny Version Hittad",
+    "newVersionAvailable": "Ny version tillgänglig: {{version}}",
+    "skipThisVersion": "Hoppa över Denna Version"
+  }
+}

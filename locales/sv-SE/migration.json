@@ -1,0 +1,45 @@
+{
+  "dbV1": {
+    "action": {
+      "clearDB": "Rensa Lokal Data",
+      "downloadBackup": "Ladda ner Datasäkerhetskopia",
+      "reUpgrade": "Uppgradera Igen",
+      "start": "Kom Igång",
+      "upgrade": "Uppgradera"
+    },
+    "clear": {
+      "confirm": "Du är på väg att rensa lokal data (globala inställningar påverkas inte). Vänligen bekräfta att du har laddat ner en datasäkerhetskopia."
+    },
+    "description": "I den nya versionen har datalagringen av {{appName}} gjort betydande framsteg. Därför behöver vi uppgradera den gamla datan för att ge dig en bättre användarupplevelse.",
+    "features": {
+      "capability": {
+        "desc": "Baserat på IndexedDB-teknologi, kapabel att lagra en livstids chattmeddelanden.",
+        "title": "Stor Kapacitet"
+      },
+      "performance": {
+        "desc": "Indexerar automatiskt miljontals meddelanden, med hämtningsfrågor som svarar på millisekunder.",
+        "title": "Hög Prestanda"
+      },
+      "use": {
+        "desc": "Stöder sökning efter titel, beskrivning, taggar, meddelandeinnehåll och till och med översatt text, vilket kraftigt förbättrar den dagliga sökeffektiviteten.",
+        "title": "Mer Användarvänligt"
+      }
+    },
+    "title": "{{appName}} Dataevolution",
+    "upgrade": {
+      "error": {
+        "subTitle": "Vi ber om ursäkt, ett fel uppstod under databasuppgraderingsprocessen. Vänligen försök med följande lösningar: A. Rensa lokal data och återimportera säkerhetskopieringsdata; B. Klicka på knappen 'Försök Uppgradera Igen'.<br><br> Om problemet kvarstår, vänligen <1>skicka in en problemrapport</1>, och vi hjälper dig så snart som möjligt.",
+        "title": "Databasuppgradering Misslyckades"
+      },
+      "success": {
+        "subTitle": "{{appName}}s databas har framgångsrikt uppgraderats till den senaste versionen. Börja uppleva det nu!",
+        "title": "Databasuppgradering Lyckades"
+      }
+    },
+    "upgradeTip": "Uppgraderingen tar cirka 10 till 20 sekunder. Vänligen stäng inte {{appName}} under uppgraderingsprocessen."
+  },
+  "migrateError": {
+    "missVersion": "Importerad data saknar ett versionsnummer. Vänligen kontrollera filen och försök igen.",
+    "noMigration": "Ingen migreringslösning hittades för den aktuella versionen. Vänligen kontrollera versionsnumret och försök igen. Om problemet kvarstår, vänligen skicka in en feedbackförfrågan."
+  }
+}

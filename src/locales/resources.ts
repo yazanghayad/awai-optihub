@@ -21,6 +21,7 @@ export const locales = [
   'it-IT',
   'pl-PL',
   'nl-NL',
+  'sv-SE',
 ] as const;
 
 export type DefaultResources = typeof resources;
@@ -121,6 +122,10 @@ export const localeOptions: LocaleOptions = [
   {
     label: 'فارسی',
     value: 'fa-IR',
+  },
+  {
+    label: 'Svenska',
+    value: 'sv-SE',
   },
 ] as LocaleOptions;
 

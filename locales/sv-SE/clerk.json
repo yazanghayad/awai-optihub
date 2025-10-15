@@ -1,0 +1,769 @@
+{
+  "backButton": "Tillbaka",
+  "badge__default": "Standard",
+  "badge__otherImpersonatorDevice": "Annan imitatorenhet",
+  "badge__primary": "Primär",
+  "badge__requiresAction": "Kräver åtgärd",
+  "badge__thisDevice": "Denna enhet",
+  "badge__unverified": "Overifierad",
+  "badge__userDevice": "Användarenhet",
+  "badge__you": "Du",
+  "createOrganization": {
+    "formButtonSubmit": "Skapa organisation",
+    "invitePage": {
+      "formButtonReset": "Hoppa över"
+    },
+    "title": "Skapa organisation"
+  },
+  "dates": {
+    "lastDay": "Igår kl. {{ date | timeString('sv-SE') }}",
+    "next6Days": "{{ date | weekday('sv-SE','long') }} kl. {{ date | timeString('sv-SE') }}",
+    "nextDay": "Imorgon kl. {{ date | timeString('sv-SE') }}",
+    "numeric": "{{ date | numeric('sv-SE') }}",
+    "previous6Days": "Senaste {{ date | weekday('sv-SE','long') }} kl. {{ date | timeString('sv-SE') }}",
+    "sameDay": "Idag kl. {{ date | timeString('sv-SE') }}"
+  },
+  "dividerText": "eller",
+  "footerActionLink__useAnotherMethod": "Använd en annan metod",
+  "footerPageLink__help": "Hjälp",
+  "footerPageLink__privacy": "Integritet",
+  "footerPageLink__terms": "Villkor",
+  "formButtonPrimary": "Fortsätt",
+  "formButtonPrimary__verify": "Verifiera",
+  "formFieldAction__forgotPassword": "Glömt lösenord?",
+  "formFieldError__matchingPasswords": "Lösenorden matchar.",
+  "formFieldError__notMatchingPasswords": "Lösenorden matchar inte.",
+  "formFieldError__verificationLinkExpired": "Verifieringslänken har gått ut. Vänligen begär en ny länk.",
+  "formFieldHintText__optional": "Valfritt",
+  "formFieldHintText__slug": "En slug är ett läsbart ID som måste vara unikt. Det används ofta i webbadresser.",
+  "formFieldInputPlaceholder__backupCode": "",
+  "formFieldInputPlaceholder__confirmDeletionUserAccount": "Radera konto",
+  "formFieldInputPlaceholder__emailAddress": "",
+  "formFieldInputPlaceholder__emailAddress_username": "",
+  "formFieldInputPlaceholder__emailAddresses": "exempel@epost.se, exempel2@epost.se",
+  "formFieldInputPlaceholder__firstName": "",
+  "formFieldInputPlaceholder__lastName": "",
+  "formFieldInputPlaceholder__organizationDomain": "",
+  "formFieldInputPlaceholder__organizationDomainEmailAddress": "",
+  "formFieldInputPlaceholder__organizationName": "",
+  "formFieldInputPlaceholder__organizationSlug": "min-org",
+  "formFieldInputPlaceholder__password": "",
+  "formFieldInputPlaceholder__phoneNumber": "",
+  "formFieldInputPlaceholder__username": "",
+  "formFieldLabel__automaticInvitations": "Aktivera automatiska inbjudningar för denna domän",
+  "formFieldLabel__backupCode": "Reservkod",
+  "formFieldLabel__confirmDeletion": "Bekräftelse",
+  "formFieldLabel__confirmPassword": "Bekräfta lösenord",
+  "formFieldLabel__currentPassword": "Nuvarande lösenord",
+  "formFieldLabel__emailAddress": "E-postadress",
+  "formFieldLabel__emailAddress_username": "E-postadress eller användarnamn",
+  "formFieldLabel__emailAddresses": "E-postadresser",
+  "formFieldLabel__firstName": "Förnamn",
+  "formFieldLabel__lastName": "Efternamn",
+  "formFieldLabel__newPassword": "Nytt lösenord",
+  "formFieldLabel__organizationDomain": "Domän",
+  "formFieldLabel__organizationDomainDeletePending": "Radera väntande inbjudningar och förslag",
+  "formFieldLabel__organizationDomainEmailAddress": "Verifierings-e-postadress",
+  "formFieldLabel__organizationDomainEmailAddressDescription": "Ange en e-postadress under denna domän för att ta emot en kod och verifiera denna domän.",
+  "formFieldLabel__organizationName": "Namn",
+  "formFieldLabel__organizationSlug": "Slug",
+  "formFieldLabel__passkeyName": "Namn på passkey",
+  "formFieldLabel__password": "Lösenord",
+  "formFieldLabel__phoneNumber": "Telefonnummer",
+  "formFieldLabel__role": "Roll",
+  "formFieldLabel__signOutOfOtherSessions": "Logga ut från alla andra enheter",
+  "formFieldLabel__username": "Användarnamn",
+  "impersonationFab": {
+    "action__signOut": "Logga ut",
+    "title": "Inloggad som {{identifier}}"
+  },
+  "locale": "sv-SE",
+  "maintenanceMode": "Vi utför för närvarande underhåll, men oroa dig inte, det borde inte ta mer än några minuter.",
+  "membershipRole__admin": "Admin",
+  "membershipRole__basicMember": "Medlem",
+  "membershipRole__guestMember": "Gäst",
+  "organizationList": {
+    "action__createOrganization": "Skapa organisation",
+    "action__invitationAccept": "Gå med",
+    "action__suggestionsAccept": "Begär att gå med",
+    "createOrganization": "Skapa organisation",
+    "invitationAcceptedLabel": "Gick med",
+    "subtitle": "för att fortsätta till {{applicationName}}",
+    "suggestionsAcceptedLabel": "Väntar på godkännande",
+    "title": "Välj ett konto",
+    "titleWithoutPersonal": "Välj en organisation"
+  },
+  "organizationProfile": {
+    "badge__automaticInvitation": "Automatiska inbjudningar",
+    "badge__automaticSuggestion": "Automatiska förslag",
+    "badge__manualInvitation": "Ingen automatisk registrering",
+    "badge__unverified": "Overifierad",
+    "createDomainPage": {
+      "subtitle": "Lägg till domänen för att verifiera. Användare med e-postadresser på denna domän kan gå med i organisationen automatiskt eller begära att gå med.",
+      "title": "Lägg till domän"
+    },
+    "invitePage": {
+      "detailsTitle__inviteFailed": "Inbjudningarna kunde inte skickas. Det finns redan väntande inbjudningar för följande e-postadresser: {{email_addresses}}.",
+      "formButtonPrimary__continue": "Skicka inbjudningar",
+      "selectDropdown__role": "Välj roll",
+      "subtitle": "Ange eller klistra in en eller flera e-postadresser, separerade med mellanslag eller kommatecken.",
+      "successMessage": "Inbjudningar har skickats",
+      "title": "Bjud in nya medlemmar"
+    },
+    "membersPage": {
+      "action__invite": "Bjud in",
+      "activeMembersTab": {
+        "menuAction__remove": "Ta bort medlem",
+        "tableHeader__actions": "",
+        "tableHeader__joined": "Gick med",
+        "tableHeader__role": "Roll",
+        "tableHeader__user": "Användare"
+      },
+      "detailsTitle__emptyRow": "Inga medlemmar att visa",
+      "invitationsTab": {
+        "autoInvitations": {
+          "headerSubtitle": "Bjud in användare genom att koppla en e-postdomän till din organisation. Alla som registrerar sig med en matchande e-postdomän kan gå med i organisationen när som helst.",
+          "headerTitle": "Automatiska inbjudningar",
+          "primaryButton": "Hantera verifierade domäner"
+        },
+        "table__emptyRow": "Inga inbjudningar att visa"
+      },
+      "invitedMembersTab": {
+        "menuAction__revoke": "Återkalla inbjudan",
+        "tableHeader__invited": "Inbjuden"
+      },
+      "requestsTab": {
+        "autoSuggestions": {
+          "headerSubtitle": "Användare som registrerar sig med en matchande e-postdomän kan se ett förslag att begära att gå med i din organisation.",
+          "headerTitle": "Automatiska förslag",
+          "primaryButton": "Hantera verifierade domäner"
+        },
+        "menuAction__approve": "Godkänn",
+        "menuAction__reject": "Avvisa",
+        "tableHeader__requested": "Begärd åtkomst",
+        "table__emptyRow": "Inga förfrågningar att visa"
+      },
+      "start": {
+        "headerTitle__invitations": "Inbjudningar",
+        "headerTitle__members": "Medlemmar",
+        "headerTitle__requests": "Förfrågningar"
+      }
+    },
+    "navbar": {
+      "description": "Hantera din organisation.",
+      "general": "Allmänt",
+      "members": "Medlemmar",
+      "title": "Organisation"
+    },
+    "profilePage": {
+      "dangerSection": {
+        "deleteOrganization": {
+          "actionDescription": "Skriv \"{{organizationName}}\" nedan för att fortsätta.",
+          "messageLine1": "Är du säker på att du vill radera denna organisation?",
+          "messageLine2": "Denna åtgärd är permanent och oåterkallelig.",
+          "successMessage": "Du har raderat organisationen.",
+          "title": "Radera organisation"
+        },
+        "leaveOrganization": {
+          "actionDescription": "Skriv \"{{organizationName}}\" nedan för att fortsätta.",
+          "messageLine1": "Är du säker på att du vill lämna denna organisation? Du förlorar åtkomst till denna organisation och dess applikationer.",
+          "messageLine2": "Denna åtgärd är permanent och oåterkallelig.",
+          "successMessage": "Du har lämnat organisationen.",
+          "title": "Lämna organisation"
+        },
+        "title": "Fara"
+      },
+      "domainSection": {
+        "menuAction__manage": "Hantera",
+        "menuAction__remove": "Radera",
+        "menuAction__verify": "Verifiera",
+        "primaryButton": "Lägg till domän",
+        "subtitle": "Tillåt användare att gå med i organisationen automatiskt eller begära att gå med baserat på en verifierad e-postdomän.",
+        "title": "Verifierade domäner"
+      },
+      "successMessage": "Organisationen har uppdaterats.",
+      "title": "Uppdatera profil"
+    },
+    "removeDomainPage": {
+      "messageLine1": "E-postdomänen {{domain}} kommer att tas bort.",
+      "messageLine2": "Användare kommer inte att kunna gå med i organisationen automatiskt efter detta.",
+      "successMessage": "{{domain}} har tagits bort.",
+      "title": "Ta bort domän"
+    },
+    "start": {
+      "headerTitle__general": "Allmänt",
+      "headerTitle__members": "Medlemmar",
+      "profileSection": {
+        "primaryButton": "Uppdatera profil",
+        "title": "Organisationsprofil",
+        "uploadAction__title": "Logotyp"
+      }
+    },
+    "verifiedDomainPage": {
+      "dangerTab": {
+        "calloutInfoLabel": "Att ta bort denna domän påverkar inbjudna användare.",
+        "removeDomainActionLabel__remove": "Ta bort domän",
+        "removeDomainSubtitle": "Ta bort denna domän från dina verifierade domäner",
+        "removeDomainTitle": "Ta bort domän"
+      },
+      "enrollmentTab": {
+        "automaticInvitationOption__description": "Användare bjuds automatiskt in att gå med i organisationen när de registrerar sig och kan gå med när som helst.",
+        "automaticInvitationOption__label": "Automatiska inbjudningar",
+        "automaticSuggestionOption__description": "Användare får ett förslag att begära att gå med, men måste godkännas av en administratör innan de kan gå med i organisationen.",
+        "automaticSuggestionOption__label": "Automatiska förslag",
+        "calloutInfoLabel": "Att ändra registreringsläge påverkar endast nya användare.",
+        "calloutInvitationCountLabel": "Väntande inbjudningar skickade till användare: {{count}}",
+        "calloutSuggestionCountLabel": "Väntande förslag skickade till användare: {{count}}",
+        "manualInvitationOption__description": "Användare kan endast bjudas in manuellt till organisationen.",
+        "manualInvitationOption__label": "Ingen automatisk registrering",
+        "subtitle": "Välj hur användare från denna domän kan gå med i organisationen."
+      },
+      "start": {
+        "headerTitle__danger": "Fara",
+        "headerTitle__enrollment": "Registreringsalternativ"
+      },
+      "subtitle": "Domänen {{domain}} är nu verifierad. Fortsätt genom att välja registreringsläge.",
+      "title": "Uppdatera {{domain}}"
+    },
+    "verifyDomainPage": {
+      "formSubtitle": "Ange verifieringskoden som skickades till din e-postadress",
+      "formTitle": "Verifieringskod",
+      "resendButton": "Fick du ingen kod? Skicka igen",
+      "subtitle": "Domänen {{domainName}} måste verifieras via e-post.",
+      "subtitleVerificationCodeScreen": "En verifieringskod skickades till {{emailAddress}}. Ange koden för att fortsätta.",
+      "title": "Verifiera domän"
+    }
+  },
+  "organizationSwitcher": {
+    "action__createOrganization": "Skapa organisation",
+    "action__invitationAccept": "Gå med",
+    "action__manageOrganization": "Hantera",
+    "action__suggestionsAccept": "Begär att gå med",
+    "notSelected": "Ingen organisation vald",
+    "personalWorkspace": "Personligt konto",
+    "suggestionsAcceptedLabel": "Väntar på godkännande"
+  },
+  "paginationButton__next": "Nästa",
+  "paginationButton__previous": "Föregående",
+  "paginationRowText__displaying": "Visar",
+  "paginationRowText__of": "av",
+  "signIn": {
+    "accountSwitcher": {
+      "action__addAccount": "Lägg till konto",
+      "action__signOutAll": "Logga ut från alla konton",
+      "subtitle": "Välj det konto du vill fortsätta med.",
+      "title": "Välj ett konto"
+    },
+    "alternativeMethods": {
+      "actionLink": "Få hjälp",
+      "actionText": "Har du inget av dessa?",
+      "blockButton__backupCode": "Använd en reservkod",
+      "blockButton__emailCode": "Skicka kod via e-post till {{identifier}}",
+      "blockButton__emailLink": "Skicka länk via e-post till {{identifier}}",
+      "blockButton__passkey": "Logga in med din passkey",
+      "blockButton__password": "Logga in med ditt lösenord",
+      "blockButton__phoneCode": "Skicka SMS-kod till {{identifier}}",
+      "blockButton__totp": "Använd din autentiseringsapp",
+      "getHelp": {
+        "blockButton__emailSupport": "Kontakta support via e-post",
+        "content": "Om du har svårt att logga in på ditt konto, skicka ett e-postmeddelande till oss så hjälper vi dig att återställa åtkomsten så snart som möjligt.",
+        "title": "Få hjälp"
+      },
+      "subtitle": "Har du problem? Du kan använda någon av dessa metoder för att logga in.",
+      "title": "Använd en annan metod"
+    },
+    "backupCodeMfa": {
+      "subtitle": "Din reservkod är den du fick när du konfigurerade tvåstegsverifiering.",
+      "title": "Ange en reservkod"
+    },
+    "emailCode": {
+      "formTitle": "Verifieringskod",
+      "resendButton": "Fick du ingen kod? Skicka igen",
+      "subtitle": "för att fortsätta till {{applicationName}}",
+      "title": "Kontrollera din e-post"
+    },
+    "emailLink": {
+      "expired": {
+        "subtitle": "Återgå till den ursprungliga fliken för att fortsätta.",
+        "title": "Denna verifieringslänk har gått ut"
+      },
+      "failed": {
+        "subtitle": "Återgå till den ursprungliga fliken för att fortsätta.",
+        "title": "Denna verifieringslänk är ogiltig"
+      },
+      "formSubtitle": "Använd verifieringslänken som skickades till din e-post",
+      "formTitle": "Verifieringslänk",
+      "loading": {
+        "subtitle": "Du kommer snart att omdirigeras",
+        "title": "Loggar in..."
+      },
+      "resendButton": "Fick du ingen länk? Skicka igen",
+      "subtitle": "för att fortsätta till {{applicationName}}",
+      "title": "Kontrollera din e-post",
+      "unusedTab": {
+        "title": "Du kan stänga denna flik"
+      },
+      "verified": {
+        "subtitle": "Du kommer snart att omdirigeras",
+        "title": "Inloggning lyckades"
+      },
+      "verifiedSwitchTab": {
+        "subtitle": "Återgå till den ursprungliga fliken för att fortsätta",
+        "subtitleNewTab": "Återgå till den nyöppnade fliken för att fortsätta",
+        "titleNewTab": "Inloggad på annan flik"
+      }
+    },
+    "forgotPassword": {
+      "formTitle": "Kod för lösenordsåterställning",
+      "resendButton": "Fick du ingen kod? Skicka igen",
+      "subtitle": "för att återställa ditt lösenord",
+      "subtitle_email": "Ange först koden som skickades till din e-postadress",
+      "subtitle_phone": "Ange först koden som skickades till din telefon",
+      "title": "Återställ lösenord"
+    },
+    "forgotPasswordAlternativeMethods": {
+      "blockButton__resetPassword": "Återställ ditt lösenord",
+      "label__alternativeMethods": "Eller logga in med en annan metod",
+      "title": "Glömt lösenord?"
+    },
+    "noAvailableMethods": {
+      "message": "Kan inte fortsätta med inloggning. Det finns ingen tillgänglig autentiseringsfaktor.",
+      "subtitle": "Ett fel uppstod",
+      "title": "Kan inte logga in"
+    },
+    "passkey": {
+      "subtitle": "Genom att använda din passkey bekräftar du att det är du. Din enhet kan be om ditt fingeravtryck, ansikte eller skärmlås.",
+      "title": "Använd din passkey"
+    },
+    "password": {
+      "actionLink": "Använd en annan metod",
+      "subtitle": "Ange lösenordet som är kopplat till ditt konto",
+      "title": "Ange ditt lösenord"
+    },
+    "passwordPwned": {
+      "title": "Lösenord komprometterat"
+    },
+    "phoneCode": {
+      "formTitle": "Verifieringskod",
+      "resendButton": "Fick du ingen kod? Skicka igen",
+      "subtitle": "för att fortsätta till {{applicationName}}",
+      "title": "Kontrollera din telefon"
+    },
+    "phoneCodeMfa": {
+      "formTitle": "Verifieringskod",
+      "resendButton": "Fick du ingen kod? Skicka igen",
+      "subtitle": "För att fortsätta, ange verifieringskoden som skickades till din telefon",
+      "title": "Kontrollera din telefon"
+    },
+    "resetPassword": {
+      "formButtonPrimary": "Återställ lösenord",
+      "requiredMessage": "Av säkerhetsskäl krävs det att du återställer ditt lösenord.",
+      "successMessage": "Ditt lösenord har ändrats. Loggar in dig, vänta ett ögonblick.",
+      "title": "Ange nytt lösenord"
+    },
+    "resetPasswordMfa": {
+      "detailsLabel": "Vi behöver verifiera din identitet innan vi återställer ditt lösenord."
+    },
+    "start": {
+      "actionLink": "Registrera dig",
+      "actionLink__use_email": "Använd e-post",
+      "actionLink__use_email_username": "Använd e-post eller användarnamn",
+      "actionLink__use_passkey": "Använd passkey istället",
+      "actionLink__use_phone": "Använd telefon",
+      "actionLink__use_username": "Använd användarnamn",
+      "actionText": "Har du inget konto?",
+      "subtitle": "Välkommen tillbaka! Vänligen logga in för att fortsätta",
+      "title": "Logga in på {{applicationName}}"
+    },
+    "totpMfa": {
+      "formTitle": "Verifieringskod",
+      "subtitle": "För att fortsätta, ange verifieringskoden som genereras av din autentiseringsapp",
+      "title": "Tvåstegsverifiering"
+    }
+  },
+  "signInEnterPasswordTitle": "Ange ditt lösenord",
+  "signUp": {
+    "continue": {
+      "actionLink": "Logga in",
+      "actionText": "Har du redan ett konto?",
+      "subtitle": "Vänligen fyll i de återstående uppgifterna för att fortsätta.",
+      "title": "Fyll i saknade fält"
+    },
+    "emailCode": {
+      "formSubtitle": "Ange verifieringskoden som skickades till din e-postadress",
+      "formTitle": "Verifieringskod",
+      "resendButton": "Fick du ingen kod? Skicka igen",
+      "subtitle": "Ange verifieringskoden som skickades till din e-post",
+      "title": "Verifiera din e-post"
+    },
+    "emailLink": {
+      "formSubtitle": "Använd verifieringslänken som skickades till din e-postadress",
+      "formTitle": "Verifieringslänk",
+      "loading": {
+        "title": "Registrerar..."
+      },
+      "resendButton": "Fick du ingen länk? Skicka igen",
+      "subtitle": "för att fortsätta till {{applicationName}}",
+      "title": "Verifiera din e-post",
+      "verified": {
+        "title": "Registrering lyckades"
+      },
+      "verifiedSwitchTab": {
+        "subtitle": "Återgå till den nyöppnade fliken för att fortsätta",
+        "subtitleNewTab": "Återgå till föregående flik för att fortsätta",
+        "title": "E-post verifierad"
+      }
+    },
+    "phoneCode": {
+      "formSubtitle": "Ange verifieringskoden som skickades till ditt telefonnummer",
+      "formTitle": "Verifieringskod",
+      "resendButton": "Fick du ingen kod? Skicka igen",
+      "subtitle": "Ange verifieringskoden som skickades till din telefon",
+      "title": "Verifiera din telefon"
+    },
+    "start": {
+      "actionLink": "Logga in",
+      "actionText": "Har du redan ett konto?",
+      "subtitle": "Välkommen! Vänligen fyll i uppgifterna för att komma igång.",
+      "title": "Skapa ditt konto"
+    }
+  },
+  "socialButtonsBlockButton": "Fortsätt med {{provider|titleize}}",
+  "unstable__errors": {
+    "captcha_invalid": "Registreringen misslyckades på grund av misslyckade säkerhetsvalideringar. Uppdatera sidan för att försöka igen eller kontakta support för mer hjälp.",
+    "captcha_unavailable": "Registreringen misslyckades på grund av misslyckad bot-validering. Uppdatera sidan för att försöka igen eller kontakta support för mer hjälp.",
+    "form_code_incorrect": "",
+    "form_identifier_exists": "",
+    "form_identifier_exists__email_address": "Denna e-postadress är upptagen. Vänligen försök med en annan.",
+    "form_identifier_exists__phone_number": "Detta telefonnummer är upptaget. Vänligen försök med ett annat.",
+    "form_identifier_exists__username": "Detta användarnamn är upptaget. Vänligen försök med ett annat.",
+    "form_identifier_not_found": "",
+    "form_param_format_invalid": "",
+    "form_param_format_invalid__email_address": "E-postadressen måste vara en giltig e-postadress.",
+    "form_param_format_invalid__phone_number": "Telefonnumret måste vara i ett giltigt internationellt format",
+    "form_param_max_length_exceeded__first_name": "Förnamn får inte överstiga 256 tecken.",
+    "form_param_max_length_exceeded__last_name": "Efternamn får inte överstiga 256 tecken.",
+    "form_param_max_length_exceeded__name": "Namn får inte överstiga 256 tecken.",
+    "form_param_nil": "",
+    "form_password_incorrect": "",
+    "form_password_length_too_short": "",
+    "form_password_not_strong_enough": "Ditt lösenord är inte starkt nog.",
+    "form_password_pwned": "Detta lösenord har hittats som en del av ett dataintrång och kan inte användas, vänligen försök med ett annat lösenord.",
+    "form_password_pwned__sign_in": "Detta lösenord har hittats som en del av ett dataintrång och kan inte användas, vänligen återställ ditt lösenord.",
+    "form_password_size_in_bytes_exceeded": "Ditt lösenord har överskridit det maximala antalet tillåtna byte, vänligen förkorta det eller ta bort några specialtecken.",
+    "form_password_validation_failed": "Felaktigt lösenord",
+    "form_username_invalid_character": "",
+    "form_username_invalid_length": "",
+    "identification_deletion_failed": "Du kan inte radera din sista identifiering.",
+    "not_allowed_access": "",
+    "passkey_already_exists": "En passkey är redan registrerad med denna enhet.",
+    "passkey_not_supported": "Passkeys stöds inte på denna enhet.",
+    "passkey_pa_not_supported": "Registrering kräver en plattformsautentiserare men enheten stöder inte det.",
+    "passkey_registration_cancelled": "Passkey-registreringen avbröts eller överskred tidsgränsen.",
+    "passkey_retrieval_cancelled": "Passkey-verifieringen avbröts eller överskred tidsgränsen.",
+    "passwordComplexity": {
+      "maximumLength": "färre än {{length}} tecken",
+      "minimumLength": "{{length}} eller fler tecken",
+      "requireLowercase": "en gemen bokstav",
+      "requireNumbers": "ett nummer",
+      "requireSpecialCharacter": "ett specialtecken",
+      "requireUppercase": "en versal bokstav",
+      "sentencePrefix": "Ditt lösenord måste innehålla"
+    },
+    "phone_number_exists": "Detta telefonnummer är upptaget. Vänligen försök med ett annat.",
+    "zxcvbn": {
+      "couldBeStronger": "Ditt lösenord fungerar, men kan vara starkare. Försök lägga till fler tecken.",
+      "goodPassword": "Ditt lösenord uppfyller alla nödvändiga krav.",
+      "notEnough": "Ditt lösenord är inte starkt nog.",
+      "suggestions": {
+        "allUppercase": "Använd versaler för vissa, men inte alla bokstäver.",
+        "anotherWord": "Lägg till fler ord som är mindre vanliga.",
+        "associatedYears": "Undvik år som är förknippade med dig.",
+        "capitalization": "Använd versaler för mer än den första bokstaven.",
+        "dates": "Undvik datum och år som är förknippade med dig.",
+        "l33t": "Undvik förutsägbara bokstavsbyten som '@' för 'a'.",
+        "longerKeyboardPattern": "Använd längre tangentbordsmönster och ändra skrivr riktning flera gånger.",
+        "noNeed": "Du kan skapa starka lösenord utan att använda symboler, siffror eller versaler.",
+        "pwned": "Om du använder detta lösenord någon annanstans bör du ändra det.",
+        "recentYears": "Undvik de senaste åren.",
+        "repeated": "Undvik upprepade ord och tecken.",
+        "reverseWords": "Undvik omvända stavningar av vanliga ord.",
+        "sequences": "Undvik vanliga teckensekvenser.",
+        "useWords": "Använd flera ord, men undvik vanliga fraser."
+      },
+      "warnings": {
+        "common": "Detta är ett vanligt använt lösenord.",
+        "commonNames": "Vanliga namn och efternamn är lätta att gissa.",
+        "dates": "Datum är lätta att gissa.",
+        "extendedRepeat": "Upprepade teckenmönster som \"abcabcabc\" är lätta att gissa.",
+        "keyPattern": "Korta tangentbordsmönster är lätta att gissa.",
+        "namesByThemselves": "Enstaka namn eller efternamn är lätta att gissa.",
+        "pwned": "Ditt lösenord exponerades genom ett dataintrång på internet.",
+        "recentYears": "De senaste åren är lätta att gissa.",
+        "sequences": "Vanliga teckensekvenser som \"abc\" är lätta att gissa.",
+        "similarToCommon": "Detta liknar ett vanligt använt lösenord.",
+        "simpleRepeat": "Upprepade tecken som \"aaa\" är lätta att gissa.",
+        "straightRow": "Raka rader med tangenter på ditt tangentbord är lätta att gissa.",
+        "topHundred": "Detta är ett frekvent använt lösenord.",
+        "topTen": "Detta är ett mycket använt lösenord.",
+        "userInputs": "Det bör inte finnas någon personlig eller sidrelaterad data.",
+        "wordByItself": "Enstaka ord är lätta att gissa."
+      }
+    }
+  },
+  "userButton": {
+    "action__addAccount": "Lägg till konto",
+    "action__manageAccount": "Hantera konto",
+    "action__signOut": "Logga ut",
+    "action__signOutAll": "Logga ut från alla konton"
+  },
+  "userProfile": {
+    "backupCodePage": {
+      "actionLabel__copied": "Kopierad!",
+      "actionLabel__copy": "Kopiera alla",
+      "actionLabel__download": "Ladda ner .txt",
+      "actionLabel__print": "Skriv ut",
+      "infoText1": "Reservkoder kommer att aktiveras för detta konto.",
+      "infoText2": "Håll reservkoderna hemliga och förvara dem säkert. Du kan regenerera reservkoder om du misstänker att de har äventyrats.",
+      "subtitle__codelist": "Förvara dem säkert och håll dem hemliga.",
+      "successMessage": "Reservkoder är nu aktiverade. Du kan använda en av dessa för att logga in på ditt konto om du förlorar åtkomst till din autentiseringsenhet. Varje kod kan endast användas en gång.",
+      "successSubtitle": "Du kan använda en av dessa för att logga in på ditt konto om du förlorar åtkomst till din autentiseringsenhet.",
+      "title": "Lägg till reservkodsverifiering",
+      "title__codelist": "Reservkoder"
+    },
+    "connectedAccountPage": {
+      "formHint": "Välj en leverantör för att ansluta ditt konto.",
+      "formHint__noAccounts": "Det finns inga tillgängliga externa kontoleverantörer.",
+      "removeResource": {
+        "messageLine1": "{{identifier}} kommer att tas bort från detta konto.",
+        "messageLine2": "Du kommer inte längre att kunna använda detta anslutna konto och eventuella beroende funktioner kommer inte längre att fungera.",
+        "successMessage": "{{connectedAccount}} har tagits bort från ditt konto.",
+        "title": "Ta bort anslutet konto"
+      },
+      "socialButtonsBlockButton": "{{provider|titleize}}",
+      "successMessage": "Leverantören har lagts till i ditt konto",
+      "title": "Lägg till anslutet konto"
+    },
+    "deletePage": {
+      "actionDescription": "Skriv \"Radera konto\" nedan för att fortsätta.",
+      "confirm": "Radera konto",
+      "messageLine1": "Är du säker på att du vill radera ditt konto?",
+      "messageLine2": "Denna åtgärd är permanent och oåterkallelig.",
+      "title": "Radera konto"
+    },
+    "emailAddressPage": {
+      "emailCode": {
+        "formHint": "Ett e-postmeddelande med en verifieringskod kommer att skickas till denna e-postadress.",
+        "formSubtitle": "Ange verifieringskoden som skickades till {{identifier}}",
+        "formTitle": "Verifieringskod",
+        "resendButton": "Fick du ingen kod? Skicka igen",
+        "successMessage": "E-postadressen {{identifier}} har lagts till i ditt konto."
+      },
+      "emailLink": {
+        "formHint": "Ett e-postmeddelande med en verifieringslänk kommer att skickas till denna e-postadress.",
+        "formSubtitle": "Klicka på verifieringslänken i e-postmeddelandet som skickades till {{identifier}}",
+        "formTitle": "Verifieringslänk",
+        "resendButton": "Fick du ingen länk? Skicka igen",
+        "successMessage": "E-postadressen {{identifier}} har lagts till i ditt konto."
+      },
+      "removeResource": {
+        "messageLine1": "{{identifier}} kommer att tas bort från detta konto.",
+        "messageLine2": "Du kommer inte längre att kunna logga in med denna e-postadress.",
+        "successMessage": "{{emailAddress}} har tagits bort från ditt konto.",
+        "title": "Ta bort e-postadress"
+      },
+      "title": "Lägg till e-postadress",
+      "verifyTitle": "Verifiera e-postadress"
+    },
+    "formButtonPrimary__add": "Lägg till",
+    "formButtonPrimary__continue": "Fortsätt",
+    "formButtonPrimary__finish": "Slutför",
+    "formButtonPrimary__remove": "Ta bort",
+    "formButtonPrimary__save": "Spara",
+    "formButtonReset": "Avbryt",
+    "mfaPage": {
+      "formHint": "Välj en metod att lägga till.",
+      "title": "Lägg till tvåstegsverifiering"
+    },
+    "mfaPhoneCodePage": {
+      "backButton": "Använd befintligt nummer",
+      "primaryButton__addPhoneNumber": "Lägg till telefonnummer",
+      "removeResource": {
+        "messageLine1": "{{identifier}} kommer inte längre att ta emot verifieringskoder vid inloggning.",
+        "messageLine2": "Ditt konto kanske inte är lika säkert. Är du säker på att du vill fortsätta?",
+        "successMessage": "SMS-kod tvåstegsverifiering har tagits bort för {{mfaPhoneCode}}",
+        "title": "Ta bort tvåstegsverifiering"
+      },
+      "subtitle__availablePhoneNumbers": "Välj ett befintligt telefonnummer att registrera för SMS-kod tvåstegsverifiering eller lägg till ett nytt.",
+      "subtitle__unavailablePhoneNumbers": "Det finns inga tillgängliga telefonnummer att registrera för SMS-kod tvåstegsverifiering, vänligen lägg till ett nytt.",
+      "successMessage1": "Vid inloggning måste du ange en verifieringskod som skickas till detta telefonnummer som ett ytterligare steg.",
+      "successMessage2": "Spara dessa reservkoder och förvara dem på en säker plats. Om du förlorar åtkomst till din autentiseringsenhet kan du använda reservkoder för att logga in.",
+      "successTitle": "SMS-kodsverifiering aktiverad",
+      "title": "Lägg till SMS-kodsverifiering"
+    },
+    "mfaTOTPPage": {
+      "authenticatorApp": {
+        "buttonAbleToScan__nonPrimary": "Skanna QR-kod istället",
+        "buttonUnableToScan__nonPrimary": "Kan du inte skanna QR-koden?",
+        "infoText__ableToScan": "Konfigurera en ny inloggningsmetod i din autentiseringsapp och skanna följande QR-kod för att länka den till ditt konto.",
+        "infoText__unableToScan": "Konfigurera en ny inloggningsmetod i din autentiserare och ange nyckeln som anges nedan.",
+        "inputLabel__unableToScan1": "Se till att tidsbaserade eller engångslösenord är aktiverade, slutför sedan länkningen av ditt konto.",
+        "inputLabel__unableToScan2": "Alternativt, om din autentiserare stöder TOTP URI:er, kan du också kopiera hela URI:n."
+      },
+      "removeResource": {
+        "messageLine1": "Verifieringskoder från denna autentiserare kommer inte längre att krävas vid inloggning.",
+        "messageLine2": "Ditt konto kanske inte är lika säkert. Är du säker på att du vill fortsätta?",
+        "successMessage": "Tvåstegsverifiering via autentiseringsapplikation har tagits bort.",
+        "title": "Ta bort tvåstegsverifiering"
+      },
+      "successMessage": "Tvåstegsverifiering är nu aktiverad. Vid inloggning måste du ange en verifieringskod från denna autentiserare som ett ytterligare steg.",
+      "title": "Lägg till autentiseringsapplikation",
+      "verifySubtitle": "Ange verifieringskoden som genereras av din autentiserare",
+      "verifyTitle": "Verifieringskod"
+    },
+    "mobileButton__menu": "Meny",
+    "navbar": {
+      "account": "Profil",
+      "description": "Hantera din kontoinformation.",
+      "security": "Säkerhet",
+      "title": "Konto"
+    },
+    "passkeyScreen": {
+      "removeResource": {
+        "messageLine1": "{{name}} kommer att tas bort från detta konto.",
+        "title": "Ta bort passkey"
+      },
+      "subtitle__rename": "Du kan ändra passkey-namnet för att göra det lättare att hitta.",
+      "title__rename": "Byt namn på Passkey"
+    },
+    "passwordPage": {
+      "checkboxInfoText__signOutOfOtherSessions": "Det rekommenderas att logga ut från alla andra enheter som kan ha använt ditt gamla lösenord.",
+      "readonly": "Ditt lösenord kan för närvarande inte redigeras eftersom du endast kan logga in via företagsanslutningen.",
+      "successMessage__set": "Ditt lösenord har ställts in.",
+      "successMessage__signOutOfOtherSessions": "Alla andra enheter har loggats ut.",
+      "successMessage__update": "Ditt lösenord har uppdaterats.",
+      "title__set": "Ställ in lösenord",
+      "title__update": "Uppdatera lösenord"
+    },
+    "phoneNumberPage": {
+      "infoText": "Ett textmeddelande med en verifieringskod kommer att skickas till detta telefonnummer. Meddelande- och dataavgifter kan tillkomma.",
+      "removeResource": {
+        "messageLine1": "{{identifier}} kommer att tas bort från detta konto.",
+        "messageLine2": "Du kommer inte längre att kunna logga in med detta telefonnummer.",
+        "successMessage": "{{phoneNumber}} har tagits bort från ditt konto.",
+        "title": "Ta bort telefonnummer"
+      },
+      "successMessage": "{{identifier}} har lagts till i ditt konto.",
+      "title": "Lägg till telefonnummer",
+      "verifySubtitle": "Ange verifieringskoden som skickades till {{identifier}}",
+      "verifyTitle": "Verifiera telefonnummer"
+    },
+    "profilePage": {
+      "fileDropAreaHint": "Rekommenderad storlek 1:1, upp till 10 MB.",
+      "imageFormDestructiveActionSubtitle": "Ta bort",
+      "imageFormSubtitle": "Ladda upp",
+      "imageFormTitle": "Profilbild",
+      "readonly": "Din profilinformation har tillhandahållits av företagsanslutningen och kan inte redigeras.",
+      "successMessage": "Din profil har uppdaterats.",
+      "title": "Uppdatera profil"
+    },
+    "start": {
+      "activeDevicesSection": {
+        "destructiveAction": "Logga ut från enhet",
+        "title": "Aktiva enheter"
+      },
+      "connectedAccountsSection": {
+        "actionLabel__connectionFailed": "Försök igen",
+        "actionLabel__reauthorize": "Auktorisera nu",
+        "destructiveActionTitle": "Ta bort",
+        "primaryButton": "Anslut konto",
+        "subtitle__reauthorize": "De nödvändiga behörigheterna har uppdaterats och du kan uppleva begränsad funktionalitet. Vänligen återauktorisera denna applikation för att undvika problem",
+        "title": "Anslutna konton"
+      },
+      "dangerSection": {
+        "deleteAccountButton": "Radera konto",
+        "title": "Radera konto"
+      },
+      "emailAddressesSection": {
+        "destructiveAction": "Ta bort e-post",
+        "detailsAction__nonPrimary": "Ange som primär",
+        "detailsAction__primary": "Slutför verifiering",
+        "detailsAction__unverified": "Verifiera",
+        "primaryButton": "Lägg till e-postadress",
+        "title": "E-postadresser"
+      },
+      "enterpriseAccountsSection": {
+        "title": "Företagskonton"
+      },
+      "headerTitle__account": "Profildetaljer",
+      "headerTitle__security": "Säkerhet",
+      "mfaSection": {
+        "backupCodes": {
+          "actionLabel__regenerate": "Regenerera",
+          "headerTitle": "Reservkoder",
+          "subtitle__regenerate": "Få en ny uppsättning säkra reservkoder. Tidigare reservkoder raderas och kan inte användas.",
+          "title__regenerate": "Regenerera reservkoder"
+        },
+        "phoneCode": {
+          "actionLabel__setDefault": "Ange som standard",
+          "destructiveActionLabel": "Ta bort"
+        },
+        "primaryButton": "Lägg till tvåstegsverifiering",
+        "title": "Tvåstegsverifiering",
+        "totp": {
+          "destructiveActionTitle": "Ta bort",
+          "headerTitle": "Autentiseringsapplikation"
+        }
+      },
+      "passkeysSection": {
+        "menuAction__destructive": "Ta bort",
+        "menuAction__rename": "Byt namn",
+        "title": "Passkeys"
+      },
+      "passwordSection": {
+        "primaryButton__setPassword": "Ställ in lösenord",
+        "primaryButton__updatePassword": "Uppdatera lösenord",
+        "title": "Lösenord"
+      },
+      "phoneNumbersSection": {
+        "destructiveAction": "Ta bort telefonnummer",
+        "detailsAction__nonPrimary": "Ange som primär",
+        "detailsAction__primary": "Slutför verifiering",
+        "detailsAction__unverified": "Verifiera telefonnummer",
+        "primaryButton": "Lägg till telefonnummer",
+        "title": "Telefonnummer"
+      },
+      "profileSection": {
+        "primaryButton": "Uppdatera profil",
+        "title": "Profil"
+      },
+      "usernameSection": {
+        "primaryButton__setUsername": "Ange användarnamn",
+        "primaryButton__updateUsername": "Uppdatera användarnamn",
+        "title": "Användarnamn"
+      },
+      "web3WalletsSection": {
+        "destructiveAction": "Ta bort plånbok",
+        "primaryButton": "Web3 plånböcker",
+        "title": "Web3 plånböcker"
+      }
+    },
+    "usernamePage": {
+      "successMessage": "Ditt användarnamn har uppdaterats.",
+      "title__set": "Ange användarnamn",
+      "title__update": "Uppdatera användarnamn"
+    },
+    "web3WalletPage": {
+      "removeResource": {
+        "messageLine1": "{{identifier}} kommer att tas bort från detta konto.",
+        "messageLine2": "Du kommer inte längre att kunna logga in med denna web3 plånbok.",
+        "successMessage": "{{web3Wallet}} har tagits bort från ditt konto.",
+        "title": "Ta bort web3 plånbok"
+      },
+      "subtitle__availableWallets": "Välj en web3 plånbok att ansluta till ditt konto.",
+      "subtitle__unavailableWallets": "Det finns inga tillgängliga web3 plånböcker.",
+      "successMessage": "Plånboken har lagts till i ditt konto.",
+      "title": "Lägg till web3 plånbok"
+    }
+  }
+}

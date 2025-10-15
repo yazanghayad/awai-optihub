@@ -1,0 +1,581 @@
+{
+  "about": {
+    "title": "About"
+  },
+  "agentTab": {
+    "chat": "Chatt Inställningar",
+    "meta": "Assistent Information",
+    "modal": "Modell Inställningar",
+    "opening": "Opening Inställningar",
+    "plugin": "Plugin Inställningar",
+    "prompt": "Role Konfiguration",
+    "tts": "Röst Service"
+  },
+  "analytics": {
+    "telemetry": {
+      "desc": "By opting to send telemetry data, you can help us improve overall user experience of {{appName}}.",
+      "title": "Skicka Anonym Användningsdata"
+    },
+    "title": "Analytics"
+  },
+  "danger": {
+    "clear": {
+      "action": "Rensa Now",
+      "confirm": "Bekräfta to Rensa Alla Chatt data?",
+      "desc": "This kommer Rensa Alla session data, including Assistent, Filer, Meddelanden, plugins, etc.",
+      "success": "Alla session Meddelanden har been cleared",
+      "title": "Rensa Alla Session Meddelanden"
+    },
+    "reset": {
+      "action": "Återställ Now",
+      "confirm": "Bekräfta to Återställ Alla Inställningar?",
+      "currentVersion": "Current Version",
+      "desc": "Återställ Alla Inställningar to Standard values",
+      "success": "Alla Inställningar har been Återställ",
+      "title": "Återställ Alla Inställningar"
+    }
+  },
+  "header": {
+    "desc": "Inställningar och Modell Inställningar.",
+    "global": "Global Inställningar",
+    "session": "Session Inställningar",
+    "sessionDesc": "Role Inställningar och session Inställningar.",
+    "sessionWithName": "Session Inställningar · {{name}}",
+    "title": "Inställningar"
+  },
+  "hotkey": {
+    "conflicts": "Konflikt med befintliga snabbtangenter",
+    "errors": {
+      "CONFLICT": "Hotkey conflict: Denna hotkey is already assigned to another function",
+      "INVALID_FORMAT": "Invalid hotkey format: Please use correct format (e.g., CommandOrControl+E)",
+      "INVALID_ID": "Invalid hotkey ID",
+      "NO_MODIFIER": "Hotkey must include a modifier key (Ctrl, Alt, Shift, etc.)",
+      "SYSTEM_OCCUPIED": "Hotkey is occupied by system or another application",
+      "UNKNOWN": "Uppdatera Misslyckades: Unknown Fel"
+    },
+    "group": {
+      "conversation": "Konversation",
+      "desktop": "Desktop",
+      "essential": "Essential"
+    },
+    "invalidCombination": "The hotkey must include at least one modifier key (Ctrl, Alt, Shift) och one regular key",
+    "record": "Tryck a key to record hotkey",
+    "reset": "Återställ to Standard hotkeys",
+    "title": "Hotkeys",
+    "updateError": "Misslyckades to Uppdatera hotkey: Network or system Fel",
+    "updateSuccess": "Snabbtangent uppdaterad"
+  },
+  "llm": {
+    "aesGcm": "Your keys och proxy address kommer be encrypted using <1>AES-GCM</1> encryption algorithm",
+    "apiKey": {
+      "desc": "Vänligen ange your {{name}} API-nyckel",
+      "placeholder": "{{name}} API-nyckel",
+      "title": "API-nyckel"
+    },
+    "checker": {
+      "button": "Check",
+      "desc": "Test if API-nyckel och proxy address är filled in correctly",
+      "pass": "Check Passed",
+      "title": "Connectivity Check"
+    },
+    "customModelCards": {
+      "addNew": "Skapa och Lägg till {{id}} Modell",
+      "config": "Modell Konfiguration",
+      "confirmDelete": "You är about to Radera denna Anpassad Modell. Once deleted, it cannot be recovered. Please proceed med caution.",
+      "modelConfig": {
+        "azureDeployName": {
+          "extra": "The field actually requested in Azure OpenAI",
+          "placeholder": "Ange Modell deployment Namn in Azure",
+          "title": "Modell Deployment Namn"
+        },
+        "displayName": {
+          "placeholder": "Ange display Namn of Modell, such as ChatGPT, GPT-4, etc.",
+          "title": "Modell Display Namn"
+        },
+        "files": {
+          "extra": "The current Fil Ladda upp implementation is merely a hack solution och is intended for personal experimentation only. Please wait for a complete Fil Ladda upp capability in future updates.",
+          "title": "Support Fil Ladda upp"
+        },
+        "functionCall": {
+          "extra": "This Konfiguration kommer only Aktivera function calling capabilities within application. Whether function calling is supported depends entirely on Modell itself; please test Modell's function calling capabilities on your own.",
+          "title": "Stöd för Funktionsanrop"
+        },
+        "id": {
+          "extra": "Will be displayed as Modell label",
+          "placeholder": "Ange Modell ID, such as gpt-4-turbo-Förhandsvisning or claude-2.1",
+          "title": "Modell ID"
+        },
+        "modalTitle": "Anpassad Modell Konfiguration",
+        "tokens": {
+          "title": "Maximum Token Count"
+        },
+        "vision": {
+          "extra": "This Konfiguration kommer only Aktivera Bild Ladda upp capabilities within application. Whether recognition is supported depends entirely on Modell itself; please test Modell's visual recognition capabilities on your own.",
+          "title": "Stöd för Visuell Igenkänning"
+        }
+      }
+    },
+    "fetchOnClient": {
+      "desc": "Client-side Hämtar mode initiates session requests directly från browser, improving Svar speed.",
+      "title": "Use Client-Side Hämtar Mode"
+    },
+    "fetcher": {
+      "clear": "Rensa fetched Modell",
+      "fetch": "Get Modell Lista",
+      "fetching": "Hämtar Modell Lista...",
+      "latestTime": "Senast Uppdaterad: {{time}}",
+      "noLatestTime": "Nej Lista Tillgänglig yet"
+    },
+    "helpDoc": "Konfiguration Guide",
+    "modelList": {
+      "desc": "Välj models to display in session. The selected models kommer be displayed in Modell Lista.",
+      "placeholder": "Please Välj a Modell från Lista",
+      "title": "Modell Lista",
+      "total": "{{count}} models Tillgänglig in total"
+    },
+    "proxyUrl": {
+      "desc": "Must include http(s):// in addition to Standard address",
+      "title": "API Proxy Address"
+    },
+    "waitingForMore": "Mer models är <1>planned to be added</1>, stay tuned"
+  },
+  "plugin": {
+    "addMCPPlugin": "Lägg till MCP Plugin",
+    "addTooltip": "Anpassad Plugin",
+    "clearDeprecated": "Ta bort Deprecated Plugins",
+    "empty": "Nej Installerad plugins yet, feel free to explore <1>Plugin Store</1>",
+    "installStatus": {
+      "deprecated": "Uninstalled"
+    },
+    "settings": {
+      "hint": "Please fill in following configurations based on Beskrivning",
+      "title": "{{id}} Plugin Konfiguration",
+      "tooltip": "Plugin Konfiguration"
+    },
+    "store": "Plugin Store"
+  },
+  "settingAgent": {
+    "avatar": {
+      "title": "Avatar"
+    },
+    "backgroundColor": {
+      "title": "Background Color"
+    },
+    "description": {
+      "desc": "A brief introduction to your Assistent, not for character setting",
+      "placeholder": "Ange Assistent Beskrivning",
+      "title": "Assistent Beskrivning"
+    },
+    "name": {
+      "placeholder": "Ange Assistent Namn",
+      "title": "Namn"
+    },
+    "prompt": {
+      "placeholder": "Ange role Prompt word",
+      "title": "Role Setting"
+    },
+    "submit": "Uppdatera Assistent Information",
+    "tag": {
+      "desc": "Assistent tags kommer be displayed in Assistent marketplace",
+      "placeholder": "Ange tag",
+      "title": "Tag"
+    },
+    "title": "Assistent Information"
+  },
+  "settingAppearance": {
+    "animationMode": {
+      "agile": "Agile",
+      "desc": "Välj animation speed for application Svar actions",
+      "disabled": "Off",
+      "elegant": "Elegant",
+      "title": "Svar Animation"
+    },
+    "neutralColor": {
+      "desc": "Anpassad grayscale med different color tendencies",
+      "title": "Neutral Color"
+    },
+    "noAnimation": {
+      "desc": "Inaktivera Alla animation effects in application",
+      "title": "Nej Animation Mode"
+    },
+    "preview": {
+      "title": "Color Palette"
+    },
+    "primaryColor": {
+      "desc": "Anpassad theme color",
+      "title": "Theme Color"
+    },
+    "title": "Applikationsutseende"
+  },
+  "settingChat": {
+    "autoCreateTopicThreshold": {
+      "desc": "Automatically Skapa a topic when current Meddelande count exceeds denna value",
+      "title": "Meddelande Threshold"
+    },
+    "chatStyleType": {
+      "title": "Chatt Window Style",
+      "type": {
+        "chat": "Konversation Mode",
+        "docs": "Document Mode"
+      }
+    },
+    "compressThreshold": {
+      "desc": "When uncompressed history Meddelanden exceed denna value, compression kommer be applied",
+      "title": "History Meddelande Length Compression Threshold"
+    },
+    "enableAutoCreateTopic": {
+      "desc": "Whether to automatically Skapa a topic during Konversation, only effective in temporary topics",
+      "title": "Auto Skapa Topic"
+    },
+    "enableCompressHistory": {
+      "title": "Aktivera Automatic Sammanfattning of Chatt History"
+    },
+    "enableHistoryCount": {
+      "alias": "Unlimited",
+      "limited": "Include only {{number}} Konversation Meddelanden",
+      "setlimited": "Set limited history Meddelanden",
+      "title": "Limit History Meddelande Count",
+      "unlimited": "Unlimited history Meddelande count"
+    },
+    "enableStreaming": {
+      "desc": "Aktivera streaming output to display responses in realtid. When Inaktiverad, only complete Svar is shown.",
+      "title": "Aktivera Streaming Output"
+    },
+    "historyCount": {
+      "desc": "Number of historical Meddelanden carried med each request",
+      "title": "Attached History Meddelande Count"
+    },
+    "inputTemplate": {
+      "desc": "The user's latest Meddelande kommer be filled into denna template",
+      "placeholder": "Preprocessing template {{text}} kommer be replaced med realtid input information",
+      "title": "Användarinmatningsförbehandling"
+    },
+    "submit": "Uppdatera Chatt Inställningar",
+    "title": "Chatt Inställningar"
+  },
+  "settingChatAppearance": {
+    "fontSize": {
+      "desc": "Font size of Chatt content",
+      "marks": {
+        "normal": "Standard"
+      },
+      "title": "Font Size"
+    },
+    "highlighterTheme": {
+      "title": "Code Highlight Theme"
+    },
+    "mermaidTheme": {
+      "title": "Mermaid Theme"
+    },
+    "title": "Chatt Appearance",
+    "transitionMode": {
+      "desc": "Transition animation for Chatt Meddelanden",
+      "options": {
+        "fadeIn": "Fade In",
+        "none": {
+          "desc": "This depends on Modell's Svar output method; please test it yourself.",
+          "value": "Ingen"
+        },
+        "smooth": "Smooth"
+      },
+      "title": "Transition Animation"
+    }
+  },
+  "settingCommon": {
+    "lang": {
+      "autoMode": "Följ System",
+      "title": "Språk"
+    },
+    "themeMode": {
+      "auto": "Automatiskt",
+      "dark": "Mörkt",
+      "light": "Ljust",
+      "title": "Tema"
+    },
+    "title": "Allmän Inställningar"
+  },
+  "settingImage": {
+    "defaultCount": {
+      "desc": "Set Standard number of Bilder generated when creating a new task in Bild Generering panel.",
+      "label": "Standard Bild Count",
+      "title": "AI Drawing Inställningar"
+    }
+  },
+  "settingModel": {
+    "enableMaxTokens": {
+      "title": "Aktivera Max Tokens Limit"
+    },
+    "enableReasoningEffort": {
+      "title": "Aktivera Reasoning Effort Adjustment"
+    },
+    "frequencyPenalty": {
+      "desc": "The higher value, Mer diverse och rich vocabulary; lower value, simpler och Mer straightforward language.",
+      "title": "Vocabulary Richness"
+    },
+    "maxTokens": {
+      "desc": "The maximum number of Tokens used for each interaction",
+      "title": "Max Tokens Limit"
+    },
+    "model": {
+      "desc": "{{provider}} Modell",
+      "title": "Modell"
+    },
+    "params": {
+      "title": "Avancerad Parameters"
+    },
+    "presencePenalty": {
+      "desc": "The higher value, Mer inclined to use different expressions och avoid concept repetition; lower value, Mer inclined to use repeated concepts or narratives, resulting in Mer consistent expression.",
+      "title": "Uttrycksdivergence"
+    },
+    "reasoningEffort": {
+      "desc": "Higher values enhance reasoning ability but may increase Svar time och Token usage.",
+      "options": {
+        "high": "High",
+        "low": "Low",
+        "medium": "Medium"
+      },
+      "title": "Reasoning Effort"
+    },
+    "submit": "Uppdatera Modell Inställningar",
+    "temperature": {
+      "desc": "The higher value, Mer creative och imaginative responses; lower value, Mer rigorous responses.",
+      "title": "Creativity Level",
+      "warning": "If creativity level is set too high, output may become garbled."
+    },
+    "title": "Modell Inställningar",
+    "topP": {
+      "desc": "How many possibilities to consider; a higher value accepts Mer potential answers, while a lower value tends to Välj most likely answer. It is not recommended to change denna alongside creativity level.",
+      "title": "Openness to Ideas"
+    }
+  },
+  "settingOpening": {
+    "openingMessage": {
+      "desc": "The opening Meddelande displayed when Konversation starts, used to introduce Assistent's features",
+      "placeholder": "Hello, Jag är your Anpassad Assistent. You can start chatting med me right away, or go to Assistent Inställningar to complete my information.",
+      "title": "Opening Meddelande"
+    },
+    "openingQuestions": {
+      "desc": "Guiding questions displayed at beginning of Konversation",
+      "empty": "Nej questions Tillgänglig",
+      "placeholder": "Vänligen ange a question",
+      "repeat": "Frågan finns redan",
+      "title": "Opening Questions"
+    },
+    "title": "Opening Inställningar"
+  },
+  "settingPlugin": {
+    "title": "Plugin Lista"
+  },
+  "settingSystem": {
+    "accessCode": {
+      "desc": "Encryption access is Aktiverad by administrator",
+      "placeholder": "Ange access password",
+      "title": "Access Password"
+    },
+    "oauth": {
+      "info": {
+        "desc": "Logged in",
+        "title": "Account Information"
+      },
+      "signin": {
+        "action": "Sign In",
+        "desc": "Sign in using SSO to unlock app",
+        "title": "Logga In på Ditt Konto"
+      },
+      "signout": {
+        "action": "Sign Out",
+        "confirm": "Bekräfta sign out?",
+        "success": "Sign out successful"
+      }
+    },
+    "title": "System Inställningar"
+  },
+  "settingTTS": {
+    "openai": {
+      "sttModel": "OpenAI Tal-to-Text Modell",
+      "title": "OpenAI",
+      "ttsModel": "OpenAI Text-to-Tal Modell"
+    },
+    "showAllLocaleVoice": {
+      "desc": "If closed, only voices in current language kommer be displayed",
+      "title": "Visa Alla Locale Voices"
+    },
+    "stt": "Tal Recognition Inställningar",
+    "sttAutoStop": {
+      "desc": "When closed, Tal recognition kommer not end automatically och requires manual Klicka to stop",
+      "title": "Auto Stop Tal Recognition"
+    },
+    "sttLocale": {
+      "desc": "The language of Tal input, denna option can improve accuracy of Tal recognition",
+      "title": "Tal Recognition Language"
+    },
+    "sttService": {
+      "desc": "Where 'browser' is native Tal recognition service of browser",
+      "title": "Tal Recognition Service"
+    },
+    "submit": "Uppdatera Röst Service",
+    "title": "Tal Service",
+    "tts": "Text-to-Tal Inställningar",
+    "ttsService": {
+      "desc": "If using OpenAI Text-to-Tal service, make sure OpenAI Modell service is Aktiverad",
+      "title": "Text-to-Tal Service"
+    },
+    "voice": {
+      "desc": "Välj a Röst for current Assistent, different TTS services support different voices",
+      "preview": "Röst Förhandsvisning",
+      "title": "Text-to-Tal Röst"
+    }
+  },
+  "storage": {
+    "actions": {
+      "export": {
+        "button": "Exportera",
+        "exportType": {
+          "agent": "Exportera Assistent Inställningar",
+          "agentWithMessage": "Exportera Assistent och Meddelanden",
+          "all": "Exportera Global Inställningar och Alla Assistent Data",
+          "allAgent": "Exportera Alla Assistent Inställningar",
+          "allAgentWithMessage": "Exportera Alla Assistants och Meddelanden",
+          "globalSetting": "Exportera Global Inställningar"
+        },
+        "title": "Exportera Data"
+      },
+      "import": {
+        "button": "Importera",
+        "title": "Importera Data"
+      },
+      "title": "Avancerad Operations"
+    },
+    "desc": "Current storage usage in browser",
+    "embeddings": {
+      "used": "Vector Storage"
+    },
+    "title": "Data Storage",
+    "used": "Storage Usage"
+  },
+  "submitAgentModal": {
+    "button": "Skicka Assistent",
+    "identifier": "Assistent Identifier",
+    "metaMiss": "Please complete Assistent information before submitting. It should include Namn, Beskrivning, och tags",
+    "placeholder": "Ange a unique identifier for Assistent, e.g. web-development",
+    "tooltips": "Share to Assistent marketplace"
+  },
+  "submitFooter": {
+    "reset": "Återställ",
+    "submit": "Spara",
+    "unSaved": "Unsaved Changes",
+    "unSavedWarning": "There är currently unsaved changes"
+  },
+  "sync": {
+    "device": {
+      "deviceName": {
+        "hint": "Lägg till a Namn for easy identification",
+        "placeholder": "Ange device Namn",
+        "title": "Device Namn"
+      },
+      "title": "Device Information",
+      "unknownBrowser": "Unknown Browser",
+      "unknownOS": "Unknown OS"
+    },
+    "warning": {
+      "tip": "After a long period of community testing, WebRTC synchronization may not reliably meet Allmän data synchronization needs. Please <1>deploy a signaling server</1> before use."
+    },
+    "webrtc": {
+      "channelName": {
+        "desc": "WebRTC kommer use denna Namn to Skapa a sync channel. Ensure channel Namn is unique.",
+        "placeholder": "Ange sync channel Namn",
+        "shuffle": "Generate Randomly",
+        "title": "Sync Channel Namn"
+      },
+      "channelPassword": {
+        "desc": "Lägg till a password to ensure channel privacy. Only devices med correct password can join channel.",
+        "placeholder": "Ange sync channel password",
+        "title": "Synkroniseringskanallösenord"
+      },
+      "desc": "Real-time, peer-to-peer data communication requires Alla devices to be online for synchronization.",
+      "enabled": {
+        "invalid": "Please fill in signaling server och synchronization channel Namn before enabling.",
+        "title": "Aktivera Sync"
+      },
+      "signaling": {
+        "desc": "WebRTC kommer use denna address for synchronization",
+        "placeholder": "Ange signaling server address",
+        "title": "Signaling Server"
+      },
+      "title": "WebRTC Sync"
+    }
+  },
+  "systemAgent": {
+    "agentMeta": {
+      "label": "Assistent Metadata Generering Modell",
+      "modelDesc": "Modell designated for Genererar Assistent Namn, Beskrivning, avatar, och tags",
+      "title": "Automatically Generate Assistent Information"
+    },
+    "customPrompt": {
+      "addPrompt": "Lägg till Anpassad Prompt",
+      "desc": "Once filled out, system Assistent kommer use Anpassad Prompt when Genererar content",
+      "placeholder": "Vänligen ange Anpassad Prompt",
+      "title": "Anpassad Prompt"
+    },
+    "generationTopic": {
+      "label": "AI Art Topic Naming Modell",
+      "modelDesc": "Modell designated for automatic naming of AI art topics",
+      "title": "AI Art Automatisk Ämnesnamn"
+    },
+    "helpInfo": "When creating a new Assistent, Standard Assistent Inställningar kommer be used as preset values.",
+    "historyCompress": {
+      "label": "Konversation History Modell",
+      "modelDesc": "Specify Modell used to compress Konversation history",
+      "title": "Automatically Summarize Konversation History"
+    },
+    "queryRewrite": {
+      "label": "Question Rewriting Modell",
+      "modelDesc": "Specify Modell used to optimize user inquiries",
+      "title": "Kunskapsbas Frågeomskrivning"
+    },
+    "thread": {
+      "label": "Subtopic Naming Modell",
+      "modelDesc": "The Modell designated for automatic renaming of subtopics",
+      "title": "Automatisk Underämnesnamn"
+    },
+    "title": "System Assistants",
+    "topic": {
+      "label": "Topic Naming Modell",
+      "modelDesc": "Modell designated for automatic topic renaming",
+      "title": "Automatisk Ämnesnamn"
+    },
+    "translation": {
+      "label": "Translation Assistent",
+      "modelDesc": "Specific Modell for translate Meddelande",
+      "title": "Translation Inställningar"
+    }
+  },
+  "tab": {
+    "about": "About",
+    "agent": "Standard Assistent",
+    "common": "Common Inställningar",
+    "experiment": "Experiment",
+    "hotkey": "Hotkeys",
+    "image": "AI Drawing",
+    "llm": "Language Modell",
+    "provider": "AI Service Leverantör",
+    "proxy": "Network Proxy",
+    "storage": "Data Storage",
+    "sync": "Cloud Sync",
+    "system-agent": "System Assistent",
+    "tts": "Text-to-Tal"
+  },
+  "tools": {
+    "builtins": {
+      "groupName": "Built-ins"
+    },
+    "disabled": "The current Modell does not support function calls och cannot use Plugin",
+    "plugins": {
+      "enabled": "Aktiverad: {{num}}",
+      "groupName": "Plugins",
+      "noEnabled": "Nej plugins Aktiverad",
+      "store": "Plugin Store"
+    },
+    "title": "Extension Tools"
+  }
+}

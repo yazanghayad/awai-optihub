@@ -1,0 +1,648 @@
+{
+  "assistants": {
+    "addAgent": "Lägg till Assistent",
+    "addAgentAndConverse": "Lägg till Assistent och Converse",
+    "addAgentSuccess": "Added Successfully",
+    "conversation": {
+      "l1": "Hello, Jag är **{{name}}**, du kan fråga mig any questions, och I kommer do my best för att svara dig ~",
+      "l2": "Here är my capabilities: ",
+      "l3": "Let's start Konversation!"
+    },
+    "description": "Assistent Introduction",
+    "detail": "Detaljer",
+    "details": {
+      "capabilities": {
+        "knowledge": {
+          "desc": "The Assistent is equipped med following knowledge bases to help you answer Mer questions.",
+          "title": "Knowledge Base"
+        },
+        "plugin": {
+          "desc": "The Assistent is equipped med following plugins to help you complete Mer tasks.",
+          "title": "Built-in Plugins"
+        },
+        "title": "Assistent Capabilities"
+      },
+      "overview": {
+        "example": "Assistent Demo",
+        "title": "Översikt"
+      },
+      "related": {
+        "listTitle": "Related Assistants",
+        "more": "Visa Mer",
+        "title": "Relaterade Rekommendationer"
+      },
+      "sidebar": {
+        "toc": "Table of Contents"
+      },
+      "summary": {
+        "title": "What can you do med denna Assistent?"
+      },
+      "systemRole": {
+        "openingMessage": "Opening Meddelande",
+        "openingQuestions": "Opening Questions",
+        "title": "Assistent Inställningar"
+      }
+    },
+    "list": "Assistent Lista",
+    "more": "Mer",
+    "plugins": "Integrated Plugins",
+    "recentSubmits": "Recent Updates",
+    "sorts": {
+      "createdAt": "Recently Published",
+      "identifier": "Assistent ID",
+      "knowledgeCount": "Antal Kunskapsbaser",
+      "pluginCount": "Number of Plugins",
+      "title": "Assistent Namn",
+      "tokenUsage": "Token Usage"
+    },
+    "suggestions": "Relaterade Rekommendationer",
+    "systemRole": "Assistent Inställningar",
+    "tokenUsage": "Assistent Prompt Token Usage",
+    "try": "Try It Out",
+    "withKnowledge": "This Assistent includes knowledge bases",
+    "withPlugin": "This Assistent includes plugins"
+  },
+  "back": "Tillbaka to Discovery",
+  "category": {
+    "assistant": {
+      "academic": "Academic",
+      "all": "Alla",
+      "career": "Career",
+      "copywriting": "Copywriting",
+      "design": "Design",
+      "education": "Education",
+      "emotions": "Emotions",
+      "entertainment": "Entertainment",
+      "games": "Games",
+      "general": "Allmän",
+      "life": "Life",
+      "marketing": "Marketing",
+      "office": "Office",
+      "programming": "Programming",
+      "translation": "Translation"
+    },
+    "plugin": {
+      "all": "Alla",
+      "gaming-entertainment": "Spel & Underhållning",
+      "life-style": "Lifestyle",
+      "lifestyle": "Lifestyle",
+      "media-generate": "Media Generering",
+      "science-education": "Science & Education",
+      "social": "Social Media",
+      "stocks-finance": "Stocks & Finance",
+      "tools": "Utility Tools",
+      "web-search": "Web Sök"
+    }
+  },
+  "cleanFilter": "Rensa Filtrera",
+  "create": "Skapa",
+  "createGuide": {
+    "func1": {
+      "desc1": "Access Inställningar page for Assistent you want to Skicka through Inställningar in upper right corner of Konversation window;",
+      "desc2": "Klicka 'Skicka to Assistent Marketplace' button in upper right corner.",
+      "tag": "Method One",
+      "title": "Skicka via LobeChat"
+    },
+    "func2": {
+      "button": "Go to GitHub Assistent Repository",
+      "desc": "If you want to Lägg till Assistent to index, Skapa an entry using agent-template.json or agent-template-Fullständig.json in plugins directory, write a brief Beskrivning, tag appropriately, och then Skapa a pull request.",
+      "tag": "Method Two",
+      "title": "Skicka via GitHub"
+    }
+  },
+  "dislike": "Dislike",
+  "filter": "Filtrera",
+  "filterBy": {
+    "authorRange": {
+      "everyone": "Alla Authors",
+      "followed": "Followed Authors",
+      "title": "Author Range"
+    },
+    "contentLength": "Minsta Kontextlängd",
+    "maxToken": {
+      "title": "Ställ in Maximal Längd (Token)",
+      "unlimited": "Unlimited"
+    },
+    "other": {
+      "functionCall": "Stöder Funktionsanrop",
+      "title": "Other",
+      "vision": "Stöder Visuell Igenkänning",
+      "withKnowledge": "Inkluderar Kunskapsbas",
+      "withTool": "Includes Plugins"
+    },
+    "pricing": "Modell Pricing",
+    "timePeriod": {
+      "all": "Alla Time",
+      "day": "Last 24 Hours",
+      "month": "Last 30 Days",
+      "title": "Time Range",
+      "week": "Last 7 Days",
+      "year": "Last Year"
+    }
+  },
+  "home": {
+    "featuredAssistants": "Featured Assistants",
+    "featuredModels": "Featured Models",
+    "featuredProviders": "Featured Modell Providers",
+    "featuredTools": "Featured Plugins",
+    "more": "Discover Mer"
+  },
+  "isClaimed": "Claimed",
+  "isFeatured": "Featured",
+  "isOfficial": "Officially Verified",
+  "like": "Like",
+  "mcp": {
+    "categories": {
+      "all": {
+        "description": "Alla MCP Servers",
+        "name": "Alla"
+      },
+      "business": {
+        "description": "Business och Enterprise Services",
+        "name": "Business Services"
+      },
+      "developer": {
+        "description": "Developer-related Tools och Services",
+        "name": "Developer Tools"
+      },
+      "gaming-entertainment": {
+        "description": "Games, Entertainment, och Leisure Activities",
+        "name": "Spel & Underhållning"
+      },
+      "health-wellness": {
+        "description": "Health, Fitness, och Wellness",
+        "name": "Health & Wellness"
+      },
+      "lifestyle": {
+        "description": "Personal Lifestyle, Habits, och Daily Activities",
+        "name": "Lifestyle"
+      },
+      "media-generate": {
+        "description": "Media Generering, Editing, och Bearbetar",
+        "name": "Media Generering"
+      },
+      "news": {
+        "description": "News Aggregation, Reporting, och Information Services",
+        "name": "News & Information"
+      },
+      "productivity": {
+        "description": "Task Management, Notes, och Productivity Tools",
+        "name": "Productivity Tools"
+      },
+      "science-education": {
+        "description": "Scientific Research, Learning, och Educational Tools",
+        "name": "Science & Education"
+      },
+      "social": {
+        "description": "Social Networks och Communication",
+        "name": "Social Media"
+      },
+      "stocks-finance": {
+        "description": "Financial Markets, Trading, och Investment",
+        "name": "Stocks & Finance"
+      },
+      "tools": {
+        "description": "Allmän-purpose Practical Tools och Services",
+        "name": "Utility Tools"
+      },
+      "travel-transport": {
+        "description": "Travel Planning och Transportation",
+        "name": "Travel & Transport"
+      },
+      "weather": {
+        "description": "Weather Forecasting och Meteorological Services",
+        "name": "Weather"
+      },
+      "web-search": {
+        "description": "Web Sök och Informationshämtning",
+        "name": "Informationshämtning"
+      }
+    },
+    "details": {
+      "connectionType": {
+        "hybrid": {
+          "desc": "Denna tjänst can run locally or in cloud depending on Konfiguration or usage scenario, offering dual operation capability.",
+          "title": "Hybrid Service"
+        },
+        "local": {
+          "desc": "This server can only run on client’s local device, requiring installation och relying on local resources.",
+          "title": "Local Service"
+        },
+        "remote": {
+          "desc": "This server is hosted remotely because it mainly depends on remote services och does not rely on local environment.",
+          "title": "Cloud Service"
+        }
+      },
+      "deployment": {
+        "args": "Arguments",
+        "checkCommand": "Check Command",
+        "command": "Command",
+        "commandLine": "System Dependencies",
+        "connection": "Connection Method",
+        "connectionType": "Connection Typ",
+        "description": "Plugin Installation och Distributionsmetod",
+        "descriptionPlaceholder": "Valfritt Beskrivning",
+        "empty": "Nej Deployment Alternativ Tillgänglig",
+        "env": "Miljövariabler",
+        "guide": "Installation Guide",
+        "installation": "Installera via {{method}}",
+        "installationMethod": "Installation Method",
+        "other": "Other Inställningar",
+        "packageName": "Package Namn",
+        "platform": {
+          "steps": {
+            "claude": "- Open **Claude Desktop** app\n- Go to **Inställningar**, then Välj **Developer**\n- Klicka **Redigera Konfiguration**\n- Open **claude_desktop_config.json** Fil\n- Copy och paste server Konfiguration into existing Fil, then Spara",
+            "cline": "- Open VS Code med Cline extension Installerad\n- Klicka Cline icon in sidebar\n- Välj **MCP Servers** från dropdown menu\n- In **Remote Servers** tab, Ange server Namn och your MCP server URL\n- Klicka **Lägg till Server** to connect",
+            "cursor": "- Navigate to **Inställningar**, then Välj Cursor Inställningar\n- Välj **MCP** on left\n- Klicka **Lägg till New Global MCP Server** at top right\n- Copy och paste server Konfiguration into existing Fil, then Spara",
+            "lobeChat": "- Open **LobeChat Desktop** app\n- Go to **Inställningar** - **Standard Assistent**\n- Then Välj **Plugin Inställningar** - **Anpassad Plugins**\n- Klicka **Quick Importera JSON Konfiguration**\n- Copy och paste server Konfiguration into Text box, then Installera",
+            "openai": "- Open your **OpenAI app** or development environment\n- Configure MCP tools in **Responses API**\n- Lägg till MCP blocks to **tools** array in API requests\n- Set **server_url** to your MCP server endpoint\n- Include Krävs authentication headers (API-nyckel, Token, etc.)\n- Use `allowed_tools` parameter to restrict exposed tools\n- Set `require_approval` to control tool execution approval",
+            "vscode": "- Open VS Code\n- Open command palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)\n- Typ **MCP: Lägg till Server** och Välj it\n- Välj to Lägg till to workspace or user Inställningar\n- Copy och paste server Konfiguration"
+          },
+          "title": "Installera on {{platform}}"
+        },
+        "recommended": "Recommended",
+        "systemDependencies": "System Dependencies",
+        "table": {
+          "description": "Beskrivning",
+          "name": "Namn",
+          "required": "Krävs",
+          "type": "Typ"
+        },
+        "title": "Installation Method"
+      },
+      "githubBadge": {
+        "desc": "LobeHub regularly scans code repositories och documentation to:\n\n- Bekräfta MCP server operational Status.\n- Extract server features such as tools, resources, prompts, och Krävs parameters.\n- Our badge helps users quickly assess MCP server security, feature set, och installation instructions.\n\nPlease copy following code into your `README.md` Fil:"
+      },
+      "nav": {
+        "needHelp": "Need Help?",
+        "reportIssue": "Report Issue",
+        "viewSourceCode": "Visa Source Code"
+      },
+      "overview": {
+        "title": "Översikt"
+      },
+      "related": {
+        "listTitle": "Related MCP Servers",
+        "more": "Visa Mer",
+        "title": "Relaterade Rekommendationer"
+      },
+      "schema": {
+        "mode": {
+          "docs": "Documentation"
+        },
+        "prompts": {
+          "arguments": "Parameter Konfiguration",
+          "desc": "Interaktiva mallar som aktiveras av användarval",
+          "empty": "Nej Prompts Tillgänglig",
+          "instructions": "Instruction Beskrivning",
+          "table": {
+            "description": "Beskrivning",
+            "name": "Namn",
+            "required": "Krävs"
+          },
+          "title": "Prompt Lista"
+        },
+        "resources": {
+          "desc": "Context data attached och managed by client",
+          "empty": "Nej Resources Tillgänglig",
+          "table": {
+            "description": "Beskrivning",
+            "mineType": "MIME Typ",
+            "name": "Namn",
+            "uri": "URI"
+          },
+          "title": "Resource Lista"
+        },
+        "title": "Plugin Features",
+        "tools": {
+          "desc": "Funktionella gränssnitt exponerade för stora språkmodeller (LLM) to perform operations",
+          "empty": "Nej Tools Tillgänglig",
+          "inputSchema": "Input Beskrivning",
+          "instructions": "Instruction Beskrivning",
+          "table": {
+            "description": "Beskrivning",
+            "name": "Namn",
+            "required": "Krävs",
+            "type": "Typ"
+          },
+          "title": "Tool Lista"
+        }
+      },
+      "score": {
+        "claimed": {
+          "desc": "Denna MCP-server har claimed by owner, ensuring its ownership och management.",
+          "title": "Claimed by Owner"
+        },
+        "deployMoreThanManual": {
+          "desc": "Denna MCP-server erbjuder installation methods friendlier than Manual, allowing users to deploy och use it easily.",
+          "title": "Erbjuder Användarvänliga Installationsmetoder"
+        },
+        "deployment": {
+          "desc": "Denna MCP-server tillhandahåller at least one installation method, allowing users to deploy och use it.",
+          "descWithCount": "Denna MCP-server tillhandahåller {{number}} installation methods, allowing users to deploy och use it.",
+          "title": "Tillhandahåller Minst En Installationsmetod"
+        },
+        "license": {
+          "desc": "Detta repository innehåller a LICENSE Fil.",
+          "descWithlicense": "Detta repository är licensierat under {{license}}.",
+          "title": "Has LICENSE"
+        },
+        "listTitle": "Score Detaljer",
+        "notClaimed": {
+          "desc": "If you är owner of denna MCP Server, you can claim it by following methods.",
+          "title": "Not Claimed by Owner"
+        },
+        "prompts": {
+          "desc": "Denna MCP-server tillhandahåller prompts, allowing users to interact med service.",
+          "descWithCount": "Denna MCP-server tillhandahåller {{number}} prompts, allowing users to interact med service.",
+          "title": "Includes Prompts"
+        },
+        "readme": {
+          "desc": "Detta repository innehåller a README.md Fil.",
+          "title": "Has README"
+        },
+        "resources": {
+          "desc": "Denna MCP-server tillhandahåller resources, allowing users to attach och manage context data.",
+          "descWithCount": "Denna MCP-server tillhandahåller {{number}} resources, allowing users to attach och manage context data.",
+          "title": "Includes Resources"
+        },
+        "title": "Score",
+        "tools": {
+          "desc": "Tjänsten måste tillhandahålla minst ett verktyg, allowing users to perform specific operations.",
+          "descWithCount": "Denna MCP-server tillhandahåller {{number}} tool features, allowing users to perform specific operations.",
+          "title": "Inkluderar Minst Ett Verktyg"
+        },
+        "validated": {
+          "desc": "This MCP Server has passed installation validation, ensuring its quality och reliability.",
+          "title": "Validated"
+        }
+      },
+      "scoreLevel": {
+        "a": {
+          "desc": "Denna MCP-server har rigorously validated, providing comprehensive features och a high-quality user experience.",
+          "fullTitle": "Excellent Plugin",
+          "title": "Premium"
+        },
+        "b": {
+          "desc": "Denna MCP-server erbjuder good features och user experience but may need improvements in some areas.",
+          "fullTitle": "Good Functionality",
+          "title": "Good"
+        },
+        "f": {
+          "desc": "Denna MCP-server är incomplete or of low quality; users är advised to use it cautiously.",
+          "fullTitle": "Poor Quality",
+          "title": "Poor"
+        }
+      },
+      "settings": {
+        "capabilities": {
+          "prompts": "Prompts",
+          "resources": "Resources",
+          "title": "Plugin Capabilities",
+          "tools": "Tools"
+        },
+        "configuration": {
+          "title": "Plugin Konfiguration"
+        },
+        "connection": {
+          "args": "Startup Arguments",
+          "command": "Startup Command",
+          "title": "Anslutningsinformation",
+          "type": "Connection Typ",
+          "url": "Service URL"
+        },
+        "saveSettings": "Spara Inställningar",
+        "title": "Plugin Inställningar"
+      },
+      "sidebar": {
+        "install": "Installera MCP Server",
+        "meta": {
+          "homepage": "Official Homepage",
+          "installCount": "Installera Count",
+          "language": "Source Language",
+          "license": "License",
+          "published": "Published Date",
+          "repo": "Source Repository",
+          "stars": "Stars",
+          "title": "Detaljer",
+          "updated": "Senast Uppdaterad"
+        },
+        "moreServerConfig": "Visa Detaljer",
+        "recommendServers": "Related MCP",
+        "serverConfig": "Installation Konfiguration",
+        "toc": "Table of Contents"
+      },
+      "summary": {
+        "title": "Vad kan du göra med denna MCP-server?"
+      },
+      "totalScore": {
+        "description": "Totalpoäng beräknad baserat på olika indikatorer",
+        "legend": {
+          "aGrade": "Betyg A ({{minPercent}}-100%)",
+          "bGrade": "Betyg B ({{minPercent}}-{{maxPercent}}%)",
+          "fGrade": "Betyg F (0-{{maxPercent}}%)"
+        },
+        "pointsFormat": "{{score}}/{{total}} poäng",
+        "popover": {
+          "completedOptional": "✅ Completed Valfritt Items ({{count}})",
+          "completedRequired": "✅ Completed Krävs Items ({{count}})",
+          "incompleteOptional": "⏸️ Incomplete Valfritt Items ({{count}})",
+          "incompleteRequired": "❌ Incomplete Krävs Items ({{count}})",
+          "title": "Score Detaljer"
+        },
+        "ratingFormat": "Rating: {{level}}",
+        "scoreInfo": {
+          "items": "Items",
+          "points": "Poäng",
+          "requiredItems": "Krävs Items"
+        },
+        "title": "Total Score"
+      },
+      "versions": {
+        "table": {
+          "isLatest": "Latest Version",
+          "isValidated": "Validated",
+          "publishAt": "Published Date",
+          "version": "Version"
+        },
+        "title": "Version History"
+      }
+    },
+    "hero": {
+      "desc": "An open-source, deployable MCP Servers platform som helps AI systems easily access key resources such as Fil systems, databases, APIs, och Mer, comprehensively expanding your AI capabilities.",
+      "subTitle": "Öppen Källkod & Redo att Använda",
+      "title": "Öppen Källkod MCP-marknadsplats för AI"
+    },
+    "sorts": {
+      "createdAt": "Recently Added",
+      "installCount": "Installera Count",
+      "isFeatured": "Featured Plugins",
+      "isValidated": "Validated Plugins",
+      "promptsCount": "Number of Prompts",
+      "ratingCount": "Number of Ratings",
+      "resourcesCount": "Number of Resources",
+      "toolsCount": "Number of Tools",
+      "updatedAt": "Recently Updated"
+    },
+    "title": "MCP Marketplace",
+    "unvalidated": {
+      "desc": "Denna MCP-server har inte validerats ännu",
+      "title": "Unvalidated"
+    },
+    "validated": {
+      "desc": "Denna MCP-server har validerats to ensure its quality och reliability.",
+      "descWithDate": "Denna MCP-server validerades den {{date}} to ensure its quality och reliability.",
+      "title": "Validated"
+    }
+  },
+  "models": {
+    "abilities": "Modell Capabilities",
+    "chat": "Start Konversation",
+    "contentLength": "Maximal Kontextlängd",
+    "details": {
+      "overview": {
+        "title": "Översikt"
+      },
+      "related": {
+        "listTitle": "Related Models",
+        "more": "Visa Mer",
+        "title": "Relaterade Rekommendationer"
+      }
+    },
+    "free": "Free",
+    "guide": "Konfiguration Guide",
+    "list": "Modell Lista",
+    "more": "Mer",
+    "parameterList": {
+      "defaultValue": "Standard Value",
+      "docs": "Visa Documentation",
+      "frequency_penalty": {
+        "desc": "Denna inställning adjusts frequency at which Modell reuses specific vocabulary som has already appeared in input. Higher values reduce likelihood of such repetition, while negative values har opposite effect. Vocabulary penalties do not increase med frequency of occurrence. Negative values encourage vocabulary reuse.",
+        "title": "Frequency Penalty"
+      },
+      "max_tokens": {
+        "desc": "Denna inställning defines maximum length som Modell can generate in a single Svar. Setting a higher value allows Modell to produce longer replies, while a lower value restricts length of Svar, making it Mer concise. Adjusting denna value appropriately based on different application scenarios can help achieve desired Svar length och level of detail.",
+        "title": "Single Svar Limit"
+      },
+      "presence_penalty": {
+        "desc": "Denna inställning aims to control reuse of vocabulary based on its frequency in input. It attempts to use Mindre of those words som appear Mer frequently in input, med usage frequency proportional to occurrence frequency. Vocabulary penalties increase med frequency of occurrence. Negative values encourage vocabulary reuse.",
+        "title": "Topic Freshness"
+      },
+      "range": "Range",
+      "reasoning_effort": {
+        "desc": "Denna inställning controls intensity of reasoning Modell applies before Genererar a Svar. Low intensity prioritizes Svar speed och saves Tokens, while high intensity provides Mer comprehensive reasoning but consumes Mer Tokens och slows down Svar time. The Standard value is medium, balancing reasoning accuracy med Svar speed.",
+        "title": "Reasoning Intensity"
+      },
+      "temperature": {
+        "desc": "Denna inställning affects diversity of Modell's responses. Lower values lead to Mer predictable och typical responses, while higher values encourage Mer diverse och Mindre common responses. When set to 0, Modell always gives same Svar to a given input.",
+        "title": "Randomness"
+      },
+      "title": "Modell Parameters",
+      "top_p": {
+        "desc": "Denna inställning limits Modell's selection to a certain proportion of most likely vocabulary: only selecting those top words whose cumulative probability reaches P. Lower values make Modell's responses Mer predictable, while Standard setting allows Modell to Välj från entire range of vocabulary.",
+        "title": "Nucleus Sampling"
+      },
+      "type": "Typ"
+    },
+    "providerInfo": {
+      "apiTooltip": "LobeChat supports using a Anpassad API-nyckel for denna Leverantör.",
+      "input": "Input Price",
+      "inputTooltip": "Cost per million Tokens",
+      "latency": "Latency",
+      "latencyTooltip": "Average Svar time for Leverantör to send first Token",
+      "maxOutput": "Maximal Utdatalängd",
+      "maxOutputTooltip": "Maximum number of Tokens denna endpoint can generate",
+      "officialTooltip": "LobeHub Officiell Tjänst",
+      "output": "Output Price",
+      "outputTooltip": "Cost per million Tokens",
+      "streamCancellationTooltip": "This Leverantör supports stream cancellation.",
+      "throughput": "Throughput",
+      "throughputTooltip": "Average number of Tokens transmitted per second for stream requests"
+    },
+    "sorts": {
+      "contextWindowTokens": "Context Length",
+      "identifier": "Modell ID",
+      "inputPrice": "Input Price",
+      "outputPrice": "Output Price",
+      "providerCount": "Number of Providers",
+      "releasedAt": "Recently Released"
+    },
+    "suggestions": "Related Models",
+    "supportedProviders": "Providers Supporting Denna Modell"
+  },
+  "plugins": {
+    "community": "Community Plugins",
+    "details": {
+      "settings": {
+        "title": "Plugin Inställningar"
+      },
+      "summary": {
+        "title": "What can you do med denna Plugin?"
+      },
+      "tools": {
+        "title": "Plugin Tools"
+      }
+    },
+    "install": "Installera Plugin",
+    "installed": "Installerad",
+    "list": "Plugin Lista",
+    "meta": {
+      "description": "Beskrivning",
+      "parameter": "Parameter",
+      "title": "Tool Parameters",
+      "type": "Typ"
+    },
+    "more": "Mer",
+    "official": "Official Plugins",
+    "recentSubmits": "Recently Updated",
+    "sorts": {
+      "createdAt": "Recently Published",
+      "identifier": "Plugin ID",
+      "title": "Plugin Namn"
+    },
+    "suggestions": "Relaterade Rekommendationer"
+  },
+  "providers": {
+    "config": "Configure Leverantör",
+    "details": {
+      "guide": {
+        "title": "Integration Guide"
+      },
+      "overview": {
+        "title": "Översikt"
+      },
+      "related": {
+        "listTitle": "Related Providers",
+        "more": "Visa Mer",
+        "title": "Relaterade Rekommendationer"
+      }
+    },
+    "list": "Modell Leverantör Lista",
+    "modelCount": "{{count}} models",
+    "modelName": "Modell Namn",
+    "modelSite": "Modell Documentation",
+    "more": "Mer",
+    "officialSite": "Official Website",
+    "showAllModels": "Visa Alla Models",
+    "sorts": {
+      "default": "Standard Sorting",
+      "identifier": "Leverantör ID",
+      "modelCount": "Number of Models"
+    },
+    "suggestions": "Related Providers",
+    "supportedModels": "Supported Models"
+  },
+  "publishedTime": "Published on",
+  "search": {
+    "placeholder": "Sök by Namn, Beskrivning, or keywords...",
+    "result": "{{count}} results about <highlight>{{keyword}}</highlight>",
+    "searching": "Searching..."
+  },
+  "tab": {
+    "assistant": "Assistent",
+    "home": "Home",
+    "model": "Modell",
+    "plugin": "Plugin",
+    "provider": "Modell Leverantör"
+  }
+}

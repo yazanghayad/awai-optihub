@@ -1,7 +1,7 @@
 {
-  "name": "@optitechdev/singtue",
+  "name": "@optitechdev/awai",
   "version": "1.137.0",
-  "description": "Singtue - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system. Supports one-click free deployment of your private ChatGPT/LLM web application.",
+  "description": "AWAI - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system. Supports one-click free deployment of your private ChatGPT/LLM web application.",
   "keywords": [
     "framework",
     "chatbot",
@@ -14,13 +14,13 @@
     "tts",
     "stt"
   ],
-  "homepage": "https://github.com/optitechdev/Singtue-",
+  "homepage": "https://github.com/optitechdev/awai",
   "bugs": {
-    "url": "https://github.com/optitechdev/Singtue-/issues"
+    "url": "https://github.com/optitechdev/awai/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/optitechdev/Singtue-.git"
+    "url": "https://github.com/optitechdev/awai.git"
   },
   "license": "MIT",
   "author": "OptiTech Sverige AB <Yazanghayad@optitech-sverige.se>",
@@ -43,7 +43,7 @@
     "db:generate-client": "tsx ./scripts/migrateClientDB/compile-migrations.ts",
     "db:migrate": "MIGRATION_DB=1 tsx ./scripts/migrateServerDB/index.ts",
     "db:studio": "drizzle-kit studio",
-    "db:visualize": "dbdocs build docs/development/database-schema.dbml --project lobe-chat",
+    "db:visualize": "dbdocs build docs/development/database-schema.dbml --project awai-optihub",
     "desktop:build": "npm run desktop:build-next && npm run desktop:prepare-dist && npm run desktop:build-electron",
     "desktop:build-electron": "tsx scripts/electronWorkflow/buildElectron.ts",
     "desktop:build-local": "npm run desktop:build-next && npm run desktop:prepare-dist && npm run build-local --prefix=./apps/desktop",
@@ -68,9 +68,9 @@
     "reinstall": "rm -rf pnpm-lock.yaml && rm -rf node_modules && pnpm -r exec rm -rf node_modules && pnpm install",
     "reinstall:desktop": "rm -rf pnpm-lock.yaml && rm -rf node_modules && pnpm -r exec rm -rf node_modules && pnpm install --node-linker=hoisted",
     "release": "semantic-release",
-    "self-hosting:docker": "docker build -t lobe-chat:local .",
-    "self-hosting:docker-cn": "docker build -t lobe-chat-local --build-arg USE_CN_MIRROR=true .",
-    "self-hosting:docker-cn@database": "docker build -t lobe-chat-database-local -f Dockerfile.database --build-arg USE_CN_MIRROR=true .",
+    "self-hosting:docker": "docker build -t awai-optihub:local .",
+    "self-hosting:docker-cn": "docker build -t awai-optihub-local --build-arg USE_CN_MIRROR=true .",
+    "self-hosting:docker-cn@database": "docker build -t awai-optihub-database-local -f Dockerfile.database --build-arg USE_CN_MIRROR=true .",
     "start": "next start -p 3210",
     "stylelint": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "test": "npm run test-app && npm run test-server",
@@ -265,7 +265,6 @@
     "resolve-accept-language": "^3.1.13",
     "rtl-detect": "^1.1.2",
     "semver": "^7.7.3",
-    "sharp": "^0.34.4",
     "shiki": "^3.13.0",
     "ssrf-safe-fetch": "workspace:*",
     "stripe": "^17.7.0",
@@ -363,6 +362,7 @@
     "require-in-the-middle": "^7.5.2",
     "semantic-release": "^21.1.2",
     "serwist": "^9.2.1",
+    "sharp": "^0.34.4",
     "stylelint": "^15.11.0",
     "tsx": "^4.20.6",
     "type-fest": "^4.41.0",

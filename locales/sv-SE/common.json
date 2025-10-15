@@ -1,0 +1,379 @@
+{
+  "about": "Om",
+  "advanceSettings": "Avancerade Inställningar",
+  "alert": {
+    "cloud": {
+      "action": "Gratis Provperiod",
+      "desc": "Vi erbjuder {{credit}} gratis beräkningskrediter till alla registrerade användare, ingen komplex konfiguration krävs, redo att använda direkt, stöd för obegränsad konversationshistorik och global molnsynkronisering.",
+      "descOnMobile": "Vi tillhandahåller {{credit}} gratis beräkningskrediter för alla registrerade användare, redo att använda utan komplex konfiguration.",
+      "title": "Lansera {{name}}"
+    }
+  },
+  "appLoading": {
+    "appIdle": "Redo att starta",
+    "appInitializing": "Applikationen startar...",
+    "failed": "Tyvärr misslyckades applikationsinitiering. Kontrollera detaljer för felsökning.",
+    "finished": "Databasinitiering slutförd",
+    "goToChat": "Laddar chattsida...",
+    "initAuth": "Initierar autentiseringstjänst...",
+    "initUser": "Initierar användarstatus...",
+    "initializing": "Initierar PGlite-databas...",
+    "loadingDependencies": "Initierar beroenden...",
+    "loadingWasm": "Laddar WASM-modul...",
+    "migrating": "Utför databasmigrering...",
+    "ready": "Databasen är klar",
+    "showDetail": "Visa detaljer"
+  },
+  "autoGenerate": "Autogenerera",
+  "autoGenerateTooltip": "Autogenerera assistentbeskrivning baserat på prompter",
+  "autoGenerateTooltipDisabled": "Vänligen ange en verktygstips innan du använder autokompletteringsfunktionen",
+  "back": "Tillbaka",
+  "batchDelete": "Batchradering",
+  "blog": "Produktblogg",
+  "branching": "Skapa Underämne",
+  "branchingDisable": "Funktionen 'Underämne' är endast tillgänglig i serverversionen. Om du behöver denna funktion, vänligen byt till serverdistributionsläge eller använd LobeChat Cloud.",
+  "branchingRequiresSavedTopic": "Aktuellt ämne är inte sparat, vänligen spara det först för att använda underämnefunktionen",
+  "cancel": "Avbryt",
+  "changelog": "Ändringslogg",
+  "clientDB": {
+    "autoInit": {
+      "title": "Initierar PGlite-databas"
+    },
+    "error": {
+      "desc": "Vi ber om ursäkt, ett fel uppstod under Pglite-databasinitiering. Klicka på knappen för att försöka igen. Om felet kvarstår efter flera försök, vänligen <1>skicka in ett ärende</1>, och vi hjälper dig så snart som möjligt.",
+      "detail": "Felorsak: [{{type}}] {{message}}. Detaljer följer:",
+      "detailTitle": "Felorsak",
+      "report": "Rapportera Problem",
+      "retry": "Försök igen",
+      "selfSolve": "Lös Själv",
+      "title": "Databasinitiering Misslyckades"
+    },
+    "initing": {
+      "error": "Ett fel uppstod, försök igen",
+      "idle": "Väntar på initiering...",
+      "initializing": "Initierar...",
+      "loadingDependencies": "Laddar beroenden...",
+      "loadingWasmModule": "Laddar WASM-modul...",
+      "migrating": "Utför databasmigrering...",
+      "ready": "Databasen är klar"
+    },
+    "modal": {
+      "desc": "Aktivera PGlite-klientdatabasen för att varaktigt lagra chattdata i din webbläsare och använda avancerade funktioner som kunskapsbas.",
+      "enable": "Aktivera Nu",
+      "features": {
+        "knowledgeBase": {
+          "desc": "Bygg din personliga kunskapsbas och starta enkelt konversationer med din assistent (kommer snart)",
+          "title": "Stöd för kunskapsbaskonversationer"
+        },
+        "localFirst": {
+          "desc": "Chattdata lagras helt i webbläsaren, dina data är alltid under din kontroll.",
+          "title": "Lokalt först, integritet först"
+        },
+        "pglite": {
+          "desc": "Byggt på PGlite, stöder nativt AI Native-avancerade funktioner (vektorsökning)",
+          "title": "Nästa generations klientlagringsarkitektur"
+        }
+      },
+      "init": {
+        "desc": "Initierar databasen, vilket kan ta 5 till 30 sekunder beroende på nätverksförhållanden.",
+        "title": "Initierar PGlite-databas"
+      },
+      "title": "Aktivera Klientdatabas"
+    },
+    "ready": {
+      "button": "Använd Nu",
+      "desc": "Redo att använda",
+      "title": "PGlite-databasen är Klar"
+    },
+    "solve": {
+      "backup": {
+        "backup": "Säkerhetskopiera",
+        "backupSuccess": "Säkerhetskopiering Lyckades",
+        "desc": "Exportera nyckeldata från den aktuella databasen",
+        "export": "Exportera All Data",
+        "exportDesc": "Exporterad data sparas i JSON-format, vilket kan användas för framtida återställning eller analys.",
+        "reset": {
+          "alert": "Varning",
+          "alertDesc": "Följande åtgärder kan leda till dataförlust. Säkerställ att du har säkerhetskopierat viktig data innan du fortsätter.",
+          "button": "Återställ Databas Helt (Radera All Data)",
+          "confirm": {
+            "desc": "Denna åtgärd kommer att radera all data och kan inte ångras. Bekräftar du att du vill fortsätta?",
+            "title": "Bekräfta Databasåterställning"
+          },
+          "desc": "Återställ databasen vid oåterkallelig migrering",
+          "title": "Databasåterställning"
+        },
+        "restore": "Återställ",
+        "restoreSuccess": "Återställning Lyckades",
+        "title": "Datasäkerhetskopiering"
+      },
+      "diagnosis": {
+        "createdAt": "Skapandetid",
+        "migratedAt": "Migreringssluttid",
+        "sql": "Migrerings-SQL",
+        "title": "Migreringsstatus"
+      },
+      "repair": {
+        "desc": "Hantera migreringsstatus manuellt",
+        "runSQL": "Anpassad Körning",
+        "sql": {
+          "clear": "Rensa",
+          "desc": "Kör anpassade SQL-satser för att åtgärda databasproblem",
+          "markFinished": "Markera som Slutförd",
+          "placeholder": "Ange SQL-sats...",
+          "result": "Körningsresultat",
+          "run": "Kör",
+          "title": "SQL-körare"
+        },
+        "title": "Migreringskontroll"
+      },
+      "tabs": {
+        "backup": "Säkerhetskopiering & Återställning",
+        "diagnosis": "Diagnos",
+        "repair": "Reparation"
+      }
+    }
+  },
+  "close": "Stäng",
+  "contact": "Kontakta Oss",
+  "copy": "Kopiera",
+  "copyFail": "Kopiering misslyckades",
+  "copySuccess": "Kopierades framgångsrikt",
+  "dataStatistics": {
+    "messages": "Meddelanden",
+    "sessions": "Assistenter",
+    "today": "Nya Idag",
+    "topics": "Ämnen"
+  },
+  "defaultAgent": "Standardassistent",
+  "defaultSession": "Standardassistent",
+  "delete": "Radera",
+  "document": "Användarmanual",
+  "download": "Ladda ner",
+  "duplicate": "Skapa Dubblett",
+  "edit": "Redigera",
+  "export": "Exportera Konfiguration",
+  "exportType": {
+    "agent": "Exportera Assistentinställningar",
+    "agentWithMessage": "Exportera Assistent och Meddelanden",
+    "all": "Exportera Globala Inställningar och All Assistentdata",
+    "allAgent": "Exportera Alla Assistentinställningar",
+    "allAgentWithMessage": "Exportera Alla Assistenter och Meddelanden",
+    "globalSetting": "Exportera Globala Inställningar"
+  },
+  "feedback": "Feedback",
+  "follow": "Följ oss på {{name}}",
+  "footer": {
+    "action": {
+      "feedback": "Dela Din Värdefulla Feedback",
+      "star": "Stjärna på GitHub"
+    },
+    "and": "och",
+    "feedback": {
+      "action": "Dela Feedback",
+      "desc": "Varje idé och förslag från dig är värdefullt för oss. Vi kan inte vänta på att höra dina tankar! Kontakta oss gärna för att ge feedback om produktfunktioner och användarupplevelse, vilket hjälper oss att göra LobeChat ännu bättre.",
+      "title": "Dela Din Värdefulla Feedback på GitHub"
+    },
+    "later": "Senare",
+    "star": {
+      "action": "Stjärnmarkera Det",
+      "desc": "Om du älskar vår produkt och vill stödja oss, kan du gå till GitHub och ge oss en stjärna? Denna lilla gest betyder mycket för oss och motiverar oss att fortsätta ge dig fantastiska upplevelser.",
+      "title": "Stjärnmarkera Oss på GitHub"
+    },
+    "title": "Gillar Du Vår Produkt?"
+  },
+  "fullscreen": "Helskärmsläge",
+  "geminiImageChineseWarning": {
+    "content": "Nano Banana kan ibland misslyckas med att generera bilder när kinesiska används. Det rekommenderas att använda engelska för bättre resultat.",
+    "continueGenerate": "Fortsätt Generera",
+    "continueSend": "Fortsätt Skicka",
+    "doNotShowAgain": "Visa Inte Igen",
+    "title": "Meddelande om Kinesisk Inmatning"
+  },
+  "historyRange": "Historikintervall",
+  "import": "Importera",
+  "importData": "Importera Data",
+  "importModal": {
+    "error": {
+      "desc": "Tyvärr uppstod ett fel under dataimportprocessen. Försök importera igen, eller <1>skicka in en förfrågan</1>, och vi hjälper dig att felsöka problemet så snart som möjligt.",
+      "title": "Dataimport Misslyckades"
+    },
+    "finish": {
+      "onlySettings": "Systeminställningar importerade framgångsrikt",
+      "start": "Börja Använda",
+      "subTitle": "Data importerades framgångsrikt, tog {{duration}} sekunder. Importdetaljer följer:",
+      "title": "Dataimport slutförd"
+    },
+    "loading": "Data importeras, vänligen vänta...",
+    "preparing": "Dataimportmodulen förbereds...",
+    "result": {
+      "added": "Importerades framgångsrikt",
+      "errors": "Importfel",
+      "messages": "Meddelanden",
+      "sessionGroups": "Grupper",
+      "sessions": "Assistenter",
+      "skips": "Dubbletter hoppades över",
+      "topics": "Ämnen",
+      "type": "Datatyp",
+      "update": "Post Uppdaterad"
+    },
+    "title": "Importera Data",
+    "uploading": {
+      "desc": "Den aktuella filen är stor och laddas upp...",
+      "restTime": "Återstående tid",
+      "speed": "Uppladdningshastighet"
+    }
+  },
+  "importPreview": {
+    "confirmImport": "Bekräfta Import",
+    "tables": {
+      "count": "Postantal",
+      "name": "Tabellnamn"
+    },
+    "title": "Förhandsgranskning av Dataimport",
+    "totalRecords": "Totalt {{count}} poster kommer att importeras",
+    "totalTables": "{{count}} tabeller"
+  },
+  "information": "Community och Nyheter",
+  "installPWA": "Installera webbläsarapp",
+  "labs": "Labs",
+  "lang": {
+    "ar": "Arabiska",
+    "bg-BG": "Bulgariska",
+    "bn": "Bengali",
+    "cs-CZ": "Tjeckiska",
+    "da-DK": "Danska",
+    "de-DE": "Tyska",
+    "el-GR": "Grekiska",
+    "en": "Engelska",
+    "en-US": "Engelska",
+    "es-ES": "Spanska",
+    "fa-IR": "Persiska",
+    "fi-FI": "Finska",
+    "fr-FR": "Franska",
+    "hi-IN": "Hindi",
+    "hu-HU": "Ungerska",
+    "id-ID": "Indonesiska",
+    "it-IT": "Italienska",
+    "ja-JP": "Japanska",
+    "ko-KR": "Koreanska",
+    "nl-NL": "Holländska",
+    "no-NO": "Norska",
+    "pl-PL": "Polska",
+    "pt-BR": "Portugisiska",
+    "pt-PT": "Portugisiska",
+    "ro-RO": "Rumänska",
+    "ru-RU": "Ryska",
+    "sk-SK": "Slovakiska",
+    "sr-RS": "Serbiska",
+    "sv-SE": "Svenska",
+    "th-TH": "Thailändska",
+    "tr-TR": "Turkiska",
+    "uk-UA": "Ukrainska",
+    "vi-VN": "Vietnamesiska",
+    "zh": "Förenklad Kinesiska",
+    "zh-CN": "Förenklad Kinesiska",
+    "zh-TW": "Traditionell Kinesiska"
+  },
+  "layoutInitializing": "Initierar layout...",
+  "legal": "Juridisk Friskrivning",
+  "loading": "Laddar...",
+  "mail": {
+    "business": "Affärssamarbete",
+    "support": "E-postsupport"
+  },
+  "oauth": "SSO-inloggning",
+  "officialSite": "Officiell Webbplats",
+  "ok": "OK",
+  "password": "Lösenord",
+  "pin": "Fäst",
+  "pinOff": "Lossa",
+  "privacy": "Integritetspolicy",
+  "regenerate": "Regenerera",
+  "releaseNotes": "Versionsdetaljer",
+  "rename": "Byt namn",
+  "reset": "Återställ",
+  "retry": "Försök igen",
+  "run": "Kör",
+  "save": "Spara",
+  "send": "Skicka",
+  "setting": "Inställningar",
+  "share": "Dela",
+  "stop": "Stoppa",
+  "sync": {
+    "actions": {
+      "settings": "Synkroniseringsinställningar",
+      "sync": "Synkronisera Nu"
+    },
+    "awareness": {
+      "current": "Aktuell Enhet"
+    },
+    "channel": "Kanal",
+    "disabled": {
+      "actions": {
+        "enable": "Aktivera Molnsynkronisering",
+        "settings": "Synkroniseringsinställningar"
+      },
+      "desc": "Aktuell sessionsdata lagras endast i denna webbläsare. Om du behöver synkronisera data över flera enheter, vänligen konfigurera och aktivera molnsynkronisering.",
+      "title": "Datasynkronisering Inaktiverad"
+    },
+    "enabled": {
+      "title": "Datasynkronisering Aktiverad"
+    },
+    "status": {
+      "connecting": "Ansluter",
+      "disabled": "Synkronisering Inaktiverad",
+      "ready": "Ansluten",
+      "synced": "Synkroniserad",
+      "syncing": "Synkroniserar",
+      "unconnected": "Anslutning Misslyckades"
+    },
+    "title": "Synkroniseringsstatus",
+    "unconnected": {
+      "tip": "Signaleringsserveranslutning misslyckades, och peer-to-peer-kommunikationskanal kan inte upprättas. Kontrollera nätverket och försök igen."
+    }
+  },
+  "tab": {
+    "aiImage": "AI-målning",
+    "chat": "Chatt",
+    "discover": "Upptäck",
+    "files": "Filer",
+    "me": "Jag",
+    "setting": "Inställningar"
+  },
+  "telemetry": {
+    "allow": "Tillåt",
+    "deny": "Neka",
+    "desc": "Vi skulle vilja samla in användningsinformation anonymt för att hjälpa oss förbättra LobeChat och ge dig en bättre produktupplevelse. Du kan inaktivera detta när som helst i Inställningar - Om.",
+    "learnMore": "Läs Mer",
+    "title": "Hjälp LobeChat Bli Bättre"
+  },
+  "temp": "Tillfällig",
+  "terms": "Användarvillkor",
+  "update": "Uppdatera",
+  "updateAgent": "Uppdatera Assistentinformation",
+  "upgradeVersion": {
+    "action": "Uppgradera",
+    "hasNew": "Ny uppdatering tillgänglig",
+    "newVersion": "Ny version tillgänglig: {{version}}"
+  },
+  "userPanel": {
+    "anonymousNickName": "Anonym Användare",
+    "billing": "Faktureringshantering",
+    "cloud": "Lansera {{name}}",
+    "community": "Community-utgåva",
+    "data": "Datalagring",
+    "defaultNickname": "Community-användare",
+    "discord": "Community-support",
+    "docs": "Dokumentation",
+    "email": "E-postsupport",
+    "feedback": "Feedback och Förslag",
+    "help": "Hjälpcenter",
+    "moveGuide": "Inställningsknappen har flyttats hit",
+    "plans": "Prenumerationsplaner",
+    "profile": "Konto",
+    "setting": "Inställningar",
+    "usages": "Användningsstatistik"
+  },
+  "version": "Version"
+}

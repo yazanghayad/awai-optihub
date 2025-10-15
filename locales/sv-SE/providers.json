@@ -1,0 +1,197 @@
+{
+  "ai21": {
+    "description": "AI21 Labs bygger grundläggande modeller och AI-system för företag, accelererar tillämpningen av generativ AI i produktion."
+  },
+  "ai302": {
+    "description": "302.AI är en AI-applikationsplattform på begäran som erbjuder de mest omfattande AI API:erna och online AI-applikationerna som finns tillgängliga på marknaden."
+  },
+  "ai360": {
+    "description": "360 AI är en AI-modell och tjänstplattform som lanseras av 360 Company, erbjuder olika avancerade naturliga språkbehandlingsmodeller, inklusive 360GPT2 Pro, 360GPT Pro, 360GPT Turbo och 360GPT Turbo Responsibility 8K. Dessa modeller kombinerar storskaliga parametrar och multimodala förmågor, brett tillämpade inom textgenerering, semantisk förståelse, dialogsystem och kodgenerering. Med flexibla prissättningsstrategier möter 360 AI olika användarbehov, stöder utvecklarintegration och främjar innovation och utveckling av intelligenta applikationer."
+  },
+  "aihubmix": {
+    "description": "AiHubMix ger åtkomst till olika AI-modeller genom ett enhetligt API-gränssnitt."
+  },
+  "akashchat": {
+    "description": "Akash är en tillståndsfri molnresursmarknad med konkurrenskraftig prissättning jämfört med traditionella molnleverantörer."
+  },
+  "anthropic": {
+    "description": "Anthropic är ett företag fokuserat på AI-forskning och utveckling, erbjuder en rad avancerade språkmodeller som Claude 3.5 Sonnet, Claude 3 Sonnet, Claude 3 Opus och Claude 3 Haiku. Dessa modeller uppnår en idealisk balans mellan intelligens, hastighet och kostnad, lämpliga för olika applikationer från företagsarbetsbelastningar till snabba svarsscenarier. Claude 3.5 Sonnet, som deras senaste modell, har utmärkt sig i flera utvärderingar samtidigt som den bibehåller ett högt kostnadsprestationsförhållande."
+  },
+  "azure": {
+    "description": "Azure erbjuder en mängd avancerade AI-modeller, inklusive GPT-3.5 och den senaste GPT-4-serien, stöder olika datatyper och komplexa uppgifter, dedikerade till säkra, pålitliga och hållbara AI-lösningar."
+  },
+  "azureai": {
+    "description": "Azure erbjuder en mängd avancerade AI-modeller, inklusive GPT-3.5 och den senaste GPT-4-serien, stöder flera datatyper och komplexa uppgifter, dedikerade till säkra, pålitliga och hållbara AI-lösningar."
+  },
+  "baichuan": {
+    "description": "Baichuan Intelligence är ett företag fokuserat på forskning och utveckling av stora AI-modeller, med dess modeller som utmärker sig i inhemska kunskapsencyklopedier, lång textbehandling och generativa skapelseuppgifter på kinesiska, överträffar vanliga utländska modeller. Baichuan Intelligence har också branschledande multimodala förmågor, presterar utmärkt i flera auktoritativa utvärderingar. Dess modeller inkluderar Baichuan 4, Baichuan 3 Turbo och Baichuan 3 Turbo 128k, var och en optimerad för olika applikationsscenarier, tillhandahåller kostnadseffektiva lösningar."
+  },
+  "bedrock": {
+    "description": "Bedrock är en tjänst tillhandahållen av Amazon AWS, fokuserad på att leverera avancerade AI-språk- och visuella modeller för företag. Dess modellfamilj inkluderar Anthropics Claude-serie, Metas Llama 3.1-serie och mer, erbjuder en rad alternativ från lättviktiga till högpresterande, stöder uppgifter som textgenerering, konversation och bildbehandling för företag av varierande skalor och behov."
+  },
+  "bfl": {
+    "description": "Ett ledande, banbrytande artificiell intelligensforskningslabb som bygger den visuella infrastrukturen för morgondagen."
+  },
+  "cerebras": {
+    "description": "Cerebras är en AI-inferensplattform byggd på dess dedikerade CS-3-system, designat för att leverera världens snabbaste, realtids, höggenomströmnings LLM-tjänster. Den är specifikt utformad för att eliminera latens och accelerera komplexa AI-arbetsflöden som realtidskodgenerering och agentbaserade uppgifter."
+  },
+  "cloudflare": {
+    "description": "Kör serverlösa GPU-drivna maskininlärningsmodeller på Cloudflares globala nätverk."
+  },
+  "cohere": {
+    "description": "Cohere ger dig banbrytande flerspråkiga modeller, avancerade hämtningsförmågor och en AI-arbetsyta skräddarsydd för moderna företag—alla integrerade i en säker plattform."
+  },
+  "cometapi": {
+    "description": "CometAPI är en tjänstplattform som erbjuder en mängd banbrytande stora modellgränssnitt, stöder OpenAI, Anthropic, Google och mer. Den tillgodoser olika utvecklings- och applikationsbehov, tillåter användare att flexibelt välja den optimala modellen och prissättningen enligt deras krav, förbättrar AI-upplevelsen."
+  },
+  "deepseek": {
+    "description": "DeepSeek är ett företag fokuserat på AI-teknologiforskning och tillämpning, med dess senaste modell DeepSeek-V2.5 som integrerar allmän dialog och kodbehandlingsförmågor, uppnår betydande förbättringar i mänsklig preferensanpassning, skrivuppgifter och instruktionsföljning."
+  },
+  "fal": {
+    "description": "Generativ Mediaplattform för Utvecklare"
+  },
+  "fireworksai": {
+    "description": "Fireworks AI är en ledande leverantör av avancerade språkmodelltjänster, fokuserar på funktionella anrop och multimodal bearbetning. Dess senaste modell, Firefunction V2, är baserad på Llama-3, optimerad för funktionsanrop, konversation och instruktionsföljning. Den visuella språkmodellen FireLLaVA-13B stöder blandad inmatning av bilder och text. Andra anmärkningsvärda modeller inkluderar Llama-serien och Mixtral-serien, tillhandahåller effektivt flerspråkigt instruktionsföljning och genereringsstöd."
+  },
+  "giteeai": {
+    "description": "Gitee AI:s Serverlösa API tillhandahåller AI-utvecklare en out of box stor modellinferens API-tjänst."
+  },
+  "github": {
+    "description": "Med GitHub Models kan utvecklare bli AI-ingenjörer och utnyttja branschens ledande AI-modeller."
+  },
+  "google": {
+    "description": "Googles Gemini-serie representerar dess mest avancerade, mångsidiga AI-modeller, utvecklade av Google DeepMind, designade för multimodala förmågor, stöder sömlös förståelse och bearbetning av text, kod, bilder, ljud och video. Lämplig för olika miljöer från datacenter till mobila enheter, förbättrar det avsevärt effektiviteten och tillämpligheten för AI-modeller."
+  },
+  "groq": {
+    "description": "Groqs LPU-inferensmotor har utmärkt sig i de senaste oberoende stora språkmodell (LLM) benchmarks, omdefinierar standarderna för AI-lösningar med sin anmärkningsvärda hastighet och effektivitet. Groq representerar omedelbar inferenshastighet, visar stark prestanda i molnbaserade distributioner."
+  },
+  "higress": {
+    "description": "Higress är en molnbaserad API-gateway som utvecklades internt på Alibaba för att hantera problemen med Tengine-omladdning som påverkar långlivade anslutningar och de otillräckliga lastbalanseringsförmågorna för gRPC/Dubbo."
+  },
+  "huggingface": {
+    "description": "HuggingFace Inference API tillhandahåller ett snabbt och gratis sätt för dig att utforska tusentals modeller för olika uppgifter. Oavsett om du prototypar för en ny applikation eller experimenterar med maskininlärningsförmågor, ger detta API dig omedelbar åtkomst till högpresterande modeller över flera domäner."
+  },
+  "hunyuan": {
+    "description": "En stor språkmodell utvecklad av Tencent, utrustad med kraftfulla kinesiska kreativa förmågor, logiska resonemangsförmågor i komplexa sammanhang och pålitliga uppgiftsutföringsförmågor."
+  },
+  "infiniai": {
+    "description": "Tillhandahåller högpresterande, lättanvända och säkra stora modelltjänster för applikationsutvecklare, täcker hela processen från stor modellutveckling till tjänstedistribution."
+  },
+  "internlm": {
+    "description": "En öppen källkodsorganisation dedikerad till forskning och utveckling av stora modellverktygskedjor. Den tillhandahåller en effektiv och användarvänlig öppen källkodsplattform för alla AI-utvecklare, gör banbrytande stora modeller och algoritmteknologier lättillgängliga."
+  },
+  "jina": {
+    "description": "Grundat 2020, Jina AI är ett ledande sök-AI-företag. Vår sökbasplattform inkluderar vektormodeller, rerankers och små språkmodeller för att hjälpa företag bygga pålitliga och högkvalitativa generativa AI- och multimodala sökapplikationer."
+  },
+  "lmstudio": {
+    "description": "LM Studio är en skrivbordsapplikation för att utveckla och experimentera med LLM:er på din dator."
+  },
+  "minimax": {
+    "description": "MiniMax är ett generellt artificiellt intelligensteknikföretag etablerat 2021, dedikerat till att sam-skapa intelligens med användare. MiniMax har självständigt utvecklat generella stora modeller av olika modaliteter, inklusive biljoner-parameter MoE-textmodeller, röstmodeller och bildmodeller, och har lanserat applikationer som Conch AI."
+  },
+  "mistral": {
+    "description": "Mistral tillhandahåller avancerade generella, specialiserade och forskningsmodeller som används i stor utsträckning inom komplext resonemang, flerspråkiga uppgifter och kodgenerering. Genom funktionella anropsgränssnitt kan användare integrera anpassade funktioner för specifika applikationer."
+  },
+  "modelscope": {
+    "description": "ModelScope är en modell-som-en-tjänst-plattform som lanseras av Alibaba Cloud, erbjuder ett brett utbud av AI-modeller och inferenstjänster."
+  },
+  "moonshot": {
+    "description": "Moonshot är en öppen källkodsplattform som lanseras av Beijing Dark Side Technology Co., Ltd., tillhandahåller olika naturliga språkbehandlingsmodeller med ett brett utbud av applikationer, inklusive men inte begränsat till innehållsskapande, akademisk forskning, intelligenta rekommendationer och medicinsk diagnos, stöder lång textbehandling och komplexa genereringsuppgifter."
+  },
+  "nebius": {
+    "description": "Nebius tillhandahåller högpresterande infrastruktur för globala AI-innovatörer genom att bygga storskaliga GPU-kluster och vertikalt integrerade molnplattformar."
+  },
+  "newapi": {
+    "description": "Öppen källkod enhetlig vidarebefordransplattform som aggregerar flera AI-tjänster"
+  },
+  "novita": {
+    "description": "Novita AI är en plattform som tillhandahåller en mängd stora språkmodeller och AI-bildgenereringstjänster, flexibel, pålitlig och kostnadseffektiv. Den stöder de senaste öppen källkodsmodellerna som Llama3 och Mistral, erbjuder en omfattande, användarvänlig och autoskalande API-lösning för generativ AI-applikationsutveckling, lämplig för snabb tillväxt av AI-startups."
+  },
+  "nvidia": {
+    "description": "NVIDIA NIM™ tillhandahåller containrar för självhostade GPU-accelererade inferens-mikrotjänster, stöder distribution av förtränade och anpassade AI-modeller i molnet, datacenter, RTX™ AI-persondatorer och arbetsstationer."
+  },
+  "ollama": {
+    "description": "Ollama tillhandahåller modeller som täcker ett brett spektrum av områden, inklusive kodgenerering, matematiska operationer, flerspråkig bearbetning och konversationsinteraktion, tillgodoser olika företagsnivå och lokaliserade distributionsbehov."
+  },
+  "ollamacloud": {
+    "description": "Ollama Cloud erbjuder officiellt hostade inferenstjänster, tillhandahåller out-of-the-box-åtkomst till Ollama-modellbiblioteket och stöder OpenAI-kompatibla gränssnitt."
+  },
+  "openai": {
+    "description": "OpenAI är en global ledare inom artificiell intelligens-forskning, med modeller som GPT-serien som driver gränserna för naturlig språkbehandling. OpenAI är engagerade i att transformera flera branscher genom innovativa och effektiva AI-lösningar. Deras produkter visar betydande prestanda och kostnadseffektivitet, allmänt använda inom forskning, affärer och innovativa applikationer."
+  },
+  "openrouter": {
+    "description": "OpenRouter är en tjänstplattform som tillhandahåller åtkomst till olika banbrytande stora modellgränssnitt, stöder OpenAI, Anthropic, LLaMA och mer, lämplig för olika utvecklings- och applikationsbehov. Användare kan flexibelt välja den optimala modellen och prissättningen baserat på deras krav, förbättrar AI-upplevelsen."
+  },
+  "perplexity": {
+    "description": "Perplexity är en ledande leverantör av konversationsgenerering-modeller, erbjuder olika avancerade Llama 3.1-modeller som stöder både online- och offline-applikationer, särskilt lämpade för komplexa naturliga språkbehandlingsuppgifter."
+  },
+  "ppio": {
+    "description": "PPIO stöder stabila och kostnadseffektiva öppen källkods LLM API:er, såsom DeepSeek, Llama, Qwen etc."
+  },
+  "qiniu": {
+    "description": "Qiniu, som en långvarig molntjänstleverantör, levererar kostnadseffektiva och pålitliga AI-inferenstjänster för både realtids- och batchbearbetning, med en enkel och användarvänlig upplevelse."
+  },
+  "qwen": {
+    "description": "Tongyi Qianwen är en storskalig språkmodell självständigt utvecklad av Alibaba Cloud, med starka naturliga språkförståelse- och genereringsförmågor. Den kan svara på olika frågor, skapa skriftligt innehåll, uttrycka åsikter och skriva kod, spelar en roll inom flera områden."
+  },
+  "sambanova": {
+    "description": "SambaNova Cloud tillåter utvecklare att enkelt använda de bästa öppen källkodsmodellerna och njuta av de snabbaste inferenshastigheterna."
+  },
+  "search1api": {
+    "description": "Search1API ger åtkomst till DeepSeek-serien av modeller som kan ansluta till internet vid behov, inklusive standard- och snabba versioner, stöder en mängd modellstorlekar."
+  },
+  "sensenova": {
+    "description": "SenseNova, backat av SenseTimes robusta infrastruktur, erbjuder effektiva och användarvänliga fullstack stora modelltjänster."
+  },
+  "siliconcloud": {
+    "description": "SiliconFlow är dedikerat till att accelerera AGI till fördel för mänskligheten, förbättrar storskalig AI-effektivitet genom en lättanvänd och kostnadseffektiv GenAI-stack."
+  },
+  "spark": {
+    "description": "iFlytek's Spark-modell tillhandahåller kraftfulla AI-förmågor över flera domäner och språk, använder avancerad naturlig språkbehandlingsteknik för att bygga innovativa applikationer lämpliga för smart hårdvara, smart hälso- och sjukvård, smart finans och andra vertikala scenarier."
+  },
+  "stepfun": {
+    "description": "StepFuns stora modell har branschledande multimodala och komplexa resonemangsförmågor, stöder ultra-lång textförståelse och kraftfulla autonoma schemaläggningssökmotorfunktioner."
+  },
+  "taichu": {
+    "description": "Institute of Automation, Chinese Academy of Sciences, och Wuhan Artificial Intelligence Research Institute har lanserat en ny generation av multimodala stora modeller, stöder omfattande frågesvar-uppgifter som flerrundsQ&A, textskapande, bildgenerering, 3D-förståelse och signalanalys, med starkare kognitiva, förståelse- och kreativa förmågor, tillhandahåller en ny interaktiv upplevelse."
+  },
+  "tencentcloud": {
+    "description": "Kunskapsmotorn Atomic Power, baserad på Kunskapsmotorn, tillhandahåller en omfattande kunskapsfrågesvarförmåga för företag och utvecklare. Den erbjuder förmågan att flexibelt montera och utveckla modellapplikationer. Du kan skapa dina egna modelltjänster med olika atomförmågor, integrera tjänster som dokumentanalys, delning, inbäddning och flerrundsomskrivning för att anpassa AI-lösningar skräddarsydda för ditt företag."
+  },
+  "togetherai": {
+    "description": "Together AI är dedikerat till att uppnå ledande prestanda genom innovativa AI-modeller, erbjuder omfattande anpassningsförmågor, inklusive snabb skalningsstöd och intuitiva distributionsprocesser för att möta olika företagsbehov."
+  },
+  "upstage": {
+    "description": "Upstage fokuserar på att utveckla AI-modeller för olika affärsbehov, inklusive Solar LLM och dokument-AI, siktar på att uppnå artificiell allmän intelligens (AGI) för arbete. Det tillåter skapande av enkla konversationsagenter genom Chat API och stöder funktionella anrop, översättning, inbäddning och domänspecifika applikationer."
+  },
+  "v0": {
+    "description": "v0 är en parprogrammeringsassistent som genererar kod och användargränssnitt (UI) för dina projekt baserat på dina naturliga språkbeskrivningar."
+  },
+  "vercelaigateway": {
+    "description": "Vercel AI Gateway tillhandahåller ett enhetligt API för att komma åt över 100 modeller, vilket gör att du kan använda modeller från flera leverantörer som OpenAI, Anthropic och Google genom en enda slutpunkt. Det stöder budgetinställningar, användningsövervakning, belastningsbalansering av begäranden och failover."
+  },
+  "vertexai": {
+    "description": "Googles Gemini-serie är dess mest avancerade och mångsidiga AI-modell, utvecklad av Google DeepMind. Den är designad för multimodal användning, stöder sömlös förståelse och bearbetning av text, kod, bilder, ljud och video. Lämplig för en mängd miljöer, från datacenter till mobila enheter, förbättrar den avsevärt effektiviteten och tillämpligheten för AI-modeller."
+  },
+  "vllm": {
+    "description": "vLLM är ett snabbt och lättanvänt bibliotek för LLM-inferens och servering."
+  },
+  "volcengine": {
+    "description": "En utvecklingsplattform för stora modelltjänster som lanseras av ByteDance, erbjuder funktionsrika, säkra och konkurrenskraftigt prissatta modellanropstjänster. Den tillhandahåller också end-to-end-funktioner som modelldata, finjustering, inferens och utvärdering, säkerställer omfattande stöd för utveckling och implementering av dina AI-applikationer."
+  },
+  "wenxin": {
+    "description": "En företagsnivå one-stop-plattform för stor modell och AI-nativa applikationsutveckling och tjänster, tillhandahåller den mest omfattande och användarvänliga verktygskedjan för hela processen av generativ artificiell intelligens modellutveckling och applikationsutveckling."
+  },
+  "xai": {
+    "description": "xAI är ett företag dedikerat till att bygga artificiell intelligens för att accelerera mänsklig vetenskaplig upptäckt. Vår mission är att främja vår kollektiva förståelse av universum."
+  },
+  "xinference": {
+    "description": "Xorbits Inference (Xinference) är en öppen källkodsplattform designad för att förenkla distribution och integration av olika AI-modeller. Med Xinference kan du utnyttja vilken öppen källkods LLM, inbäddningsmodell eller multimodal modell som helst för att utföra inferens i moln- eller lokala miljöer, vilket möjliggör skapandet av kraftfulla AI-applikationer."
+  },
+  "zeroone": {
+    "description": "01.AI fokuserar på AI 2.0-erateknologier, främjar kraftigt innovation och tillämpning av 'människa + artificiell intelligens', använder kraftfulla modeller och avancerade AI-teknologier för att förbättra mänsklig produktivitet och uppnå teknisk empowerment."
+  },
+  "zhipu": {
+    "description": "Zhipu AI erbjuder en öppen plattform för multimodala och språkmodeller, stöder ett brett utbud av AI-applikationsscenarier, inklusive textbehandling, bildförståelse och programmeringsassistans."
+  }
+}

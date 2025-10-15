@@ -1,0 +1,470 @@
+{
+  "confirm": "Bekräfta",
+  "debug": {
+    "arguments": "Anropsargument",
+    "function_call": "Funktionsanrop",
+    "off": "Stäng av felsökning",
+    "on": "Visa pluginanropsinformation",
+    "payload": "Pluginpayload",
+    "pluginState": "Pluginstatus",
+    "response": "Svar",
+    "title": "Plugindetaljer",
+    "tool_call": "Begäran om verktygsanrop"
+  },
+  "detailModal": {
+    "customPlugin": {
+      "description": "Gå till redigeringssidan för att visa detaljer",
+      "editBtn": "Redigera nu",
+      "title": "Detta är en anpassad plugin"
+    },
+    "emptyState": {
+      "description": "Installera pluginen först för att visa dess funktioner och konfigurationsalternativ",
+      "title": "Visa plugindetaljer efter installation"
+    },
+    "info": {
+      "description": "API-beskrivning",
+      "name": "API-namn"
+    },
+    "tabs": {
+      "info": "Pluginfunktioner",
+      "manifest": "Installationsfil",
+      "settings": "Inställningar"
+    },
+    "title": "Plugindetaljer"
+  },
+  "dev": {
+    "confirmDeleteDevPlugin": "Denna lokala plugin tas bort och kan inte återställas. Vill du radera pluginen?",
+    "customParams": {
+      "useProxy": {
+        "label": "Installera via proxy (om du stöter på CORS-fel, försök aktivera det här alternativet och installera om)"
+      }
+    },
+    "deleteSuccess": "Pluginen togs bort",
+    "manifest": {
+      "identifier": {
+        "desc": "Pluginens unika identifierare",
+        "label": "Identifierare"
+      },
+      "mode": {
+        "mcp": "MCP-plugin",
+        "mcpExp": "Experimentell",
+        "url": "Online-länk"
+      },
+      "name": {
+        "desc": "Plugintitel",
+        "label": "Titel",
+        "placeholder": "Sökmotor"
+      }
+    },
+    "mcp": {
+      "advanced": {
+        "title": "Avancerade inställningar"
+      },
+      "args": {
+        "desc": "Lista över parametrar som skickas till startkommandot, vanligtvis MCP-serverns namn eller sökväg till startskriptet",
+        "label": "Kommandoparametrar",
+        "placeholder": "t.ex. mcp-hello-world",
+        "required": "Ange startparametrar"
+      },
+      "auth": {
+        "bear": "API-nyckel",
+        "desc": "Välj autentiseringsmetod för MCP-servern",
+        "label": "Autentiseringstyp",
+        "none": "Ingen autentisering krävs",
+        "placeholder": "Välj autentiseringstyp",
+        "token": {
+          "desc": "Ange din API-nyckel eller Bearer-token",
+          "label": "API-nyckel",
+          "placeholder": "sk-xxxxx",
+          "required": "Ange autentiseringstoken"
+        }
+      },
+      "avatar": {
+        "label": "Pluginikon"
+      },
+      "command": {
+        "desc": "Körbar fil eller skript som används för att starta MCP STDIO-servern",
+        "label": "Kommando",
+        "placeholder": "t.ex. npx / uv / docker etc.",
+        "required": "Ange startkommando"
+      },
+      "desc": {
+        "desc": "Lägg till en beskrivning för pluginen",
+        "label": "Pluginbeskrivning",
+        "placeholder": "Komplettera användningsinstruktioner och scenarier för pluginen"
+      },
+      "endpoint": {
+        "desc": "Ange adressen till din MCP Streamable HTTP-server",
+        "label": "MCP-endpoint-URL"
+      },
+      "env": {
+        "add": "Lägg till rad",
+        "desc": "Ange miljövariabler som krävs av din MCP-server",
+        "duplicateKeyError": "Fältnycklar måste vara unika",
+        "formValidationFailed": "Formulärvalideringen misslyckades, kontrollera parameterformatet",
+        "keyRequired": "Fältnyckeln får inte vara tom",
+        "label": "Miljövariabler för MCP-server",
+        "stringifyError": "Det går inte att serialisera parametrarna, kontrollera formatet"
+      },
+      "headers": {
+        "add": "Lägg till rad",
+        "desc": "Ange begärandehuvuden",
+        "label": "HTTP-huvuden"
+      },
+      "identifier": {
+        "desc": "Ange ett namn för din MCP-plugin, måste använda engelska tecken",
+        "invalid": "Identifieraren får endast innehålla bokstäver, siffror, bindestreck och understreck",
+        "label": "MCP-pluginnamn",
+        "placeholder": "t.ex. my-mcp-plugin",
+        "required": "Ange MCP-tjänstens identifierare"
+      },
+      "previewManifest": "Förhandsgranska pluginmanifest",
+      "quickImport": "Snabbimportera JSON-konfiguration",
+      "quickImportError": {
+        "empty": "Innehållet får inte vara tomt",
+        "invalidJson": "Ogiltigt JSON-format",
+        "invalidStructure": "Ogiltig JSON-struktur"
+      },
+      "stdioNotSupported": "Den aktuella miljön stöder inte MCP-plugins av typen stdio",
+      "testConnection": "Testa anslutning",
+      "testConnectionTip": "MCP-pluginen kan bara användas efter en lyckad anslutningstest",
+      "type": {
+        "desc": "Välj MCP-pluginens kommunikationsmetod, webbversionen stöder endast Streamable HTTP",
+        "httpFeature1": "Kompatibel med webb- och skrivbordsversionerna",
+        "httpFeature2": "Anslut till en fjärr-MCP-server utan extra installation eller konfigurering",
+        "httpShortDesc": "Kommunikationsprotokoll baserat på Streamable HTTP",
+        "label": "MCP-plugintyp",
+        "stdioFeature1": "Lägre kommunikationslatens, lämplig för lokal körning",
+        "stdioFeature2": "Kräver lokal installation och körning av MCP-servern",
+        "stdioNotAvailable": "STDIO-läget är endast tillgängligt i skrivbordsversionen",
+        "stdioShortDesc": "Kommunikationsprotokoll baserat på standard in/ut",
+        "title": "MCP-plugintyp"
+      },
+      "url": {
+        "desc": "Ange adressen till din MCP Server Streamable HTTP, SSE-läge stöds inte",
+        "invalid": "Ange en giltig URL",
+        "label": "Streamable HTTP-endpoint-URL",
+        "required": "Ange MCP-tjänstens URL"
+      }
+    },
+    "meta": {
+      "author": {
+        "desc": "Pluginens författare",
+        "label": "Författare"
+      },
+      "avatar": {
+        "desc": "Pluginikon, kan använda emoji eller URL",
+        "label": "Ikon"
+      },
+      "description": {
+        "desc": "Pluginbeskrivning",
+        "label": "Beskrivning",
+        "placeholder": "Sök i sökmotorer efter information"
+      },
+      "formFieldRequired": "Detta fält är obligatoriskt",
+      "homepage": {
+        "desc": "Pluginens startsida",
+        "label": "Startsida"
+      },
+      "identifier": {
+        "desc": "Pluginens unika identifierare, identifieras automatiskt från manifestet",
+        "errorDuplicate": "Identifieraren är redan upptagen, ändra identifieraren",
+        "label": "Identifierare",
+        "pattenErrorMessage": "Endast engelska bokstäver, siffror, - och _ är tillåtna"
+      },
+      "lobe": "{{appName}}-plugin",
+      "manifest": {
+        "desc": "{{appName}} installerar pluginen via denna länk",
+        "label": "Pluginens manifest-URL",
+        "preview": "Förhandsgranska manifest",
+        "refresh": "Uppdatera"
+      },
+      "openai": "OpenAI-plugin",
+      "title": {
+        "desc": "Plugintitel",
+        "label": "Titel",
+        "placeholder": "Sökmotor"
+      }
+    },
+    "metaConfig": "Konfiguration av pluginens metainformation",
+    "modalDesc": "Efter att du har lagt till en anpassad plugin kan den användas för pluginutvecklingstest eller direkt i konversationer. För pluginutveckling, se <1>utvecklingsdokumentationen↗</>.",
+    "openai": {
+      "importUrl": "Importera från URL",
+      "schema": "Schema"
+    },
+    "preview": {
+      "api": {
+        "noParams": "Det här verktyget har inga parametrar",
+        "noResults": "Hittade inga API:er som matchar sökvillkoren",
+        "params": "Parametrar:",
+        "searchPlaceholder": "Sök verktyg..."
+      },
+      "card": "Förhandsgranska pluginvisning",
+      "desc": "Förhandsgranska pluginbeskrivning",
+      "empty": {
+        "desc": "Efter konfiguration kan du förhandsgranska de stödda verktygsfunktionerna här",
+        "title": "Börja förhandsgranska efter att pluginen har konfigurerats"
+      },
+      "title": "Förhandsvisning av pluginnamn"
+    },
+    "save": "Installera plugin",
+    "saveSuccess": "Plugininställningarna har sparats",
+    "tabs": {
+      "manifest": "Funktionsmanifest",
+      "meta": "Metainformation för plugin"
+    },
+    "title": {
+      "create": "Lägg till anpassad plugin",
+      "edit": "Redigera anpassad plugin"
+    },
+    "type": {
+      "lobe": "{{appName}}-plugin",
+      "openai": "OpenAI-plugin"
+    },
+    "update": "Uppdatera",
+    "updateSuccess": "Plugininställningarna har uppdaterats"
+  },
+  "error": {
+    "fetchError": "Begäran av manifestlänken misslyckades, säkerställ att länken är giltig och tillåter CORS",
+    "installError": "Installationen av pluginen {{name}} misslyckades",
+    "manifestInvalid": "Manifestet följer inte specifikationen, valideringsresultat: \n\n {{error}}",
+    "noManifest": "Manifestfilen finns inte",
+    "openAPIInvalid": "OpenAPI-analysen misslyckades, fel: \n\n {{error}}",
+    "reinstallError": "Uppdateringen av pluginen {{name}} misslyckades",
+    "testConnectionFailed": "Det gick inte att hämta manifest: {{error}}",
+    "urlError": "Länken returnerade inget JSON-innehåll, säkerställ att det är en giltig länk"
+  },
+  "inspector": {
+    "args": "Visa argumentlista",
+    "pluginRender": "Visa plugingränssnitt"
+  },
+  "list": {
+    "item": {
+      "deprecated.title": "Borttagen",
+      "local.config": "Konfiguration",
+      "local.title": "Anpassad"
+    }
+  },
+  "loading": {
+    "content": "Anropar plugin...",
+    "plugin": "Plugin körs..."
+  },
+  "localSystem": {
+    "apiName": {
+      "listLocalFiles": "Visa fillista",
+      "moveLocalFiles": "Flytta filer",
+      "readLocalFile": "Läs filinnehåll",
+      "renameLocalFile": "Byt namn",
+      "searchLocalFiles": "Sök filer",
+      "writeLocalFile": "Skriv fil"
+    },
+    "title": "Lokala filer"
+  },
+  "mcpInstall": {
+    "CHECKING_INSTALLATION": "Kontrollerar installationsmiljö...",
+    "COMPLETED": "Installation slutförd",
+    "CONFIGURATION_REQUIRED": "Fyll i nödvändig konfiguration innan du fortsätter",
+    "ERROR": "Installationsfel",
+    "FETCHING_MANIFEST": "Hämtar pluginmanifest...",
+    "GETTING_SERVER_MANIFEST": "Initierar MCP-server...",
+    "INSTALLING_PLUGIN": "Installerar plugin...",
+    "configurationDescription": "Denna MCP-plugin kräver konfigurationsparametrar för att fungera korrekt, fyll i nödvändig information",
+    "configurationRequired": "Konfigurera pluginparametrar",
+    "continueInstall": "Fortsätt installation",
+    "dependenciesDescription": "Den här pluginen kräver följande systemberoenden. Installera saknade beroenden enligt instruktionerna, klicka sedan på kontrollera igen för att fortsätta.",
+    "dependenciesRequired": "Installera pluginens systemberoenden",
+    "dependencyStatus": {
+      "installed": "Installerad",
+      "notInstalled": "Inte installerad",
+      "requiredVersion": "Krävd version: {{version}}"
+    },
+    "errorDetails": {
+      "args": "Argument",
+      "command": "Kommando",
+      "connectionParams": "Anslutningsparametrar",
+      "env": "Miljövariabler",
+      "errorOutput": "Fellogg",
+      "exitCode": "Avslutningskod",
+      "hideDetails": "Dölj detaljer",
+      "originalError": "Ursprungligt fel",
+      "showDetails": "Visa detaljer"
+    },
+    "errorTypes": {
+      "AUTHORIZATION_ERROR": "Autentiseringsfel",
+      "CONNECTION_FAILED": "Anslutningen misslyckades",
+      "INITIALIZATION_TIMEOUT": "Initiering tog för lång tid",
+      "PROCESS_SPAWN_ERROR": "Det gick inte att starta processen",
+      "UNKNOWN_ERROR": "Okänt fel",
+      "VALIDATION_ERROR": "Parameterverifieringen misslyckades"
+    },
+    "installError": "Installationen av MCP-pluginen misslyckades, orsak: {{detail}}",
+    "installMethods": {
+      "manual": "Manuell installation:",
+      "recommended": "Rekommenderad installationsmetod:"
+    },
+    "recheckDependencies": "Kontrollera igen",
+    "skipDependencies": "Hoppa över kontroll"
+  },
+  "pluginList": "Pluginlista",
+  "protocolInstall": {
+    "actions": {
+      "install": "Installera",
+      "installAnyway": "Installera ändå",
+      "installed": "Installerad"
+    },
+    "config": {
+      "args": "Argument",
+      "command": "Kommando",
+      "env": "Miljövariabler",
+      "headers": "Begärandehuvuden",
+      "title": "Konfigurationsinformation",
+      "type": {
+        "http": "Typ: HTTP",
+        "label": "Typ",
+        "stdio": "Typ: Stdio"
+      },
+      "url": "Tjänsteadress"
+    },
+    "custom": {
+      "badge": "Anpassad plugin",
+      "security": {
+        "description": "Denna plugin är inte officiellt verifierad, installation kan innebära säkerhetsrisker! Se till att du litar på pluginens källa.",
+        "title": "⚠️ Säkerhetsvarning"
+      },
+      "title": "Installera anpassad plugin"
+    },
+    "marketplace": {
+      "title": "Installera tredjepartsplugin",
+      "trustedBy": "Tillhandahålls av {{name}}",
+      "unverified": {
+        "title": "Overifierad tredjepartsplugin",
+        "warning": "Denna plugin kommer från en overifierad tredjepartsbutik. Bekräfta att du litar på källan innan installation."
+      },
+      "verified": "Verifierad"
+    },
+    "messages": {
+      "connectionTestFailed": "Anslutningstestet misslyckades",
+      "installError": "Installation av plugin misslyckades, försök igen",
+      "installSuccess": "Pluginen {{name}} installerades!",
+      "manifestError": "Det gick inte att hämta plugindetaljer, kontrollera nätverket och försök igen",
+      "manifestNotFound": "Det gick inte att hämta pluginmanifest"
+    },
+    "meta": {
+      "author": "Författare",
+      "homepage": "Startsida",
+      "identifier": "Identifierare",
+      "source": "Källa",
+      "version": "Version"
+    },
+    "official": {
+      "badge": "LobeHub officiell plugin",
+      "description": "Denna plugin utvecklas och underhålls av LobeHubs officiella team, har genomgått strikt säkerhetsgranskning och är säker att använda.",
+      "loadingMessage": "Hämtar plugindetaljer...",
+      "loadingTitle": "Laddar",
+      "title": "Installera officiell plugin"
+    },
+    "title": "Installera MCP-plugin",
+    "warning": "⚠️ Bekräfta att du litar på källan till denna plugin. Skadliga plugins kan skada din systemsäkerhet."
+  },
+  "search": {
+    "apiName": {
+      "crawlMultiPages": "Läs innehåll från flera sidor",
+      "crawlSinglePage": "Läs sidinnehåll",
+      "search": "Sök sidor"
+    },
+    "config": {
+      "addKey": "Lägg till nyckel",
+      "close": "Ta bort",
+      "confirm": "Konfiguration klar, försök igen"
+    },
+    "crawPages": {
+      "crawling": "Identifierar länkar...",
+      "detail": {
+        "preview": "Förhandsgranska",
+        "raw": "Råtext",
+        "tooLong": "Textinnehållet är för långt, endast de första {{characters}} tecknen behålls i konversationens kontext, resten hoppas över"
+      },
+      "meta": {
+        "crawler": "Genomsökningsläge",
+        "words": "Teckenantal"
+      }
+    },
+    "searchxng": {
+      "baseURL": "Ange",
+      "description": "Ange URL för SearchXNG för att starta onlinesökning",
+      "keyPlaceholder": "Ange nyckel",
+      "title": "Konfigurera SearchXNG-sökmotor",
+      "unconfiguredDesc": "Kontakta administratören för att slutföra konfigurationen av SearchXNG-sökmotorn för att starta onlinesökning",
+      "unconfiguredTitle": "SearchXNG-sökmotorn är inte konfigurerad"
+    },
+    "title": "Onlinesökning"
+  },
+  "setting": "Plugininställningar",
+  "settings": {
+    "capabilities": {
+      "prompts": "Uppmaningar",
+      "resources": "Resurser",
+      "title": "Pluginfunktioner",
+      "tools": "Verktyg"
+    },
+    "configuration": {
+      "title": "Pluginkonfiguration"
+    },
+    "connection": {
+      "args": "Startargument",
+      "command": "Startkommando",
+      "title": "Anslutningsinformation",
+      "type": "Anslutningstyp",
+      "url": "Tjänsteadress"
+    },
+    "edit": "Redigera",
+    "envConfigDescription": "Denna konfiguration skickas som miljövariabler till MCP-serverprocessen vid start",
+    "httpTypeNotice": "MCP-plugins av typen HTTP har för närvarande inga miljövariabler att konfigurera",
+    "indexUrl": {
+      "title": "Butiksindex",
+      "tooltip": "Online-redigering stöds inte ännu, ställ in via miljövariabler vid distribution"
+    },
+    "messages": {
+      "connectionUpdateFailed": "Uppdatering av anslutningsinformationen misslyckades",
+      "connectionUpdateSuccess": "Anslutningsinformationen uppdaterades",
+      "envUpdateFailed": "Det gick inte att spara miljövariablerna",
+      "envUpdateSuccess": "Miljövariablerna sparades"
+    },
+    "modalDesc": "Efter att du har konfigurerat pluginbutikens adress kan du använda en anpassad pluginbutik",
+    "rules": {
+      "argsRequired": "Ange startargument",
+      "commandRequired": "Ange startkommando",
+      "urlRequired": "Ange tjänsteadress"
+    },
+    "saveSettings": "Spara inställningar",
+    "title": "Konfigurera pluginmarknad"
+  },
+  "showInPortal": "Visa detaljer i arbetsytan",
+  "store": {
+    "actions": {
+      "cancel": "Avbryt installation",
+      "confirmUninstall": "Pluginen avinstalleras och dess konfiguration rensas. Bekräfta åtgärden.",
+      "detail": "Detaljer",
+      "install": "Installera",
+      "manifest": "Redigera installationsfil",
+      "settings": "Inställningar",
+      "uninstall": "Avinstallera"
+    },
+    "communityPlugin": "Tredjepartsgemenskap",
+    "customPlugin": "Anpassad",
+    "empty": "Inga installerade plugins",
+    "emptySelectHint": "Välj en plugin för att förhandsgranska detaljerad information",
+    "installAllPlugins": "Installera alla",
+    "networkError": "Det gick inte att hämta pluginbutiken, kontrollera nätverket och försök igen",
+    "placeholder": "Sök pluginnamn, beskrivning eller nyckelord...",
+    "releasedAt": "Publicerad {{createdAt}}",
+    "tabs": {
+      "installed": "Installerad",
+      "mcp": "MCP-plugins",
+      "old": "LobeChat-plugins"
+    },
+    "title": "Pluginbutik"
+  },
+  "unknownError": "Okänt fel",
+  "unknownPlugin": "Okänd plugin"
+}

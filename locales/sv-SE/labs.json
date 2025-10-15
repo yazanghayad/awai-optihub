@@ -1,0 +1,14 @@
+{
+  "desc": "Här hittar du tillfälliga uppdateringar om nya funktioner vi utforskar—prova dem gärna!",
+  "features": {
+    "groupChat": {
+      "desc": "Aktivera multi-agent gruppchattkoordination.",
+      "title": "Gruppchatt (Multi-Agent)"
+    },
+    "inputMarkdown": {
+      "desc": "Rendera Markdown i inmatningsområdet i realtid (fetstil, kodblock, tabeller, etc.).",
+      "title": "Inmatnings-Markdown-rendering"
+    }
+  },
+  "title": "Labs"
+}

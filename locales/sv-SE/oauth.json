@@ -1,0 +1,60 @@
+{
+  "consent": {
+    "buttons": {
+      "accept": "Auktorisera",
+      "deny": "Neka"
+    },
+    "description": "Applikationen {{clientName}} begär auktorisering för ditt konto",
+    "error": {
+      "sessionInvalid": {
+        "message": "Auktoriseringssessionen har upphört eller är ogiltig. Vänligen starta om auktoriseringsprocessen.",
+        "title": "Ogiltig Auktoriseringssession"
+      },
+      "title": "Ett Fel Uppstod",
+      "unsupportedInteraction": {
+        "message": "Interaktionstyp stöds ej: {promptName}",
+        "title": "Interaktionstyp Stöds Ej"
+      }
+    },
+    "permissionsTitle": "Begär följande behörigheter:",
+    "redirectUri": "Du kommer att omdirigeras till efter lyckad auktorisering",
+    "scope": {
+      "email": "Få åtkomst till din e-postadress",
+      "offline_access": "Tillåt klienten att komma åt din data",
+      "openid": "Autentisera med ditt LobeChat-konto",
+      "profile": "Få åtkomst till din grundläggande profilinformation (namn, avatar, etc.)",
+      "sync-read": "Läs din synkroniserade data",
+      "sync-write": "Skriv och uppdatera din synkroniserade data"
+    },
+    "title": "Auktorisera {{clientName}}"
+  },
+  "error": {
+    "backToHome": "Tillbaka till Startsida",
+    "desc": "OAuth-auktorisering misslyckades, orsak: {{reason}}",
+    "reason": {
+      "internal_error": "Internt Serverfel",
+      "invalid_request": "Ogiltiga Begäransparametrar"
+    },
+    "title": "Auktorisering Misslyckades"
+  },
+  "handoff": {
+    "desc": {
+      "processing": "Applikationen bearbetar auktoriseringen och kommer snart att omdirigera till nästa sida...",
+      "success": "Ett försök har gjorts att öppna skrivbordsapplikationen. Om den inte öppnas automatiskt, vänligen växla manuellt. Du kan stänga detta webbläsarfönster senare."
+    },
+    "title": {
+      "processing": "Auktorisering pågår...",
+      "success": "Auktorisering slutförd"
+    }
+  },
+  "login": {
+    "button": "Bekräfta Inloggning",
+    "description": "Applikationen {{clientName}} begär att använda ditt konto för inloggning",
+    "title": "Logga in på {{clientName}}",
+    "userWelcome": "Välkommen tillbaka, "
+  },
+  "success": {
+    "subTitle": "Du har framgångsrikt auktoriserat applikationen att komma åt ditt konto. Du kan nu stänga denna sida.",
+    "title": "Auktorisering Lyckades"
+  }
+}

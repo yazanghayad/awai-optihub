@@ -1,0 +1,97 @@
+{
+  "desc": "Hantera filer och kunskapsbas",
+  "detail": {
+    "basic": {
+      "createdAt": "Skapandetid",
+      "filename": "Filnamn",
+      "size": "Filstorlek",
+      "title": "Grundläggande Information",
+      "type": "Format",
+      "updatedAt": "Uppdateringstid"
+    },
+    "data": {
+      "chunkCount": "Chunks",
+      "embedding": {
+        "default": "Inte embedding",
+        "error": "Misslyckades",
+        "pending": "Väntar på start",
+        "processing": "Pågår",
+        "success": "Slutförd"
+      },
+      "embeddingStatus": "embedding"
+    }
+  },
+  "empty": "Inga filer eller mappar har laddats upp ännu.",
+  "header": {
+    "actions": {
+      "newFolder": "Ny Mapp",
+      "uploadFile": "Ladda upp Fil",
+      "uploadFolder": "Ladda upp Mapp"
+    },
+    "uploadButton": "Ladda upp"
+  },
+  "knowledgeBase": {
+    "list": {
+      "confirmRemoveKnowledgeBase": "Du är på väg att radera denna kunskapsbas. Filerna däri kommer inte att raderas och flyttas till Alla Filer. När den raderats kan kunskapsbasen inte återställas. Vänligen fortsätt med försiktighet.",
+      "empty": "Klicka <1>+</1> för att lägga till en kunskapsbas"
+    },
+    "new": "Ny Kunskapsbas",
+    "title": "Kunskapsbas"
+  },
+  "networkError": "Misslyckades att hämta kunskapsbasen. Vänligen kontrollera din nätverksanslutning och försök igen.",
+  "notSupportGuide": {
+    "desc": "Den aktuella distributionsinstansen är i klientdatabasläge, och filhanteringsfunktioner är inte tillgängliga. Vänligen växla till <1>serverdatabasedistributionsläge</1>, eller använd <3>LobeChat Cloud</3> direkt.",
+    "features": {
+      "allKind": {
+        "desc": "Stöder huvudsakliga filtyper, inklusive vanliga dokumentformat som Word, PPT, Excel, PDF, TXT, samt populära kodfiler som JS och Python.",
+        "title": "Flera Filtypsanalys"
+      },
+      "embeddings": {
+        "desc": "Använder högpresterande vektormodeller för att vektorisera textchunks, vilket möjliggör semantisk sökning av filinnehåll.",
+        "title": "Vektorsemantics"
+      },
+      "repos": {
+        "desc": "Stöder skapande av kunskapsbaser och tillåter tillägg av olika typer av filer, bygger din domänkunskap.",
+        "title": "Kunskapsbas"
+      }
+    },
+    "title": "Det aktuella distributionsläget stöder inte filhantering"
+  },
+  "preview": {
+    "downloadFile": "Ladda ner Fil",
+    "unsupportedFileAndContact": "Detta filformat stöds för närvarande inte för onlineförhandsgranskning. Om du har en begäran om förhandsgranskning, kontakta oss gärna <1>kontakta oss</1>."
+  },
+  "searchFilePlaceholder": "Sök Filer",
+  "tab": {
+    "all": "Alla Filer",
+    "audios": "Ljud",
+    "documents": "Dokument",
+    "images": "Bilder",
+    "videos": "Videor",
+    "websites": "Webbplatser"
+  },
+  "title": "Filer",
+  "toggleLeftPanel": {
+    "title": "Visa/Dölj Vänster Panel"
+  },
+  "uploadDock": {
+    "body": {
+      "collapse": "Minimera",
+      "item": {
+        "done": "Uppladdad",
+        "error": "Uppladdning misslyckades, vänligen försök igen",
+        "pending": "Förbereder för uppladdning...",
+        "processing": "Bearbetar fil...",
+        "restTime": "Återstår {{time}}"
+      }
+    },
+    "totalCount": "Totalt {{count}} poster",
+    "uploadStatus": {
+      "error": "Uppladdningsfel",
+      "pending": "Väntar på uppladdning",
+      "processing": "Laddar upp",
+      "success": "Uppladdning slutförd",
+      "uploading": "Laddar upp"
+    }
+  }
+}

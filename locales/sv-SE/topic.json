@@ -1,0 +1,38 @@
+{
+  "actions": {
+    "autoRename": "Smart Namnbyte",
+    "confirmRemoveAll": "Du är på väg att radera alla ämnen. Denna åtgärd kan inte ångras, vänligen fortsätt med försiktighet.",
+    "confirmRemoveTopic": "Du är på väg att radera detta ämne. Denna åtgärd kan inte ångras, vänligen fortsätt med försiktighet.",
+    "confirmRemoveUnstarred": "Du är på väg att radera ämnen utan stjärnmärkning. Denna åtgärd kan inte ångras, vänligen fortsätt med försiktighet.",
+    "duplicate": "Skapa Kopia",
+    "export": "Exportera Ämnen",
+    "removeAll": "Radera Alla Ämnen",
+    "removeUnstarred": "Radera Ämnen Utan Stjärnmärkning"
+  },
+  "defaultTitle": "Standardämne",
+  "duplicateLoading": "Kopierar Ämne...",
+  "duplicateSuccess": "Ämne Kopierat Framgångsrikt",
+  "favorite": "Favorit",
+  "groupMode": {
+    "ascMessages": "Sortera efter Totalt Antal Meddelanden Stigande",
+    "byTime": "Gruppera efter Tid",
+    "descMessages": "Sortera efter Totalt Antal Meddelanden Fallande",
+    "flat": "Ingen Gruppering"
+  },
+  "groupTitle": {
+    "byTime": {
+      "month": "Denna Månad",
+      "today": "Idag",
+      "week": "Denna Vecka",
+      "yesterday": "Igår"
+    }
+  },
+  "guide": {
+    "desc": "Klicka på knappen till vänster för att spara den aktuella konversationen som ett historiskt ämne och starta en ny konversation.",
+    "title": "Ämneslista"
+  },
+  "searchPlaceholder": "Sök Ämnen...",
+  "searchResultEmpty": "Inga sökresultat hittades.",
+  "temp": "Tillfällig",
+  "title": "Ämne"
+}

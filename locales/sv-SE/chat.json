@@ -1,0 +1,304 @@
+{
+  "ModelSwitch": {
+    "title": "Modell"
+  },
+  "agentDefaultMessage": "Hej, jag är **{{name}}**. Du kan börja en konversation med mig direkt, eller så kan du gå till [Assistentinställningar]({{url}}) för att slutföra min information.",
+  "agentDefaultMessageWithSystemRole": "Hej, jag är **{{name}}**. Hur kan jag hjälpa dig idag?",
+  "agentDefaultMessageWithoutEdit": "Hej, jag är **{{name}}**. Hur kan jag hjälpa dig idag?",
+  "agents": "Assistenter",
+  "artifact": {
+    "generating": "Genererar",
+    "inThread": "Kan inte visas i underämne, vänligen växla till huvudkonversationsområdet för att öppna",
+    "thinking": "Tänker",
+    "thought": "Tanke",
+    "unknownTitle": "Namnlöst Verk"
+  },
+  "backToBottom": "Tillbaka till botten",
+  "chatList": {
+    "longMessageDetail": "Visa Detaljer"
+  },
+  "clearCurrentMessages": "Rensa aktuella sessionsmeddelanden",
+  "confirmClearCurrentMessages": "Du är på väg att rensa de aktuella sessionsmeddelandena. När de rensats kan de inte återställas. Vänligen bekräfta din åtgärd.",
+  "confirmRemoveSessionItemAlert": "Du är på väg att radera denna assistent. När den raderats kan den inte återställas. Vänligen bekräfta din åtgärd.",
+  "confirmRemoveSessionSuccess": "Assistent raderad framgångsrikt",
+  "defaultAgent": "Standardassistent",
+  "defaultList": "Standardlista",
+  "defaultSession": "Standardassistent",
+  "duplicateSession": {
+    "loading": "Kopierar...",
+    "success": "Kopiering lyckades",
+    "title": "{{title}} Kopia"
+  },
+  "duplicateTitle": "{{title}} Kopia",
+  "emptyAgent": "Ingen assistent tillgänglig",
+  "extendParams": {
+    "disableContextCaching": {
+      "desc": "Kostnaden för att generera en enskild konversation kan minskas med upp till 90%, och svarshastigheten ökas 4 gånger (<1>Läs mer</1>). Aktivering av detta kommer automatiskt att inaktivera begränsningen av antalet historiska meddelanden.",
+      "title": "Aktivera Kontextcachning"
+    },
+    "enableReasoning": {
+      "desc": "Baserat på Claude Thinking-mekanismens gräns (<1>Läs mer</1>), aktivering av detta kommer automatiskt att inaktivera begränsningen av antalet historiska meddelanden.",
+      "title": "Aktivera Djuptänkande"
+    },
+    "reasoningBudgetToken": {
+      "title": "Tänkande Konsumtionstoken"
+    },
+    "reasoningEffort": {
+      "title": "Resonemangsintensitet"
+    },
+    "textVerbosity": {
+      "title": "Utdatad Textdetaljnivå"
+    },
+    "thinking": {
+      "title": "Djuptänkande Växel"
+    },
+    "title": "Modellutvecklingsfunktioner",
+    "urlContext": {
+      "desc": "När aktiverad kommer webblänkar automatiskt att analyseras för att hämta det faktiska webbsidekontextinnehållet",
+      "title": "Extrahera Webbsidelänkinnehåll"
+    }
+  },
+  "history": {
+    "title": "Assistenten kommer endast att komma ihåg de senaste {{count}} meddelandena."
+  },
+  "historyRange": "Historikintervall",
+  "historySummary": "Historisk Meddelandesammanfattning",
+  "inbox": {
+    "desc": "Aktivera hjärnklustret och tänds kreativt tänkande. Din virtuella assistent är här för att kommunicera med dig om allt.",
+    "title": "Bara Chatta"
+  },
+  "input": {
+    "addAi": "Lägg till ett AI-meddelande",
+    "addUser": "Lägg till ett användarmeddelande",
+    "disclaimer": "AI kan också göra misstag, vänligen verifiera viktig information",
+    "errorMsg": "Meddelandet misslyckades att skickas, vänligen kontrollera ditt nätverk och försök igen: {{errorMsg}}",
+    "more": "mer",
+    "send": "Skicka",
+    "sendWithCmdEnter": "Tryck <key/> för att skicka",
+    "sendWithEnter": "Tryck <key/> för att skicka",
+    "stop": "Stoppa",
+    "warp": "Ny Rad",
+    "warpWithKey": "Tryck <key/> för att infoga en radbrytning"
+  },
+  "intentUnderstanding": {
+    "title": "Förstår och analyserar din avsikt..."
+  },
+  "knowledgeBase": {
+    "all": "Allt Innehåll",
+    "allFiles": "Alla Filer",
+    "allKnowledgeBases": "Alla Kunskapsbaser",
+    "disabled": "Det aktuella distributionsläget stöder inte kunskapsbaskonversationer. För att använda denna funktion, vänligen växla till serverdatabasdistribution eller använd {{cloud}}-tjänsten.",
+    "library": {
+      "action": {
+        "add": "Lägg till",
+        "detail": "Detaljer",
+        "remove": "Ta bort"
+      },
+      "title": "Filer/Kunskapsbas"
+    },
+    "relativeFilesOrKnowledgeBases": "Relaterade Filer/Kunskapsbaser",
+    "title": "Kunskapsbas",
+    "uploadGuide": "Uppladdade filer kan visas i 'Kunskapsbas'.",
+    "viewMore": "Visa Mer"
+  },
+  "messageAction": {
+    "delAndRegenerate": "Radera och Regenerera",
+    "deleteDisabledByThreads": "Det finns underämnen, radering är inte tillåten",
+    "regenerate": "Regenerera"
+  },
+  "messages": {
+    "modelCard": {
+      "credit": "Krediter",
+      "creditPricing": "Prissättning",
+      "creditTooltip": "För räkningsändamål konverterar vi $1 till 1M krediter; till exempel kan $3/M tokens konverteras till 3 krediter/token.",
+      "pricing": {
+        "inputCachedTokens": "Cachad inmatning {{amount}}/krediter · ${{amount}}/M",
+        "inputCharts": "${{amount}}/M tecken",
+        "inputMinutes": "${{amount}}/minut",
+        "inputTokens": "Inmatning {{amount}}/krediter · ${{amount}}/M",
+        "outputTokens": "Utmatning {{amount}}/krediter · ${{amount}}/M",
+        "writeCacheInputTokens": "Cache-inmatningsskrivning {{amount}}/poäng · ${{amount}}/M"
+      }
+    },
+    "tokenDetails": {
+      "average": "Genomsnittligt enhetspris",
+      "input": "Inmatning",
+      "inputAudio": "Ljudinmatning",
+      "inputCached": "Cachad Inmatning",
+      "inputCitation": "Inmatningscitat",
+      "inputText": "Textinmatning",
+      "inputTitle": "Inmatningsdetaljer",
+      "inputUncached": "Ocachad Inmatning",
+      "inputWriteCached": "Inmatningscacheskrivning",
+      "output": "Utmatning",
+      "outputAudio": "Ljudutmatning",
+      "outputImage": "Bildutmatning",
+      "outputText": "Textutmatning",
+      "outputTitle": "Utmatningsdetaljer",
+      "reasoning": "Djuptänkande",
+      "speed": {
+        "tps": {
+          "title": "TPS",
+          "tooltip": "Tokens Per Sekund (TPS). Detta indikerar den genomsnittliga hastigheten för AI-genererat innehåll (Tokens/sekund), beräknat från det ögonblick den första Token tas emot."
+        },
+        "ttft": {
+          "title": "TTFT",
+          "tooltip": "Tid Till Första Token (TTFT). Detta hänvisar till tidsintervallet från när du skickar ett meddelande till när klienten tar emot den första Token."
+        }
+      },
+      "title": "Genereringsdetaljer",
+      "total": "Total Konsumtion"
+    }
+  },
+  "minimap": {
+    "jumpToMessage": "Hoppa till meddelande {{index}}",
+    "nextMessage": "Nästa meddelande",
+    "previousMessage": "Föregående meddelande"
+  },
+  "newAgent": "Ny Assistent",
+  "pin": "Fäst",
+  "pinOff": "Lossa",
+  "rag": {
+    "referenceChunks": "Referenskälla",
+    "userQuery": {
+      "actions": {
+        "delete": "Radera Frågeomskrivning",
+        "regenerate": "Regenerera Fråga"
+      }
+    }
+  },
+  "regenerate": "Regenerera",
+  "roleAndArchive": "Roll och Arkiv",
+  "search": {
+    "grounding": {
+      "searchQueries": "Söknyckelord",
+      "title": "Hittade {{count}} resultat"
+    },
+    "mode": {
+      "auto": {
+        "desc": "Intelligent bestäm om en sökning behövs baserat på konversationsinnehållet",
+        "title": "Smart Onlinesökning"
+      },
+      "off": {
+        "desc": "Använd endast modellens grundläggande kunskap utan att utföra en webbsökning",
+        "title": "Inaktivera Onlinesökning"
+      },
+      "on": {
+        "desc": "Utför kontinuerligt webbsökningar för att få den senaste informationen",
+        "title": "Alltid Online"
+      },
+      "useModelBuiltin": "Använd modellens inbyggda sökmotor"
+    },
+    "searchModel": {
+      "desc": "Den aktuella modellen stöder inte funktionsanrop, så den behöver paras ihop med en modell som stöder funktionsanrop för onlinesökning.",
+      "title": "Sökassistentmodell"
+    },
+    "title": "Onlinesökning"
+  },
+  "searchAgentPlaceholder": "Sök assistenter...",
+  "sendPlaceholder": "Skriv ditt meddelande här...",
+  "sessionGroup": {
+    "config": "Grupphantering",
+    "confirmRemoveGroupAlert": "Denna grupp är på väg att raderas. Efter radering kommer assistenterna i denna grupp att flyttas till standardlistan. Vänligen bekräfta din åtgärd.",
+    "createAgentSuccess": "Assistent skapad framgångsrikt",
+    "createGroup": "Lägg till Ny Grupp",
+    "createSuccess": "Skapad framgångsrikt",
+    "creatingAgent": "Skapar assistent...",
+    "inputPlaceholder": "Vänligen ange gruppnamn...",
+    "moveGroup": "Flytta till Grupp",
+    "newGroup": "Ny Grupp",
+    "rename": "Byt Namn på Grupp",
+    "renameSuccess": "Namnbyte lyckades",
+    "sortSuccess": "Omordning lyckades",
+    "sorting": "Gruppsorterings uppdatering...",
+    "tooLong": "Gruppnamnslängd bör vara mellan 1-20"
+  },
+  "shareModal": {
+    "copy": "Kopiera",
+    "download": "Ladda ner Skärmdump",
+    "downloadFile": "Ladda ner Fil",
+    "exportTitle": "Standardtitel",
+    "imageType": "Bildformat",
+    "includeTool": "Inkludera Plugin-meddelanden",
+    "includeUser": "Inkludera Användarmeddelanden",
+    "screenshot": "Skärmdump",
+    "settings": "Exportinställningar",
+    "text": "Text",
+    "withBackground": "Inkludera Bakgrundsbild",
+    "withFooter": "Inkludera Sidfot",
+    "withPluginInfo": "Inkludera Plugin-information",
+    "withRole": "Inkludera Meddelanderoll",
+    "withSystemRole": "Inkludera Assistentrollsinställning"
+  },
+  "stt": {
+    "action": "Röstinmatning",
+    "loading": "Känner igen...",
+    "prettifying": "Polerar..."
+  },
+  "thread": {
+    "divider": "Underämne",
+    "threadMessageCount": "{{messageCount}} meddelanden",
+    "title": "Underämne"
+  },
+  "toggleWideScreen": {
+    "off": "Stäng av bredbildsläge",
+    "on": "Aktivera bredbildsläge"
+  },
+  "tokenDetails": {
+    "chats": "Chattmeddelanden",
+    "historySummary": "Historiksammanfattning",
+    "rest": "Återstående",
+    "systemRole": "Rollinställningar",
+    "title": "Kontextdetaljer",
+    "tools": "Plugin-inställningar",
+    "total": "Totalt Tillgängligt",
+    "used": "Totalt Använt"
+  },
+  "tokenTag": {
+    "overload": "Överskridit Gräns",
+    "remained": "Återstående",
+    "used": "Använt"
+  },
+  "topic": {
+    "checkOpenNewTopic": "Aktivera nytt ämne?",
+    "checkSaveCurrentMessages": "Vill du spara den aktuella konversationen som ett ämne?",
+    "openNewTopic": "Öppna Nytt Ämne",
+    "saveCurrentMessages": "Spara aktuell session som ämne"
+  },
+  "translate": {
+    "action": "Översätt",
+    "clear": "Rensa Översättning"
+  },
+  "tts": {
+    "action": "Text-till-tal",
+    "clear": "Rensa Tal"
+  },
+  "updateAgent": "Uppdatera Assistentinformation",
+  "upload": {
+    "action": {
+      "fileUpload": "Ladda upp Fil",
+      "folderUpload": "Ladda upp Mapp",
+      "imageDisabled": "Den aktuella modellen stöder inte visuell igenkänning. Vänligen byt modell för att använda denna funktion.",
+      "imageUpload": "Ladda upp Bild",
+      "tooltip": "Ladda upp"
+    },
+    "clientMode": {
+      "actionFiletip": "Ladda upp Fil",
+      "actionTooltip": "Ladda upp",
+      "disabled": "Den aktuella modellen stöder inte visuell igenkänning och filanalys. Vänligen byt modell för att använda denna funktion.",
+      "fileNotSupported": "Filuppladdningar stöds inte i webbläsarläge; endast bilder är tillåtna.",
+      "visionNotSupported": "Den aktuella modellen stöder inte visuell igenkänning. Vänligen byt till en annan modell för att använda denna funktion."
+    },
+    "preview": {
+      "prepareTasks": "Förbereder bitar...",
+      "status": {
+        "pending": "Förbereder att ladda upp...",
+        "processing": "Bearbetar fil..."
+      }
+    },
+    "validation": {
+      "videoSizeExceeded": "Videofilstorlek får inte överstiga 20MB. Aktuell filstorlek är {{actualSize}}."
+    }
+  },
+  "zenMode": "Zen-läge"
+}

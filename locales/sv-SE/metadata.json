@@ -1,0 +1,47 @@
+{
+  "changelog": {
+    "description": "Håll dig uppdaterad om de nya funktionerna och förbättringarna av {{appName}}",
+    "title": "Ändringslogg"
+  },
+  "chat": {
+    "description": "{{appName}} ger dig den bästa UI-upplevelsen för ChatGPT, Claude, Gemini och OLLaMA.",
+    "title": "{{appName}}: Ditt personliga AI-produktivitetsverktyg för en smartare hjärna."
+  },
+  "discover": {
+    "assistants": {
+      "description": "Innehållsskapande, copywriting, Q&A, bildgenerering, videogenerering, röstgenerering, intelligenta agenter, automatiserade arbetsflöden, anpassa din egen AI / GPT / OLLaMA intelligent assistent",
+      "title": "AI-assistenter"
+    },
+    "description": "Innehållsskapande, copywriting, Q&A, bildgenerering, videogenerering, röstgenerering, intelligenta agenter, automatiserade arbetsflöden, anpassade AI-applikationer, anpassa din egen AI-applikationsarbetsyta",
+    "mcp": {
+      "description": "Sök, jämför och anslut till tusentals MCP-servrar, vilket gör det möjligt för AI-system att enkelt komma åt filsystem, databaser, API:er och andra väsentliga resurser, och omfattande expandera dina AI-kapaciteter.",
+      "title": "MCP-servermarknadsplats"
+    },
+    "models": {
+      "description": "Utforska mainstream AI-modeller OpenAI / GPT / Claude 3 / Gemini / Ollama / Azure / DeepSeek",
+      "title": "AI-modeller"
+    },
+    "plugins": {
+      "description": "Utforska diagramgenerering, akademiska verktyg, bildgenerering, videogenerering, röstgenerering och automatiserade arbetsflöden för att integrera rika plugin-kapaciteter i din assistent.",
+      "title": "AI-plugins"
+    },
+    "providers": {
+      "description": "Utforska ledande modellleverantörer OpenAI / Qwen / Ollama / Anthropic / DeepSeek / Google Gemini / OpenRouter",
+      "title": "AI-modellleverantörer"
+    },
+    "search": "Sök",
+    "title": "Upptäck"
+  },
+  "image": {
+    "description": "{{appName}} ger dig den bästa upplevelsen med GPT Image, Flux, Midjourney och Stable Diffusion",
+    "title": "AI-målning"
+  },
+  "plugins": {
+    "description": "Sök, diagramgenerering, akademiska verktyg, bildgenerering, videogenerering, röstgenerering, automatiserade arbetsflöden—anpassa Tools Calling plugin-kapaciteter för ChatGPT / Claude.",
+    "title": "Pluginmarknadsplats"
+  },
+  "welcome": {
+    "description": "{{appName}} ger dig den bästa UI-upplevelsen för ChatGPT, Claude, Gemini och OLLaMA.",
+    "title": "Välkommen till {{appName}}: Ditt personliga AI-produktivitetsverktyg för en smartare hjärna."
+  }
+}

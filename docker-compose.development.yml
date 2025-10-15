@@ -1,8 +1,8 @@
-name: lobe-chat-development
+name: awai-optihub-development
 services:
   network-service:
     image: alpine
-    container_name: lobe-network
+    container_name: awai-network
     restart: always
     ports:
       - '${MINIO_PORT}:${MINIO_PORT}' # MinIO API
