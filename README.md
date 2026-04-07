@@ -124,7 +124,7 @@ Full list: [Environment Variables](https://optihub.com/docs/self-hosting/environ
 ## Local Development
 
 ```bash
-git clone https://github.com/optitechdev/awai.git
+git clone https://github.com/yazanghayad/awai-optihub.git
 cd awai
 pnpm install
 pnpm dev
