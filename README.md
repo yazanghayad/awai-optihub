@@ -8,14 +8,6 @@ One-click free deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/Olla
 
 ---
 
-## Getting Started
-
-We provide modern design components and tools for AIGC. AWAI is your AI Agent playground.
-
-- [Try Online](https://chat-preview.optihub.com)
-- [Discord Community](https://discord.gg/AYFPHvv2jT)
-
----
 
 ## Features
 
@@ -149,4 +141,4 @@ pnpm dev
 
 ---
 
-Copyright 2025 OptiHub. Licensed under OptiHub Community License.
+Copyright 2025 Yazan Ghayad. Licensed under OptiHub Community License.
